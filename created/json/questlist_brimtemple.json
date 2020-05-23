@@ -1,0 +1,18 @@
+[
+    {
+        "id":"nondisplay_bhvt",
+        "name":"Placeholder for hidden brimhaven temple quest stages (not displayed)",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Petted temple cat",
+                "rewardExperience":25
+            },
+            {
+                "progress":20,
+                "logText":"Fed temple cat",
+                "rewardExperience":50
+            }
+        ]
+    }
+]
