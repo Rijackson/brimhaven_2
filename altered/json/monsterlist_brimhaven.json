@@ -32,5 +32,32 @@
         "movementAggressionType":"none",
         "phraseID":"quiet_thief_0",
         "droplistID":"quiet_thief"
+    },
+    {
+        "id":"quiet_thief_1",
+        "name":"Pixtumn",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief_1"
+    },
+    {
+        "id":"quiet_thief_2",
+        "name":"Pixtumn",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief_2"
+    },
+    {
+        "id":"quiet_thief_3",
+        "name":"Pixtumn",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "droplistID":"quiet_thief_3"
     }
 ]
