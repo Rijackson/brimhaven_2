@@ -1,0 +1,10 @@
+[
+    {
+        "id":"loneford_tavern_patron",
+        "name":"Kizzo",
+        "iconID":"monsters_karvis2:2",
+        "monsterClass":"humanoid",
+        "spawnGroup":"loneford_tavern_patron",
+        "phraseID":"loneford_tavern_patron"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "id":"brv_villager3",
+        "name":"Ogea",
+        "iconID":"monsters_tometik2:63",
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_villager3",
+        "phraseID":"brv_villager3"
+    },
+    {
+        "id":"brv_tavern1_guest2",
+        "name":"Forlin",
+        "iconID":"monsters_ld1:64",
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_tavern1_guest2",
+        "phraseID":"brv_tavern1_guest2"
+    },
+    {
+        "id":"brv_laundry_boss",
+        "name":"Venanra",
+        "iconID":"monsters_ld1:187",
+        "phraseID":"brv_laundry_boss_0",
+        "droplistID":"brv_laundry"
+    },
+    {
+        "id":"quiet_thief",
+        "name":"Pixtumn",
+        "iconID":"monsters_rogue1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"quiet_thief_0",
+        "droplistID":"quiet_thief"
+    }
+]
