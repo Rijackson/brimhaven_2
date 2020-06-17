@@ -1,0 +1,10 @@
+[
+    {
+        "id":"Ogea_boot",
+        "iconID":"items_armours:28",
+        "name":"Ogea's boot",
+        "displaytype":"quest",
+        "category":"feet_clth",
+        "description":"Crime scene evidence"
+    }
+]
