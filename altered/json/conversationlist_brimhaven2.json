@@ -1,0 +1,86 @@
+[
+    {
+        "id":"brv_school_history_30",
+        "message":"Just imagine all those mighty churches and splendid palaces! It was a merry time, down under Mt. Galmor, the highest mountain in whole of Dhayavar.",
+        "replies":[
+            {
+                "text":"Sigh.",
+                "nextPhraseID":"brv_school_history_32"
+            },
+            {
+                "text":"[keep silent]",
+                "nextPhraseID":"brv_school_history_40"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_46",
+        "message":"The cultists worshipped the blinding and cleansing light of Elythara. Clever and sneaky as they were, they gained people's trust.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_school_history_47"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_60",
+        "message":"However Elythara and her cultists failed to completely annihilate the old ways. Many true men managed to hide in remote places in the total darkness, unknown to the Elytharans. Also, Elythara's power is diminished underground.",
+        "switchToNPC":"brv_teacher",
+        "replies":[
+            {
+                "text":"[whispering to Golin] What's up?",
+                "nextPhraseID":"brv_school_history_52",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"[keep silent]",
+                "nextPhraseID":"brv_school_history_70"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_71",
+        "message":"The Elytharans built several towns and cities, dedicated to their goddess. Several aristocratic houses were formed at that time.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_school_history_72"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_73",
+        "message":"The town of Loneford was founded and it soon became famous for its fertile fields and healthy vegetable which fed the northern parts of the Forgotten Kingdom.s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_school_history_74"
+            }
+        ]
+    },
+    {
+        "id":"brv_school_history_200",
+        "message":"And now we will do something completely different. Let's practice fighting, so that you learn how to defend yourselves.",
+        "replies":[
+            {
+                "text":"Finally. I thought her talking would never cease.",
+                "nextPhraseID":"brv_school_practice_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_school2",
+                "value":40
+            }
+        ]
+    }
+]
