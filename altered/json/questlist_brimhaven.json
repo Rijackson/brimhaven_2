@@ -1,0 +1,28 @@
+[
+    {
+        "id":"brv_nondisplay_multipurpose",
+        "name":"brv_nondisplay_multipurpose",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Knows about laundry offering upgrades"
+            },
+            {
+                "progress":15,
+                "logText":"Knows about dresses"
+            },
+            {
+                "progress":20,
+                "logText":"brother2_door_opened"
+            },
+            {
+                "progress":30,
+                "logText":"never true"
+            },
+            {
+                "progress":40,
+                "logText":"told father about andor"
+            }
+        ]
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "id":"brv_laundry_boss_1",
+        "message":"We are working on some nice green dresses. We can also repair and improve your clothes.",
+        "replies":[
+            {
+                "text":"I want to buy the dresses.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"What clothes can be improved and how much does it cost?",
+                "nextPhraseID":"brv_laundry_boss_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_0",
+        "message":"Hello, what can I do for you?",
+        "replies":[
+            {
+                "text":"Can you sell me something?",
+                "nextPhraseID":"brv_laundry_boss_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want to buy the dresses.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"I want you to improve some of my clothes.",
+                "nextPhraseID":"brv_laundry_boss_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I am looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"brv_laundry_boss_0b"
+            }
+        ]
+    }
+]
