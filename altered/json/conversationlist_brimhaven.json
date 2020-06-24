@@ -68,5 +68,37 @@
                 "nextPhraseID":"brv_laundry_boss_0b"
             }
         ]
+    },
+    {
+        "id":"edrin_7_1a",
+        "message":"Yes, it is done. Here is the repaired dagger.  It's nice to see Lawellyn's dagger brought back to it's original glory.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"dagger_assassin",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"edrin_7_1b",
+        "message":"Yes, it is done. Here is the repaired dagger.  It's nice to see Lawellyn's dagger brought back to it's original glory.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"strange_dagger",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":100
+            }
+        ]
     }
 ]
