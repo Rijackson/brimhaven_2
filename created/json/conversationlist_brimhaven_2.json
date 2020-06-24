@@ -37,5 +37,130 @@
                 "value":110
             }
         ]
+    },
+    {
+        "id":"arlish_asd_0",
+        "message":"Why?  What do you know about it?",
+        "replies":[
+            {
+                "text":"Well, I have it right here.",
+                "nextPhraseID":"arlish_asd_10"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_10",
+        "replies":[
+            {
+                "text":"Here, take a look",
+                "nextPhraseID":"arlish_asd_20"
+            },
+            {
+                "text":"[Hang onto it.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_20",
+        "message":"[Arlish takes the daggger and examines it while you continue to talk]",
+        "replies":[
+            {
+                "text":"I was able to acquire the dagger and it's gem and Edrin repaired it for me.",
+                "nextPhraseID":"arlish_asd_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    },
+                    {
+                        "requireType":"wearRemove",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_30",
+        "message":"This can't be it. It looks like my father'd dagger, but his dagger has been missing for many years now. Would you like to learn more about this?",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"arlish_asd_40"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_40",
+        "message":"You see, this was my father Lawellyn's most pride possesion. He kept it with him always.",
+        "replies":[
+            {
+                "text":"Please go on.",
+                "nextPhraseID":"arlish_asd_50"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_50",
+        "message":"Then one night, father did not come to my place for dinner as was the custom.  I quickly worried that something terrible had happened to him. So I went to Mustura for help, but she quickly pushed it off as he simply went on a trip.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arlish_asd_60"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_70",
+        "message":"Yes, but there is more. I think he was murdered.  Will you help?",
+        "replies":[
+            {
+                "text":"Yes.  Of course I will.  You are in need.",
+                "nextPhraseID":"arlish_asd_80"
+            },
+            {
+                "text":"I'm sorry, but I just don't have the time.",
+                "nextPhraseID":"arlish_asd_90"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_60",
+        "message":"But I tried to explain to her that Lawellyn would not do so without telling me.",
+        "replies":[
+            {
+                "text":"I see where this is going.  You want me to investigate your father's disapearance?",
+                "nextPhraseID":"arlish_asd_70"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_80",
+        "message":"Oh thank you so much.  You may want to start here in town by interviewing the town's people.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_90",
+        "message":"I'm sorry to hear this.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":120
+            }
+        ]
     }
 ]

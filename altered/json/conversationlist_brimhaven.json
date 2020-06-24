@@ -100,5 +100,58 @@
                 "value":100
             }
         ]
+    },
+    {
+        "id":"arlish_0",
+        "message":"Hello. I'm Arlish, the proprietor. This is a general store, so I sell some of this, some of that, and a little bit of the other. Would you like to see what I have?",
+        "replies":[
+            {
+                "text":"Yes, please show me.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"The teacher said that you would give me a cake.",
+                "nextPhraseID":"arlish_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":42,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The teacher said that you would give me a cake.",
+                "nextPhraseID":"arlish_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":42
+                    }
+                ]
+            },
+            {
+                "text":"What can you tell me about Lawellyn's dagger?",
+                "nextPhraseID":"arlish_asd_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":110
+                    }
+                ]
+            }
+        ]
     }
 ]

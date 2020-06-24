@@ -82,6 +82,15 @@
                 "progress":110,
                 "logText":"I've found a gravestone that told me that Lawellyn was related to Arlish.  Is she still alive?  I should try to find her.",
                 "rewardExperience":100
+            },
+            {
+                "progress":120,
+                "logText":"You've decided to not help Arlish and investigate Lawellyn's disappearance.",
+                "finishesQuest":1
+            },
+            {
+                "progress":130,
+                "logText":"You've descided to help Arlish investigate Lawellyn's dissapearance  You may want to start here in town by interviewing the town's people."
             }
         ]
     }
