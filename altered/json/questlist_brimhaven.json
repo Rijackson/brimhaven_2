@@ -77,6 +77,11 @@
                 "progress":100,
                 "logText":"I collected the repaired dagger from Edrin.  Apparently it used to belong to someone named Lawellyn.",
                 "rewardExperience":300
+            },
+            {
+                "progress":110,
+                "logText":"I've found a gravestone that told me that Lawellyn was related to Arlish.  Is she still alive?  I should try to find her.",
+                "rewardExperience":100
             }
         ]
     }
