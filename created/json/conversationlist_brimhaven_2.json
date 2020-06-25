@@ -285,5 +285,42 @@
                 "value":170
             }
         ]
+    },
+    {
+        "id":"brv_crime_scene",
+        "message":"",
+        "replies":[
+            {
+                "text":"Upon inspection, you notice what appears to be leather protruding from under the surface of the ground.",
+                "nextPhraseID":"brv_crime_scene_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":150
+                    }
+                ]
+            },
+            {
+                "text":"Upon inspection, you notice a moderate size hole.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_crime_scene_10",
+        "message":"[Upon inspection, you notice what appears to be leather protruding from under the grass and dirt.  So you decide to pull it out.]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ogea_glove",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":160
+            }
+        ]
     }
 ]
