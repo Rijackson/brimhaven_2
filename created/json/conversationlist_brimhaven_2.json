@@ -90,7 +90,7 @@
             },
             {
                 "text":"So what.  You said it has been missing for years, so how would you know?",
-                "nextPhraseID":"arlish_asd_40"
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -172,5 +172,46 @@
     {
         "id":"brv_asd_no_info_10",
         "message":"No, I am sorry, I don't"
+    },
+    {
+        "id":"brv_tavern1_guest2_asd_10",
+        "message":"I may.  Who's asking?",
+        "replies":[
+            {
+                "text":"Well, I've been asked by Lawellyn's daughter, Arlish to investigate his death.",
+                "nextPhraseID":"brv_tavern1_guest2_asd_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern1_guest2_asd_20",
+        "message":"Oh, okay.  Arlish helped me a lot in school when we were kids, so I feel like I owe it to her to help you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_tavern1_guest2_asd_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern1_guest2_asd_30",
+        "message":"Don't tell the bartender, but I like to frequent the tavern in Loneford a lot, and as such, I've developed quite a friendship with the owner Kizzo. One day we were talking about how scary the woods between Loneford and Brimhaven can be at nighttime.  After sharing some\nnot so scary stories, Kizzo told me a crazy murder story.  Now I can't remember the details because...well, I had been drinking.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_tavern1_guest2_asd_40"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern1_guest2_asd_40",
+        "message":"I suggest that you go talk to Kizzo.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":140
+            }
+        ]
     }
 ]

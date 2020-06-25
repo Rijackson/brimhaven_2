@@ -91,6 +91,10 @@
             {
                 "progress":130,
                 "logText":"You've descided to help Arlish investigate Lawellyn's dissapearance."
+            },
+            {
+                "progress":140,
+                "logText":"In Brimhaven's western tavern, I meet a man named Forlin who reccomends I speak to Kizzo in the Loneford tavern."
             }
         ]
     }

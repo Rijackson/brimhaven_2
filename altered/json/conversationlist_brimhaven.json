@@ -205,5 +205,26 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brv_tavern1_guest2",
+        "message":"I'm drinking because my wife left me and took my beagle with her.  Now how am I supposed to hunt?",
+        "replies":[
+            {
+                "text":"I'm so sorry to hear about your problems.  I love dogs too.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hey, speaking of killing, I'm wondering if you know anything about Lawellyn's dealth?",
+                "nextPhraseID":"brv_tavern1_guest2_asd_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":130
+                    }
+                ]
+            }
+        ]
     }
 ]
