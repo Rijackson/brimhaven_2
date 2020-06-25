@@ -244,5 +244,46 @@
                 "value":150
             }
         ]
+    },
+    {
+        "id":"kizzo_asd_40",
+        "message":"Wow!  This glove looks like it's been through a lot.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kizzo_asd_50"
+            }
+        ]
+    },
+    {
+        "id":"kizzo_asd_50",
+        "message":"This does however look like it used to be a high quality item.",
+        "replies":[
+            {
+                "text":"Really?",
+                "nextPhraseID":"kizzo_asd_60"
+            }
+        ]
+    },
+    {
+        "id":"kizzo_asd_60",
+        "message":"Yes.  If that was my glove, I would have tried to get a new one made instead of buying a new set as it would be cheaper.",
+        "replies":[
+            {
+                "text":"Where would someone get just one glove?",
+                "nextPhraseID":"kizzo_asd_70"
+            }
+        ]
+    },
+    {
+        "id":"kizzo_asd_70",
+        "message":"Well, I know Venanra in Brimhaven does some great work with cloth items.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":170
+            }
+        ]
     }
 ]

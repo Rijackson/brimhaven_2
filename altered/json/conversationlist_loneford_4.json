@@ -13,6 +13,16 @@
                         "value":140
                     }
                 ]
+            },
+            {
+                "text":"I did as you suggested and found a crime scene and I found this glove.",
+                "nextPhraseID":"kizzo_asd_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "value":1
+                    }
+                ]
             }
         ]
     }

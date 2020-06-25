@@ -99,6 +99,15 @@
             {
                 "progress":150,
                 "logText":"Kizzo suggests that I look for the crime scene."
+            },
+            {
+                "progress":160,
+                "logText":"I should bring the crime scene evidence to Kizzo.",
+                "rewardExperience":200
+            },
+            {
+                "progress":170,
+                "logText":"Kizzo reccomends that I ask Venanra in Brimhaven about the glove."
             }
         ]
     }
