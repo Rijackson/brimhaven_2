@@ -153,5 +153,57 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brv_farmer_girl_0",
+        "message":"[Working and singing]",
+        "replies":[
+            {
+                "text":"Hello",
+                "nextPhraseID":"brv_farmer_girl_1"
+            }
+        ]
+    },
+    {
+        "id":"brv_farmer_girl_1",
+        "message":"What a wonderful warm day.\n\n[Continues working and singing]",
+        "replies":[
+            {
+                "text":"[Join her singing]",
+                "nextPhraseID":"brv_farmer_girl_2"
+            },
+            {
+                "text":"I have to go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm wondering, do you know anything about Lawellyn's death?",
+                "nextPhraseID":"brv_asd_no_info_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":130
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_villager1",
+        "message":"Hello",
+        "replies":[
+            {
+                "text":"I'm wondering, do you know anything about Lawellyn's death?",
+                "nextPhraseID":"brv_asd_no_info_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":130
+                    }
+                ]
+            }
+        ]
     }
 ]
