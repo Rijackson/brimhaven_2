@@ -44,22 +44,20 @@
         "replies":[
             {
                 "text":"Well, I have it right here.",
-                "nextPhraseID":"arlish_asd_10",
+                "nextPhraseID":"arlish_asd_20",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"dagger_assassin",
                         "value":1
                     }
                 ]
             },
             {
                 "text":"Well, I have it right here.",
-                "nextPhraseID":"arlish_asd_10",
+                "nextPhraseID":"arlish_asd_20",
                 "requires":[
                     {
                         "requireType":"wear",
-                        "requireID":"dagger_assassin",
                         "value":1
                     }
                 ]
@@ -71,24 +69,11 @@
         ]
     },
     {
-        "id":"arlish_asd_10",
-        "replies":[
-            {
-                "text":"Here, take a look",
-                "nextPhraseID":"arlish_asd_20"
-            },
-            {
-                "text":"[Hang onto it.]",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
         "id":"arlish_asd_20",
         "message":"[Arlish takes the daggger and examines it while you continue to talk]",
         "replies":[
             {
-                "text":"I was able to acquire the dagger and it's gem and Edrin repaired it for me.",
+                "text":"I was able to acquire the dagger and it's gem then Edrin repaired it for me.",
                 "nextPhraseID":"arlish_asd_30",
                 "requires":[
                     {
@@ -187,6 +172,11 @@
     },
     {
         "id":"arlish_asd_15",
-        "message":"Well, he did have a dagger, but I can't say if the one you had was his."
+        "message":"Well, he did have a dagger, but I can't say if the one you had was his.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
