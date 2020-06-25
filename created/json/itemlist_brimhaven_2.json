@@ -1,10 +1,10 @@
 [
     {
-        "id":"Ogea_boot",
-        "iconID":"items_armours:28",
-        "name":"Ogea's boot",
+        "id":"ogea_glove",
+        "iconID":"items_armours_2:1",
+        "name":"Ogea's glove",
         "displaytype":"quest",
-        "category":"feet_clth",
+        "category":"hnd_cloth",
         "description":"Crime scene evidence"
     }
 ]
