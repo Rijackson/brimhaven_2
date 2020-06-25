@@ -48,6 +48,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
+                        "requireID":"dagger_assassin",
                         "value":1
                     }
                 ]
@@ -58,6 +59,7 @@
                 "requires":[
                     {
                         "requireType":"wear",
+                        "requireID":"dagger_assassin",
                         "value":1
                     }
                 ]
