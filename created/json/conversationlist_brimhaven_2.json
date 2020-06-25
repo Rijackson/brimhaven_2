@@ -80,15 +80,15 @@
     },
     {
         "id":"arlish_asd_30",
-        "message":"This can't be it. It looks like my father'd dagger, but his dagger has been missing for many years now. Would you like to learn more about this?",
+        "message":"This can't be it. It looks like my father's dagger, but his dagger has been missing for a couple of years now. I believe this is stolen property!",
         "replies":[
             {
-                "text":"Yes",
+                "text":"Tell me more.",
                 "nextPhraseID":"arlish_asd_40"
             },
             {
-                "text":"No thanks.",
-                "nextPhraseID":"X"
+                "text":"So what.  You said it has been missing for years, so how would you know?",
+                "nextPhraseID":"arlish_asd_40"
             }
         ]
     },
@@ -104,7 +104,7 @@
     },
     {
         "id":"arlish_asd_50",
-        "message":"Then one night, father did not come to my place for dinner as was the custom.  I quickly worried that something terrible had happened to him. So I went to Mustura for help, but she quickly pushed it off as he simply went on a trip.",
+        "message":"Then one night, father did not come to my place for dinner as was the custom.  I quickly became worried that something terrible had happened to him. So I went to Mustura for help, but she quickly pushed it off as 'Lawellyn simply went on a trip'.",
         "replies":[
             {
                 "text":"N",
@@ -138,7 +138,7 @@
     },
     {
         "id":"arlish_asd_80",
-        "message":"Oh thank you so much.  You may want to start here in town by interviewing the town's people.",
+        "message":"Oh thank you so much.",
         "rewards":[
             {
                 "rewardType":"questProgress",
