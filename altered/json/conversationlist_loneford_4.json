@@ -1,0 +1,19 @@
+[
+    {
+        "id":"loneford_tavern_patron",
+        "message":"This is no place for a kid like you. I think you better leave now.",
+        "replies":[
+            {
+                "text":"I met a man named Forlin who recomended that I speak with you in regards to a possible murder investigation that I am conducting.",
+                "nextPhraseID":"kizzo_asd_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":140
+                    }
+                ]
+            }
+        ]
+    }
+]

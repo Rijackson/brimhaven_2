@@ -95,6 +95,10 @@
             {
                 "progress":140,
                 "logText":"In Brimhaven's western tavern, I meet a man named Forlin who reccomends I speak to Kizzo in the Loneford tavern."
+            },
+            {
+                "progress":150,
+                "logText":"Kizzo suggests that I look for the crime scene."
             }
         ]
     }

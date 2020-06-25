@@ -213,5 +213,36 @@
                 "value":140
             }
         ]
+    },
+    {
+        "id":"kizzo_asd_10",
+        "message":"Oh, yes. A couple of years ago, a customer that I've never seen before nor have I seen since, sits down at the bar with a terrified look on his face.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kizzo_asd_20"
+            }
+        ]
+    },
+    {
+        "id":"kizzo_asd_20",
+        "message":"He begins to tell me that he just witnessed two men in the woods between here and Brimhaven enthralled in a violent altercation and fears that one killed the other.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kizzo_asd_30"
+            }
+        ]
+    },
+    {
+        "id":"kizzo_asd_30",
+        "message":"That's all I know.  Maybe you could find out more if you can find the crime scene?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":150
+            }
+        ]
     }
 ]
