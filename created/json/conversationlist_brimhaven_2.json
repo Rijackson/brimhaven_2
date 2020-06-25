@@ -94,7 +94,7 @@
     },
     {
         "id":"arlish_asd_40",
-        "message":"You see, this was my father Lawellyn's most pride possesion. He kept it with him always.",
+        "message":"You see, this was my father Lawellyn's most prized possesion. He kept it with him always.",
         "replies":[
             {
                 "text":"Please go on.",
@@ -131,7 +131,7 @@
         "message":"But I tried to explain to her that Lawellyn would not do so without telling me.",
         "replies":[
             {
-                "text":"I see where this is going.  You want me to investigate your father's disapearance?",
+                "text":"That sounds suspicious.  Would you like me to investigate a little?",
                 "nextPhraseID":"arlish_asd_70"
             }
         ]
