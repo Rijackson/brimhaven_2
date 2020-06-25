@@ -44,7 +44,27 @@
         "replies":[
             {
                 "text":"Well, I have it right here.",
-                "nextPhraseID":"arlish_asd_10"
+                "nextPhraseID":"arlish_asd_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Well, I have it right here.",
+                "nextPhraseID":"arlish_asd_10",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it.",
+                "nextPhraseID":"arlish_asd_15"
             }
         ]
     },
@@ -162,5 +182,9 @@
                 "value":120
             }
         ]
+    },
+    {
+        "id":"arlish_asd_15",
+        "message":"Well, he did have a dagger, but I can't say if the one you had was his."
     }
 ]
