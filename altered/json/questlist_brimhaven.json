@@ -94,12 +94,12 @@
             },
             {
                 "progress":120,
-                "logText":"You've decided to not help Arlish by investigating Lawellyn's disappearance.",
+                "logText":"I decided to not help Arlish by investigating Lawellyn's disappearance.",
                 "finishesQuest":1
             },
             {
                 "progress":130,
-                "logText":"I decided to help Arlish by investigating Lawellyn's dissapearance."
+                "logText":"I decided to help Arlish by investigating Lawellyn's disappearance."
             },
             {
                 "progress":140,
@@ -107,28 +107,28 @@
             },
             {
                 "progress":150,
-                "logText":"Kizzo suggests that I look for the crime scene."
+                "logText":"Kizzo suggested that I look for the crime scene."
             },
             {
                 "progress":160,
-                "logText":"I should bring the crime scene evidence to Kizzo.",
+                "logText":"I should take the crime scene evidence to Kizzo.",
                 "rewardExperience":200
             },
             {
                 "progress":170,
-                "logText":"Kizzo reccomends that I ask Venanra in Brimhaven about the glove."
+                "logText":"Kizzo recommended that I ask Venanra in Brimhaven about the glove."
             },
             {
                 "progress":180,
-                "logText":"After speaking with Venanra, you have learned that the glove belongs to Ogea."
+                "logText":"After speaking with Venanra, I learned that the glove belonged to Ogea."
             },
             {
                 "progress":190,
-                "logText":"You've accepted Ogea's side of the story."
+                "logText":"I accepted Ogea's side of the story."
             },
             {
                 "progress":210,
-                "logText":"You've decided that Ogea should be punished."
+                "logText":"I decided that Ogea should be punished."
             },
             {
                 "progress":200,
@@ -138,7 +138,7 @@
             },
             {
                 "progress":220,
-                "logText":"You've informed Mustura of the results of your investigation."
+                "logText":"I informed Mustura of the results of my investigation."
             },
             {
                 "progress":230,
