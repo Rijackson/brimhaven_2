@@ -551,5 +551,49 @@
                 "value":230
             }
         ]
+    },
+    {
+        "id":"brv_guard_captain_asd_10",
+        "message":"Let me hear it.",
+        "replies":[
+            {
+                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's.  I also have Ogea's addmitting that he stole the dagger.",
+                "nextPhraseID":"brv_guard_captain_asd_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_asd_20",
+        "message":"Wow.  You did a great job!  Do you want a job on my team?",
+        "replies":[
+            {
+                "text":"No, thanks.  I just want Ogea puhished.",
+                "nextPhraseID":"brv_guard_captain_asd_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_guard_captain_asd_30",
+        "message":"That is as good as done",
+        "replies":[
+            {
+                "text":"Thanks You.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":220
+            }
+        ]
     }
 ]
