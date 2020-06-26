@@ -108,6 +108,10 @@
             {
                 "progress":170,
                 "logText":"Kizzo reccomends that I ask Venanra in Brimhaven about the glove."
+            },
+            {
+                "progress":180,
+                "logText":"After speaking with Venanrar, you have learned that the glove belongs to Ogea."
             }
         ]
     }

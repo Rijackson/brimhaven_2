@@ -66,6 +66,22 @@
             {
                 "text":"I am looking for my brother, Andor. He looks a bit like me.",
                 "nextPhraseID":"brv_laundry_boss_0b"
+            },
+            {
+                "text":"Have you ever seen a glove like this? [Shows Venanrar the glove.]",
+                "nextPhraseID":"brv_laundry_boss_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":170
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    }
+                ]
             }
         ]
     },

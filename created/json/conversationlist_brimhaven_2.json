@@ -336,5 +336,46 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brv_laundry_boss_10",
+        "message":"Well, yes, I have. In fact, I made one exactly like it a couple of years ago for a customer. I remember because it is a very unique looking glove.",
+        "replies":[
+            {
+                "text":"Can you remember who the customer was?",
+                "nextPhraseID":"brv_laundry_boss_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_20",
+        "message":"Um, let me think for a second...ah, yes, it was for Ogea.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_laundry_boss_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_30",
+        "message":"He came to me with a story that he lost his glove while hunting one night and how he wanted me to make him a replacement as he could not efford to purchase a new pair.",
+        "replies":[
+            {
+                "text":"Are you sure?",
+                "nextPhraseID":"brv_laundry_boss_40"
+            }
+        ]
+    },
+    {
+        "id":"brv_laundry_boss_40",
+        "message":"Oh, absolutly I'm sure.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":180
+            }
+        ]
     }
 ]
