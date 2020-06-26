@@ -65,6 +65,17 @@
                 ]
             },
             {
+                "text":"You have looked at the dagger. Can you tell me more?",
+                "nextPhraseID":"arlish_asd_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "text":"I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it.",
                 "nextPhraseID":"arlish_asd_15",
                 "requires":[
@@ -95,6 +106,13 @@
             {
                 "text":"I was able to acquire the dagger and it's gem.  Then Edrin repaired it for me.",
                 "nextPhraseID":"arlish_asd_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":50
             }
         ]
     },
@@ -180,10 +198,17 @@
     },
     {
         "id":"arlish_asd_15",
-        "message":"Well, he did have a dagger, but I can't say if the one you had was his.",
+        "message":"Well, he did have a dagger, but I can't say if the one you had was his if I can't look at it.",
         "replies":[
             {
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":115
             }
         ]
     },
