@@ -115,13 +115,25 @@
             },
             {
                 "progress":190,
-                "logText":"You've accept Ogea's side of the story.",
-                "rewardExperience":3
+                "logText":"You've accept Ogea's side of the story."
+            },
+            {
+                "progress":210,
+                "logText":"You've decided that Ogea should be punished."
             },
             {
                 "progress":200,
-                "logText":"You've decided the Ogea should be punished.",
-                "rewardExperience":1000
+                "rewardExperience":300,
+                "finishesQuest":1
+            },
+            {
+                "progress":230,
+                "rewardExperience":1000,
+                "finishesQuest":1
+            },
+            {
+                "progress":220,
+                "logText":"You've informed Mustura of the results of your investigation."
             }
         ]
     }

@@ -488,6 +488,68 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":210
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_100",
+        "message":"What about it?",
+        "replies":[
+            {
+                "text":"I'm sorry, but I was not able to find any new information that would determine your father's cause of death.",
+                "nextPhraseID":"arlish_asd_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":190
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_110",
+        "message":"I'm sorry too.  Thank you for tyring.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":200
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_120",
+        "message":"I should have known that it was Ogea!  He never agreed with my father's decision about the land.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arlish_asd_130"
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_130",
+        "message":"It would be my honor if you take Lawellyn's dagger.  He would want you to have it.",
+        "replies":[
+            {
+                "text":"Thank you, but it was my honor to help bring you closure and justice.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":230
+            }
         ]
     }
 ]
