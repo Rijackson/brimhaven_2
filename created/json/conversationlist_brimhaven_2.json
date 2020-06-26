@@ -47,7 +47,7 @@
                 "nextPhraseID":"arlish_asd_20",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"dagger_assassin",
                         "value":1
                     }
@@ -58,7 +58,7 @@
                 "nextPhraseID":"arlish_asd_20",
                 "requires":[
                     {
-                        "requireType":"wear",
+                        "requireType":"wearRemove",
                         "requireID":"dagger_assassin",
                         "value":1
                     }
@@ -66,24 +66,35 @@
             },
             {
                 "text":"I was just curious, I was told that a dagger I had was Lawellyn's, but I no longer have it.",
-                "nextPhraseID":"arlish_asd_15"
+                "nextPhraseID":"arlish_asd_15",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"dagger_assassin",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"dagger_assassin",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Nothing. I was just curious. Bye.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"arlish_asd_20",
-        "message":"[Arlish takes the daggger and examines it while you continue to talk]",
+        "message":"[Arlish takes the dagger and examines it while you continue to talk]",
         "replies":[
             {
                 "text":"I was able to acquire the dagger and it's gem.  Then Edrin repaired it for me.",
-                "nextPhraseID":"arlish_asd_30",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"dagger_assassin",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"arlish_asd_30"
             }
         ]
     },

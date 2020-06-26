@@ -85,16 +85,16 @@
             },
             {
                 "progress":120,
-                "logText":"You've decided to not help Arlish and investigate Lawellyn's disappearance.",
+                "logText":"You've decided to not help Arlish by investigating Lawellyn's disappearance.",
                 "finishesQuest":1
             },
             {
                 "progress":130,
-                "logText":"You've descided to help Arlish investigate Lawellyn's dissapearance."
+                "logText":"You've descided to help Arlish by investigating Lawellyn's dissapearance."
             },
             {
                 "progress":140,
-                "logText":"In Brimhaven's western tavern, I meet a man named Forlin who reccomends I speak to Kizzo in the Loneford tavern."
+                "logText":"In Brimhaven's western tavern, I meet a man named Forlin who recommends I speak to Kizzo in the Loneford tavern."
             },
             {
                 "progress":150,
@@ -111,11 +111,11 @@
             },
             {
                 "progress":180,
-                "logText":"After speaking with Venanrar, you have learned that the glove belongs to Ogea."
+                "logText":"After speaking with Venanra, you have learned that the glove belongs to Ogea."
             },
             {
                 "progress":190,
-                "logText":"You've accept Ogea's side of the story."
+                "logText":"You've accepted Ogea's side of the story."
             },
             {
                 "progress":210,
@@ -127,13 +127,13 @@
                 "finishesQuest":1
             },
             {
+                "progress":220,
+                "logText":"You've informed Mustura of the results of your investigation."
+            },
+            {
                 "progress":230,
                 "rewardExperience":1000,
                 "finishesQuest":1
-            },
-            {
-                "progress":220,
-                "logText":"You've informed Mustura of the results of your investigation."
             }
         ]
     }
