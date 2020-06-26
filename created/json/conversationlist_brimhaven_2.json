@@ -618,7 +618,14 @@
                 "value":220
             },
             {
-                
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_villager3",
+                "mapName":"brimhaven4"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_prisoner",
+                "mapName":"brimhaven_prison"
             }
         ]
     },
