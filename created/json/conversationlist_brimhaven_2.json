@@ -152,7 +152,7 @@
     },
     {
         "id":"arlish_asd_70",
-        "message":"Yes, but there is more. I think he was murdered.  Will you help?",
+        "message":"Yes. I fear he was murdered. Will you help?",
         "replies":[
             {
                 "text":"Yes.  Of course I will.  You are in need.",
@@ -545,7 +545,7 @@
         "message":"What about it?",
         "replies":[
             {
-                "text":"I'm sorry, but I was not able to find any new information that would determine your father's cause of death.",
+                "text":"I'm sorry, but I was not able to find any new information that would determine what happened to your father.",
                 "nextPhraseID":"arlish_asd_110",
                 "requires":[
                     {
@@ -570,7 +570,7 @@
     },
     {
         "id":"arlish_asd_110",
-        "message":"I'm sorry too.  Thank you for tyring.",
+        "message":"I'm sorry too. Thank you for tyring.",
         "rewards":[
             {
                 "rewardType":"questProgress",

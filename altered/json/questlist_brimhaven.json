@@ -99,11 +99,11 @@
             },
             {
                 "progress":130,
-                "logText":"You've descided to help Arlish by investigating Lawellyn's dissapearance."
+                "logText":"I decided to help Arlish by investigating Lawellyn's dissapearance."
             },
             {
                 "progress":140,
-                "logText":"In Brimhaven's western tavern, I meet a man named Forlin who recommends I speak to Kizzo in the Loneford tavern."
+                "logText":"In Brimhaven's western tavern, I met a man named Forlin who recommended that I speak to Kizzo in the Loneford tavern."
             },
             {
                 "progress":150,
@@ -132,6 +132,7 @@
             },
             {
                 "progress":200,
+                "logText":"I was not able to help Arlish find out more about the disappearance of her father.",
                 "rewardExperience":300,
                 "finishesQuest":1
             },
@@ -141,6 +142,7 @@
             },
             {
                 "progress":230,
+                "logText":"Arlish thanked me for finding her father's murderer, and gave me his dagger as a gift.",
                 "rewardExperience":1000,
                 "finishesQuest":1
             }

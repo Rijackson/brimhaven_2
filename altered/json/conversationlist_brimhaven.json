@@ -165,12 +165,56 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":115,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":120,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"I want to talk about the investigation.",
-                "nextPhraseID":"arlish_asd_100"
+                "nextPhraseID":"arlish_asd_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":130,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
