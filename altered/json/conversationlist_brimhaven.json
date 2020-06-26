@@ -242,5 +242,27 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brv_villager3",
+        "message":"You are not from Brimhaven, are you? If you need a place to stay, visit the inn in the eastern part of the town. There are beds available for rent. But it is bit untidy there.",
+        "replies":[
+            {
+                "text":"I suspect that you killed Lawellyn or that you were at the very least at the crime scene at the time of his death.",
+                "nextPhraseID":"brv_villager3_asd_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":180
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -112,6 +112,16 @@
             {
                 "progress":180,
                 "logText":"After speaking with Venanrar, you have learned that the glove belongs to Ogea."
+            },
+            {
+                "progress":190,
+                "logText":"You've accept Ogea's side of the story.",
+                "rewardExperience":3
+            },
+            {
+                "progress":200,
+                "logText":"You've decided the Ogea should be punished.",
+                "rewardExperience":1000
             }
         ]
     }
