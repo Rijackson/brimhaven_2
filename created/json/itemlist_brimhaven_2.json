@@ -2,9 +2,9 @@
     {
         "id":"ogea_glove",
         "iconID":"items_armours_2:1",
-        "name":"Ogea's glove",
+        "name":"Suspect's glove",
         "displaytype":"quest",
-        "category":"hnd_cloth",
+        "category":"hnd_lthr",
         "description":"Crime scene evidence"
     }
 ]

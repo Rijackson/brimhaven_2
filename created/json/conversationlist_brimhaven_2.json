@@ -288,28 +288,28 @@
     },
     {
         "id":"brv_crime_scene",
-        "message":"",
         "replies":[
             {
-                "text":"Upon inspection, you notice what appears to be leather protruding from under the surface of the ground.",
                 "nextPhraseID":"brv_crime_scene_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":160,
+                        "negate":true
                     }
                 ]
-            },
-            {
-                "text":"Upon inspection, you notice a moderate size hole.",
-                "nextPhraseID":"X"
             }
         ]
     },
     {
-        "id":"brv_crime_scene_10",
-        "message":"[Upon inspection, you notice what appears to be leather protruding from under the grass and dirt.  So you decide to pull it out.]",
+        "id":"brv_crime_scene_20",
+        "message":"[Upon inspection, you notice what appears to be leather peeking out from under some leaves.]",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -320,6 +320,20 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger",
                 "value":160
+            }
+        ]
+    },
+    {
+        "id":"brv_crime_scene_10",
+        "message":"What's that on the ground?",
+        "replies":[
+            {
+                "text":"Inspect",
+                "nextPhraseID":"brv_crime_scene_20"
+            },
+            {
+                "text":"Ignore",
+                "nextPhraseID":"X"
             }
         ]
     }
