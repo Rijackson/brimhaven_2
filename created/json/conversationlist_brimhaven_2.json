@@ -76,7 +76,14 @@
         "replies":[
             {
                 "text":"I was able to acquire the dagger and it's gem.  Then Edrin repaired it for me.",
-                "nextPhraseID":"arlish_asd_30"
+                "nextPhraseID":"arlish_asd_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -560,6 +567,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger",
                 "value":230
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"dagger_assassin",
+                "value":1
             }
         ]
     },
@@ -604,6 +616,9 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger",
                 "value":220
+            },
+            {
+                
             }
         ]
     },
