@@ -511,6 +511,17 @@
                         "value":190
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"arlish_asd_140",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":220
+                    }
+                ]
             }
         ]
     },
@@ -593,6 +604,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"brv_dagger",
                 "value":220
+            }
+        ]
+    },
+    {
+        "id":"arlish_asd_140",
+        "message":"I heard that you found my father's murderer.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arlish_asd_120"
             }
         ]
     }

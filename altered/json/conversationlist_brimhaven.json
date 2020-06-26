@@ -171,10 +171,6 @@
             {
                 "text":"I want to talk about the investigation.",
                 "nextPhraseID":"arlish_asd_100"
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"arlish_asd_120"
             }
         ]
     },
