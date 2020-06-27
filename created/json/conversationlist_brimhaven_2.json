@@ -352,7 +352,7 @@
     },
     {
         "id":"brv_crime_scene_20",
-        "message":"[Upon inspection, you notice what appears to be leather peeking out from under some leaves. You pull at it, and find a glove. It has what look like old blood stains on it.]",
+        "message":"[Upon inspection, you notice what appears to be leather peeking out from under some leaves. You pull at it, and find a glove. It has what looks like old blood stains on it.]",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -518,7 +518,7 @@
     },
     {
         "id":"brv_villager3_asd_100",
-        "message":"Well, after the fight, I noticed that the gem broke off of it.  I took both the gem and the dagger and sold them to a thief.  So all I'm guilty of is selling stolen property.",
+        "message":"Well, after the fight, I noticed that the gem broke off of it. I took both the gem and the dagger and sold them to a thief.  So all I'm guilty of is selling stolen property.",
         "replies":[
             {
                 "text":"I don't think so.  You should expect a visit from Mustura real soon.",
@@ -684,7 +684,7 @@
     },
     {
         "id":"blackjack_gambler2_asd_10",
-        "message":"I 'look like someone that may be able to help'.  What is that supposed to mean?",
+        "message":"What do you mean by \"I look like someone that may be able to help\"?",
         "replies":[
             {
                 "text":"Um...I mean let's be honest, you may be someone who likes to play on the other side of the law.",
@@ -722,7 +722,7 @@
     },
     {
         "id":"brv_tavern_west_guest_asd_inquiry_10",
-        "message":"Lawellyn? I don't know an 'Lawellyn', but I'm just passing through town.",
+        "message":"Lawellyn? I don't know any 'Lawellyn'. I'm just passing through town.",
         "replies":[
             {
                 "nextPhraseID":"X"
@@ -731,7 +731,7 @@
     },
     {
         "id":"brv_guard_deputy_10",
-        "message":"Hello.  I am Ito.  I help Mustera keep the law around here",
+        "message":"Hello. I am Ito. I help Mustera keep the law around here.",
         "replies":[
             {
                 "nextPhraseID":"X"
