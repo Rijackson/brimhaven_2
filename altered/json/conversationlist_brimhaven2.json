@@ -82,5 +82,29 @@
                 "value":40
             }
         ]
+    },
+    {
+        "id":"guard_advent_2",
+        "message":"Then I took an arrow in the knee.",
+        "replies":[
+            {
+                "text":"Sorry for you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"That reminds me of a song.",
+                "nextPhraseID":"guard_advent_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"I'm wondering, do you know anything about Lawellyn's death?",
+                "nextPhraseID":"guard_advent_asd_10"
+            }
+        ]
     }
 ]
