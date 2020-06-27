@@ -616,8 +616,15 @@
         "message":"Let me hear it.",
         "replies":[
             {
-                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's.  Ogea's also admitted that he stole the dagger.",
-                "nextPhraseID":"brv_guard_captain_asd_20"
+                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's.  Ogea also admitted that he stole the dagger.",
+                "nextPhraseID":"brv_guard_captain_asd_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -626,8 +633,15 @@
         "message":"Wow.  You did a great job!  Do you want a job on my team?",
         "replies":[
             {
-                "text":"No, thanks.  I just want Ogea puhished.",
+                "text":"No, thanks.  I just want Ogea punished.",
                 "nextPhraseID":"brv_guard_captain_asd_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay_multipurpose",
+                "value":60
             }
         ]
     },
@@ -637,14 +651,7 @@
         "replies":[
             {
                 "text":"Thanks.",
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"ogea_glove",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[

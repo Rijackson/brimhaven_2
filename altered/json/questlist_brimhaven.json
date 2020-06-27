@@ -26,6 +26,10 @@
             {
                 "progress":50,
                 "logText":"Arlish took the dagger"
+            },
+            {
+                "progress":60,
+                "logText":"Gave Mustura the glove"
             }
         ]
     },
@@ -127,14 +131,14 @@
                 "logText":"I accepted Ogea's side of the story."
             },
             {
-                "progress":210,
-                "logText":"I decided that Ogea should be punished."
-            },
-            {
                 "progress":200,
                 "logText":"I was not able to help Arlish find out more about the death of her father.",
                 "rewardExperience":300,
                 "finishesQuest":1
+            },
+            {
+                "progress":210,
+                "logText":"I decided that Ogea should be punished."
             },
             {
                 "progress":220,
