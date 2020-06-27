@@ -104,7 +104,7 @@
         "message":"[Arlish takes the dagger and examines it while you continue to talk]",
         "replies":[
             {
-                "text":"I was able to acquire the dagger and it's gem.  Then Edrin repaired it for me.",
+                "text":"I was able to acquire the dagger and it's gem. Then Edrin repaired it for me.",
                 "nextPhraseID":"arlish_asd_30"
             }
         ],
@@ -221,14 +221,14 @@
         "message":"I may.  Who's asking?",
         "replies":[
             {
-                "text":"Well, I've been asked by Lawellyn's daughter, Arlish to investigate his death.",
+                "text":"Well, I've been asked by Lawellyn's daughter, Arlish, to investigate his death.",
                 "nextPhraseID":"brv_tavern1_guest2_asd_20"
             }
         ]
     },
     {
         "id":"brv_tavern1_guest2_asd_20",
-        "message":"Oh, okay.  Arlish helped me a lot in school when we were kids, so I feel like I owe it to her to help you.",
+        "message":"Oh, OK.  Arlish helped me a lot in school when we were kids, so I feel like I owe it to her to help you.",
         "replies":[
             {
                 "text":"N",
@@ -269,7 +269,7 @@
     },
     {
         "id":"kizzo_asd_20",
-        "message":"He begins to tell me that he just witnessed two men in the woods between here and Brimhaven enthralled in a violent altercation and fears that one killed the other.",
+        "message":"He begins to tell me that he just witnessed two men in the woods between here and Brimhaven embroiled in a violent altercation and fears that one killed the other.",
         "replies":[
             {
                 "text":"N",
@@ -320,7 +320,7 @@
     },
     {
         "id":"kizzo_asd_70",
-        "message":"Well, I know Venanra in Brimhaven does some great work with cloth items.",
+        "message":"Well, I know Venanra in Brimhaven does some great work with cloth and leather items.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -352,7 +352,7 @@
     },
     {
         "id":"brv_crime_scene_20",
-        "message":"[Upon inspection, you notice what appears to be leather peeking out from under some leaves.]",
+        "message":"[Upon inspection, you notice what appears to be leather peeking out from under some leaves. You pull at it, and find a glove. It has what look like old blood stains on it.]",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -371,11 +371,11 @@
         "message":"What's that on the ground?",
         "replies":[
             {
-                "text":"Inspect",
+                "text":"Look closer.",
                 "nextPhraseID":"brv_crime_scene_20"
             },
             {
-                "text":"Ignore",
+                "text":"Ignore it.",
                 "nextPhraseID":"X"
             }
         ]
@@ -436,7 +436,7 @@
         "message":"What?! What do you have on me that would even make Mustura listen to you?",
         "replies":[
             {
-                "text":"I have a blood-stained glove and a witness stating that it was indeed your glove. [Show Ogea his glove]",
+                "text":"I have a blood-stained glove and a witness stating that it was indeed your glove. [Show Ogea his glove.]",
                 "nextPhraseID":"brv_villager3_asd_30"
             }
         ]
@@ -473,7 +473,7 @@
     },
     {
         "id":"brv_villager3_asd_60",
-        "message":"I approached Lawellyn about it because he was responsible for land deeds, so I approached him about acquiring that empty land where Alkapoan's house now stands. He informed me that he was giving it to Alkapoan.",
+        "message":"I approached Lawellyn about it because he was responsible for land deeds, so I asked him about acquiring some empty land where Alkapoan's house now stands. He informed me that he was giving it to Alkapoan.",
         "replies":[
             {
                 "text":"N",
@@ -518,10 +518,10 @@
     },
     {
         "id":"brv_villager3_asd_100",
-        "message":"Well, after the fight, I noticed that the gem broke off of it.  I took both the gem and the dagger and sold them to a thief.  So all I'm guilty for is selling stolen property.",
+        "message":"Well, after the fight, I noticed that the gem broke off of it.  I took both the gem and the dagger and sold them to a thief.  So all I'm guilty of is selling stolen property.",
         "replies":[
             {
-                "text":"I don't think so.  You can be expect a visit from Mustura real soon.",
+                "text":"I don't think so.  You should expect a visit from Mustura real soon.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -616,7 +616,7 @@
         "message":"Let me hear it.",
         "replies":[
             {
-                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's.  I also have Ogea's addmitting that he stole the dagger.",
+                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's.  Ogea's also admitted that he stole the dagger.",
                 "nextPhraseID":"brv_guard_captain_asd_20"
             }
         ]
@@ -636,7 +636,7 @@
         "message":"That is as good as done",
         "replies":[
             {
-                "text":"Thanks You.",
+                "text":"Thanks.",
                 "nextPhraseID":"X",
                 "requires":[
                     {

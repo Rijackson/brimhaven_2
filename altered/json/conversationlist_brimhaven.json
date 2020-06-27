@@ -279,7 +279,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Hey, speaking of killing, I'm wondering if you know anything about Lawellyn's dealth?",
+                "text":"Hey, speaking of killing, I'm wondering if you know anything about Lawellyn's death?",
                 "nextPhraseID":"brv_tavern1_guest2_asd_10",
                 "requires":[
                     {
@@ -293,7 +293,7 @@
     },
     {
         "id":"brv_villager3",
-        "message":"You are not from Brimhaven, are you? If you need a place to stay, visit the inn in the eastern part of the town. There are beds available for rent. But it is bit untidy there.",
+        "message":"You are not from Brimhaven, are you? If you need a place to stay, visit the inn in the eastern part of the town. There are beds available for rent. But it is a bit untidy there.",
         "replies":[
             {
                 "text":"I suspect that you killed Lawellyn or that you were at the very least at the crime scene at the time of his death.",
