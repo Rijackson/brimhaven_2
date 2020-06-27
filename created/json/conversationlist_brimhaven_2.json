@@ -728,5 +728,14 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brv_guard_deputy_10",
+        "message":"Hello.  I am Ito.  I help Mustera keep the law around here",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

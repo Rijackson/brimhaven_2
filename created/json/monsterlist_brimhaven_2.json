@@ -1,0 +1,10 @@
+[
+    {
+        "id":"brv_guard_deputy",
+        "name":"Ito",
+        "iconID":"monsters_ld1:109",
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_guard_deputy",
+        "phraseID":"brv_guard_deputy_10"
+    }
+]
