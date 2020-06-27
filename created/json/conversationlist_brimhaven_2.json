@@ -715,7 +715,7 @@
     },
     {
         "id":"brv_tavern_west_guest_asd_inquiry_10",
-        "message":"Arlish? I don't know an 'Arlish', but I'm just passing through town.",
+        "message":"Lawellyn? I don't know an 'Lawellyn', but I'm just passing through town.",
         "replies":[
             {
                 "nextPhraseID":"X"
