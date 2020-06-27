@@ -433,7 +433,7 @@
     },
     {
         "id":"brv_villager3_asd_20",
-        "message":"What?! What do you have on me that would even make Mustura listen to you?",
+        "message":"What?! What do you have on me that would even make the authorities listen to you?",
         "replies":[
             {
                 "text":"I have a blood-stained glove and a witness stating that it was indeed your glove. [Show Ogea his glove.]",
@@ -630,7 +630,7 @@
     },
     {
         "id":"brv_guard_captain_asd_20",
-        "message":"Wow.  You did a great job!  Do you want a job on my team?",
+        "message":"Wow.  You did a great job!  Do you want a job on our team?",
         "replies":[
             {
                 "text":"No, thanks.  I just want Ogea punished.",
