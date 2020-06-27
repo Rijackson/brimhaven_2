@@ -59,5 +59,11 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "droplistID":"quiet_thief_3"
+    },
+    {
+        "id":"brv_prison_guard",
+        "name":"Guard",
+        "iconID":"monsters_rltiles3:6",
+        "phraseID":"brv_prison_guard"
     }
 ]
