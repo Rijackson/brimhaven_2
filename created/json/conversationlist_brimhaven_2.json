@@ -674,5 +674,34 @@
                 "nextPhraseID":"arlish_asd_120"
             }
         ]
+    },
+    {
+        "id":"blackjack_gambler2_asd_10",
+        "message":"I 'look like someone that may be able to help'.  What is that supposed to mean?",
+        "replies":[
+            {
+                "text":"Um...I mean let's be honest, you may be someone who likes to play on the other side of the law.",
+                "nextPhraseID":"blackjack_gambler2_asd_20"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_gambler2_asd_20",
+        "message":"You got that right, kid. Now what do you want to know?",
+        "replies":[
+            {
+                "text":"I'm wondering, do you know anything about Lawellyn's death?",
+                "nextPhraseID":"blackjack_gambler2_asd_30"
+            }
+        ]
+    },
+    {
+        "id":"blackjack_gambler2_asd_30",
+        "message":"If you want to know about a murder, you should probably ask on the east side of town.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

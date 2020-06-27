@@ -248,6 +248,18 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":130
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
                     }
                 ]
             }
@@ -265,6 +277,18 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":130
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
                     }
                 ]
             }
@@ -352,6 +376,35 @@
                         "requireType":"inventoryKeep",
                         "requireID":"ogea_glove",
                         "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"blackjack_gambler2",
+        "message":"I already made a fortune. Want to join us? Then take a seat in the empty chair and talk to the dealer.",
+        "replies":[
+            {
+                "text":"Excuse me sir, but you look like someone that may be able to help me.",
+                "nextPhraseID":"blackjack_gambler2_asd_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":130
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
                     }
                 ]
             }
