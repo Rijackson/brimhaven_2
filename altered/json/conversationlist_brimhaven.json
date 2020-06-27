@@ -409,5 +409,34 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brv_tavern_west_guest",
+        "message":"Go away and let me eat.",
+        "replies":[
+            {
+                "text":"I'm wondering, do you know anything about Lawellyn's death?",
+                "nextPhraseID":"brv_tavern_west_guest_asd_inquiry_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":130
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

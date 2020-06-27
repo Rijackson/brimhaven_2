@@ -705,12 +705,17 @@
         ]
     },
     {
-        "id":"brv_asd_inquiry_10",
-        "message":"I'm wondering, do you know anything about Lawellyn's death?"
-    },
-    {
         "id":"guard_advent_asd_10",
         "message":"Death? The last I knew was that Arlish reported him missing.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_tavern_west_guest_asd_inquiry_10",
+        "message":"Arlish? I don't know an 'Arlish', but I'm just passing through town.",
         "replies":[
             {
                 "nextPhraseID":"X"
