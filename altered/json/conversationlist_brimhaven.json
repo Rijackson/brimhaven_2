@@ -438,5 +438,9 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brv_prison_guard_20",
+        "message":"Are you looking for the captain? She has been gone for a while now, arresting the person that destroyed the dam."
     }
 ]
