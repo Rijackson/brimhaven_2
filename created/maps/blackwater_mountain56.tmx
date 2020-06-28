@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_sign_ladder_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../altered/drawable/map_sign_ladder_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="21" height="20">
   <data encoding="base64" compression="zlib">
    eJyllO0JwzAMREP2HyEr2BnBaTdw2xEySGuIQDxOtkN/PAjIPn2cnLwuS74oPw7Bw51pJPfdYi/gz1YRb7xxrrhcLXYC5mb8hJ7PzVyzqFlkp3kE91KgpWalKOI+vTEtNStFFbr0xrTYf29GVfQbeeL7Vz2OZki4K6qWO5r7qnfF7m0XM14be6eWhNzUpNfGM/AlYa5Kk14bn06dtjv8F/Atzr4ru6fe52gvZmAto70g9PifHb2L19wCopqj+N06Z/qnZlTr7CxN8wuOLDAW

@@ -1,10 +1,467 @@
 [
     {
         "id":"hettar",
-        "message":"Norry!  Nooorryyyy!"
+        "replies":[
+            {
+                "nextPhraseID":"hettar_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"hettar_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"hettar_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"hettar_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"hettar_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"hettar_1"
+            }
+		]
+
+    },
+    {
+        "id":"hettar_1",
+        "message":"Norry!  Nooorryyyy!",
+        "replies":[
+            {
+                "text":"Hush! Don't make such noise with all these monsters around!",
+                "nextPhraseID":"hettar_1_4"
+            },
+            {
+                "text":"Who is Norry?",
+                "nextPhraseID":"hettar_1_2"
+            }
+        ]
+    },
+    {
+        "id":"hettar_1_2",
+        "message":"Norry is my little doggie. He fell down the steep slope and has not found his way back yet.",
+        "replies":[
+            {
+                "text":"Oh dear.",
+                "nextPhraseID":"hettar_10"
+            },
+            {
+                "text":"A dog! He will be back soon... I'll better go now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have seen a great wolfhound down there a short while ago.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog_nd",
+                        "value":1
+                    }
+                ],
+                "nextPhraseID":"hettar_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"hettar_1_4",
+        "message":"I can see these Gornauds myself. That's why I must find Norry urgently.\nNooorryyyy!",
+        "replies":[
+            {
+                "text":"Who is Norry?",
+                "nextPhraseID":"hettar_1_2"
+            }
+        ]
+    },
+    {
+        "id":"hettar_10",
+        "message":"Please help to find Norry. He is my only friend, and he is helpless without me.",
+        "replies":[
+            {
+                "text":"How can I help you?",
+                "nextPhraseID":"hettar_20"
+            },
+            {
+                "text":"Oh. I had met a wolfhound down there, gnawing some bones.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog_nd",
+                        "value":1
+                    }
+                ],
+                "nextPhraseID":"hettar_10_4"
+            }
+        ]
+    },
+    {
+        "id":"hettar_10_4",
+        "message":"This must be him! Go and get him here - quick!",
+        "replies":[
+            {
+                "text":"This brute attacked me, so that I had to kill it.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"hettar_dog",
+                        "value":1
+                    }
+                ],
+                "nextPhraseID":"hettar_10_6"
+			},
+            {
+                "text":"This brute growled at me, but I got away and let it alive.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"hettar_dog",
+                        "value":1,
+						"negate":true
+                    }
+                ],
+                "nextPhraseID":"hettar_20"
+			},
+            {
+                "text":"Eh, yes. I better go now.",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"hettar_10_6",
+        "message":"[Hettar fell on the floor]\nNooo! What did you do?!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"hettar_20",
+        "message":"You must go down there and look for my doggie. Maybe he is injured? Bring him back! Please.",
+        "replies":[
+            {
+                "text":"OK. I hope he will he follow me.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":30,
+						"negate":true
+                    }
+                ],
+                "nextPhraseID":"hettar_20_30"
+			},
+            {
+                "text":"OK. I hope he will he follow me.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":30
+                    }
+                ],
+                "nextPhraseID":"hettar_20_20"
+			},
+            {
+                "text":"This brute growled at me, but I got away and let it alive.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"hettar_dog",
+                        "value":1,
+						"negate":true
+                    }
+                ],
+                "nextPhraseID":"hettar_20"
+			},
+            {
+                "text":"Eh, yes. I better go now.",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"hettar_20_20",
+		"message":"I gave you my last one of the bones for Norry. Did you lost it?"
+    },
+    {
+        "id":"hettar_20_30",
+		"message":"Good that you have mentioned it. I'll give you one of the bones that I have as food for Norry. He loves them.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog",
+                "value":30
+            },
+			{
+                "rewardType":"giveItem",
+                "rewardID":"hettar_bone",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"hettar_30",
+		"message":"I can read it in your face - there is no hope for Norry.",
+        "replies":[
+            {
+                "text":"This brute attacked me, so that I had to kill it.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"hettar_dog",
+                        "value":1
+                    }
+                ],
+                "nextPhraseID":"hettar_10_6"
+			},
+            {
+                "text":"This brute growled at me, but I got away and let it alive.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"hettar_dog",
+                        "value":1,
+						"negate":true
+                    }
+                ],
+                "nextPhraseID":"hettar_20"
+			},
+            {
+                "text":"I am still searching.",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"hettar_40",
+		"message":"Norry has come back all alone! You have made all the way down unnecessarily.",
+        "replies":[
+            {
+                "text":"Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.",
+                "nextPhraseID":"hettar_40_10"
+			}
+		]
+    },
+    {
+        "id":"hettar_40_10",
+		"message":"Oh. Thank you then.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"hettar_80",
+        "message":"Thank you again thousend times for rescuing my little Norry!"
+    },
+    {
+        "id":"hettar_90",
+        "message":"My poor Norry! Why did you have to die so young?\n* Sob *"
+    },
+    {
+        "id":"hettar_bones",
+        "replies":[
+            {
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog_nd",
+                        "value":2,
+						"negate":true
+                    }
+                ],
+                "nextPhraseID":"hettar_bones_10"
+			}
+		]
+    },
+    {
+        "id":"hettar_bones_10",
+        "message":"You see several huge bones of a monstrous skeleton. Good that this creature is dead now and not attacking you.",
+        "replies":[
+            {
+                "text":"Take the bones.",
+                "nextPhraseID":"hettar_bones_20"
+			},
+            {
+                "text":"Leave the bones where they are.",
+                "nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"hettar_bones_20",
+		"switchToNPC":"hettar_dog",
+        "message":"GROWL!",
+        "replies":[
+            {
+                "text":"The wolfhound doesn't want you to take 'his' bones.\nTake them nevertheless.",
+                "nextPhraseID":"hettar_bones_30"
+			},
+            {
+                "text":"Leave the bones where they are.",
+                "nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"hettar_bones_30",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bwm_bones",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog_nd",
+                "value":2
+            }
+        ]
     },
     {
         "id":"hettar_dog",
+        "message":"Growl!",
+        "replies":[
+            {
+                "text":"Hey Norry, look here! I have a much more delicious bone for you from Hettar.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hettar_bone",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog_nd",
+                        "value":2
+                    }
+                ],
+                "nextPhraseID":"hettar_dog_10"
+			},
+            {
+                "text":"Hey Norry, look here! I have a bone for you from Hettar.",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hettar_bone",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog_nd",
+                        "value":2,
+						"negate"=true
+                    }
+                ],
+                "nextPhraseID":"hettar_dog_10"
+			},
+            {
+                "text":"Now run to Hettar! He is waiting for you.",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hettar_dog",
+                        "value":40
+                    }
+                ],
+                "nextPhraseID":"hettar_dog_20"
+			},
+			{
+				"text":"OK, I go. Stupid dog.",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+        "id":"hettar_dog_10",
+		"switchToNPC":"none",
+        "message":"The wolfhound fetches the bone from your hand. Seconds later, the bone has disappeared.",
+        "replies":[
+            {
+                "text":"There, there. And now run to Hettar! He is waiting for you.",
+                "nextPhraseID":"hettar_dog_20"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog_nd",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"hettar_dog_20",
+		"switchToNPC":"hettar_dog",
+		"message":"A moment later the huge wolfhound was gone.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog",
+                "value":40
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"hettar_dog",
+                "mapName":"blackwater_mountain55"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"hettar_dog2",
+                "mapName":"blackwater_mountain55"
+            }
+        ]
+    },
+    {
+        "id":"hettar_dog2",
         "message":"Growl!"
     }
 ]

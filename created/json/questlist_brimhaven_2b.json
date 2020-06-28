@@ -1,0 +1,50 @@
+[
+    {
+        "id":"hettar_dog_nd",
+        "name":"hettar_dog_nd",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"1=found dog"
+            },
+            {
+                "progress":2,
+                "logText":"2=picked up bones"
+            }
+		]
+    },
+    {
+        "id":"hettar_dog",
+        "name":"Where is Norry?",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"You found Hettar, a tough boy at about your age, on top of the mountain. He kept calling for a certain Norry."
+            },
+            {
+                "progress":20,
+                "logText":"Hettar's little dog Norry had run away. He is very anxious for him. You promised to get Norry back."
+            },
+            {
+                "progress":30,
+                "logText":"Hettar gives you one of Norry's bones."
+            },
+            {
+                "progress":40,
+                "logText":"You offered Hettar's bone to the Norry. He took it eagerly."
+            },
+            {
+                "progress":80,
+                "logText":"Hettar thanked you a thousend times. He would leave to Blackwater Settlement again.",
+                "rewardExperience":2000
+            },
+            {
+                "progress":90,
+                "logText":"You explained to Hettar, that you had killed Norry. Hettar broke down to the floor in agony.",
+                "rewardExperience":200
+            }
+        ]
+    }
+]

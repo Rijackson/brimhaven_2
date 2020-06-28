@@ -14,5 +14,13 @@
         "monsterClass":"animal",
         "spawnGroup":"hettar_dog",
         "phraseID":"hettar_dog"
+    },
+    {
+        "id":"hettar_dog2",
+        "name":"Wolfhound",
+        "iconID":"monsters_dogs:3",
+        "monsterClass":"animal",
+        "spawnGroup":"hettar_dog2",
+        "phraseID":"hettar_dog2"
     }
 ]

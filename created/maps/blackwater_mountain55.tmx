@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="14">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="16">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../ratdom/ATCS/ratdom/created/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="23" height="19">
   <data encoding="base64" compression="zlib">
    eJy9ktENQDAQhoU3E5jSCtjDCmoEjIAVDEIfLv78OdVK6+FL2l7uu/+SmjzLDDEDXHOxwHmA/hnqGzApjp6wb+PFTm7pF6etH8BK3ol22sBtyC394tR2xewr7GSgR3NrZ4azH/lzjpT0yp3fYqD9gxCq8hnfPxbidLm/5vRxh/S7iO1jdwrvH9RFGm9b3P4UMxpPp8yPmcG6WqJ78dv6W+ZG8fq6T1nTu/I=
@@ -225,6 +222,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object id="14" name="hettar_bones" type="script" x="672" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="7" name="wyrm_2" type="spawn" x="32" y="448" width="512" height="96">
@@ -240,6 +238,7 @@
   </object>
   <object id="9" name="wyrm_3" type="spawn" x="32" y="448" width="512" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="wyrm_3"/>
    </properties>
   </object>
@@ -249,14 +248,20 @@
     <property name="spawngroup" value="wyrm_3"/>
    </properties>
   </object>
+  <object id="13" name="hettar" type="spawn" x="576" y="480" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="hettar"/>
+   </properties>
+  </object>
   <object id="12" name="hettar_dog" type="spawn" x="640" y="64" width="64" height="96">
    <properties>
     <property name="spawngroup" value="hettar_dog"/>
    </properties>
   </object>
-  <object id="13" name="hettar" type="spawn" x="576" y="480" width="96" height="32">
+  <object id="15" name="hettar_dog2" type="spawn" x="576" y="480" width="96" height="32">
    <properties>
-    <property name="spawngroup" value="hettar"/>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="hettar_dog2"/>
    </properties>
   </object>
  </objectgroup>

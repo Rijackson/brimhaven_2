@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzFl01OwzAQhat41xNwpN6q7RGMuQCEsGRTlC3iCj0RsZqnTJ9mxj+oYvHUKB77i+fPbgy73dPe1nEZPyk6F+YlYzwu758XjeH2bM2HHctaF8zJGM+897A9W2zYsax1PSY0h/v1LXa2Y/Uyrb15Prd0LvjgUezk+MD6Tot9rFynx7deTiKPS9/dyizNQR57Pi/VMAt1f6J6ZMYs6vuw34Re4vmLJTmJ6tHKqVHhtviYOZNSjxZbcmPDXhNxptVXVmy9uI6Ve+VcR2wtLrOxz9Za4W+r4YL9JmKLGCG+3LOljeaPWm7Wl+AiRuByz5Y2Xi3VcDWBq+VeaS723HMORINbI3B7zgHMaekbzOXcbWH3nHuJ4sts2WM4X3tiA2nfKu80ssdwvlp3H0vo715cvDo4KHY1Qn//y32kV6397lF6/Ye95zhfnPzU7gK9HKyD8+Jz8O/mrblbWgdMSObfy/p7HW7i/yop3NtHenehcawzEzPrZ9jGP4TtVfHHpIzzO0vfK+8X6yci+Q==
