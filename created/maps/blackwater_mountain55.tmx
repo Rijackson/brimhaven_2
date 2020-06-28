@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="16">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="19">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -262,6 +262,12 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="hettar_dog2"/>
+   </properties>
+  </object>
+  <object id="16" name="hettar_dog3" type="spawn" x="640" y="64" width="64" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="hettar_dog3"/>
    </properties>
   </object>
  </objectgroup>

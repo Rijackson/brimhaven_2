@@ -22,5 +22,22 @@
         "monsterClass":"animal",
         "spawnGroup":"hettar_dog2",
         "phraseID":"hettar_dog2"
+    },
+    {
+        "id":"hettar_dog3",
+        "name":"Wolfhound",
+        "iconID":"monsters_dogs:3",
+        "monsterClass":"animal",
+        "spawnGroup":"hettar_dog3",
+        "unique":1,
+        "attackDamage":{
+            "min":1,
+            "max":4
+        },
+        "droplistID":"hettar_dog3",
+        "attackCost":4,
+        "attackChance":40,
+        "blockChance":150,
+        "damageResistance":5
     }
 ]

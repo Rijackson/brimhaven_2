@@ -2,7 +2,7 @@
     {
         "id":"bwm_bones",
         "iconID":"items_misc:44",
-        "name":"Huge bones",
+        "name":"Huge bones from the Blackwater Mountains",
         "hasManualPrice":1,
         "baseMarketCost":20,
         "category":"animal",
@@ -11,7 +11,7 @@
     {
         "id":"hettar_bone",
         "iconID":"items_misc:44",
-        "name":"Huge bones",
+        "name":"Small bone",
         "hasManualPrice":1,
         "baseMarketCost":2,
         "category":"animal",
