@@ -362,22 +362,6 @@
             },
             {
                 "nextPhraseID":"brv_guard_captain_15"
-            },
-            {
-                "text":"I have proof that Ogea murdered Lawellyn and stole his prize dagger.",
-                "nextPhraseID":"brv_guard_captain_asd_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":210
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"ogea_glove",
-                        "value":1
-                    }
-                ]
             }
         ]
     },

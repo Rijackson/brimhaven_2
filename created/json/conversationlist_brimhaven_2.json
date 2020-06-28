@@ -616,7 +616,7 @@
         "message":"Let me hear it.",
         "replies":[
             {
-                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's.  Ogea also admitted that he stole the dagger.",
+                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's. Ogea also admitted that he stole the dagger.",
                 "nextPhraseID":"brv_guard_captain_asd_20",
                 "requires":[
                     {
@@ -630,10 +630,10 @@
     },
     {
         "id":"brv_guard_captain_asd_20",
-        "message":"Wow.  You did a great job!  Do you want a job on our team?",
+        "message":"Wow. You did a great job! Do you want a job on our team?",
         "replies":[
             {
-                "text":"No, thanks.  I just want Ogea punished.",
+                "text":"No, thanks. I just want Ogea punished.",
                 "nextPhraseID":"brv_guard_captain_asd_30"
             }
         ],
@@ -731,10 +731,50 @@
     },
     {
         "id":"brv_guard_deputy_10",
-        "message":"Hello. I am Ito. I help Mustera keep the law around here.",
+        "message":"Hello. I am Ito. I help Mustura keep the law around here.",
         "replies":[
             {
+                "text":"I'll bear that in mind.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"I have proof that Ogea murdered Lawellyn and stole his prize dagger.",
+                "nextPhraseID":"brv_guard_captain_asd_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":210
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ogea_glove",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I want to discuss Ogea again.",
+                "nextPhraseID":"brv_guard_captain_asd_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
             }
         ]
     }
