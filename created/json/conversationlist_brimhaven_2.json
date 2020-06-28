@@ -612,12 +612,12 @@
         ]
     },
     {
-        "id":"brv_guard_captain_asd_10",
+        "id":"brv_guard_deputy_asd_10",
         "message":"Let me hear it.",
         "replies":[
             {
                 "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's. Ogea also admitted that he stole the dagger.",
-                "nextPhraseID":"brv_guard_captain_asd_20",
+                "nextPhraseID":"brv_guard_deputy_asd_20",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -629,12 +629,12 @@
         ]
     },
     {
-        "id":"brv_guard_captain_asd_20",
+        "id":"brv_guard_deputy_asd_20",
         "message":"Wow. You did a great job! Do you want a job on our team?",
         "replies":[
             {
                 "text":"No, thanks. I just want Ogea punished.",
-                "nextPhraseID":"brv_guard_captain_asd_30"
+                "nextPhraseID":"brv_guard_deputy_asd_30"
             }
         ],
         "rewards":[
@@ -646,7 +646,7 @@
         ]
     },
     {
-        "id":"brv_guard_captain_asd_30",
+        "id":"brv_guard_deputy_asd_30",
         "message":"That is as good as done",
         "replies":[
             {
@@ -739,7 +739,7 @@
             },
             {
                 "text":"I have proof that Ogea murdered Lawellyn and stole his prize dagger.",
-                "nextPhraseID":"brv_guard_captain_asd_10",
+                "nextPhraseID":"brv_guard_deputy_asd_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -761,7 +761,7 @@
             },
             {
                 "text":"I want to discuss Ogea again.",
-                "nextPhraseID":"brv_guard_captain_asd_20",
+                "nextPhraseID":"brv_guard_deputy_asd_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
