@@ -704,12 +704,7 @@
     },
     {
         "id":"blackjack_gambler2_asd_30",
-        "message":"If you want to know about a murder, you should probably ask on the east side of town.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"If you want to know about a murder, you should probably ask on the east side of town."
     },
     {
         "id":"guard_advent_asd_10",
@@ -722,12 +717,7 @@
     },
     {
         "id":"brv_tavern_west_guest_asd_inquiry_10",
-        "message":"Lawellyn? I don't know any 'Lawellyn'. I'm just passing through town.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"Lawellyn? I don't know any 'Lawellyn'. I'm just passing through town."
     },
     {
         "id":"brv_guard_deputy_10",
