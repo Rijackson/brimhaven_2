@@ -1,0 +1,32 @@
+[
+    {
+        "id":"stn_castle_cleared",
+        "replies":[
+            {
+                "nextPhraseID":"stn_castle_cleared_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_knight",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier",
+                        "value":13
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier2",
+                        "value":7
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"erwyn_soldier3",
+                        "value":4
+                    }
+                ]
+            }
+        ]
+    }
+]
