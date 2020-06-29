@@ -238,7 +238,7 @@
     },
     {
         "id":"brv_tavern1_guest2_asd_30",
-        "message":"Don't tell the bartender, but I like to frequent the tavern in Loneford a lot, and as such, I've developed quite a friendship with the owner Kizzo. One day we were talking about how scary the woods between Loneford and Brimhaven can be at nighttime.  After sharing some\nnot so scary stories, Kizzo told me a crazy murder story.  Now I can't remember the details because...well, I had been drinking.",
+        "message":"Don't tell the bartender, but I like to frequent the tavern in Loneford a lot, and as such, I've developed quite a friendship with the owner Kizzo. One day we were talking about how scary the woods between Loneford and Brimhaven can be at nighttime.  After sharing some not so scary stories, Kizzo told me a crazy murder story.  Now I can't remember the details because...well, I had been drinking.",
         "replies":[
             {
                 "text":"N",
@@ -279,7 +279,7 @@
     },
     {
         "id":"kizzo_asd_30",
-        "message":"That's all I know.  Maybe you could find out more if you can find the crime scene?",
+        "message":"That's all I know.  Maybe you could find out more if you can find the crime scene?",
         "rewards":[
             {
                 "rewardType":"questProgress",
