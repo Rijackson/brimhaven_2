@@ -767,5 +767,53 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"mikhail_bread_and_rats_complete",
+        "message":"Thanks a lot, now I can make my breakfast. Here, take these coins and Andor's training shield for your help.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mikhail_bread",
+                "value":100
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"gold50"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"kids_shield",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mikhail_rats_and_bread_complete",
+        "message":"Oh you did? Wow, thanks a lot for your help!  Please take Andor's training shield.\n\nIf you are hurt, use your bed over there to rest and regain your strength.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mikhail_rats",
+                "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"kids_shield",
+                "value":1
+            }
+        ]
     }
 ]
