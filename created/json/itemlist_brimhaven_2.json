@@ -6,5 +6,47 @@
         "displaytype":"quest",
         "category":"hnd_lthr",
         "description":"Is that dried up human blood on there or something less sinister?"
+    },
+    {
+        "id":"kids_shirt",
+        "iconID":"items_japozero:150",
+        "name":"Kid's shirt",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"bdy_clth",
+        "description":"Part of Andor's training equipment.",
+        "equipEffect":{
+            "increaseMaxHP":1,
+            "increaseBlockChance":3
+        }
+    },
+    {
+        "id":"kids_gloves",
+        "iconID":"items_japozero:224",
+        "name":"Kid's gloves",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"bdy_clth",
+        "description":"Part of Andor's training equipment.",
+        "equipEffect":{
+            "increaseMaxHP":1,
+            "increaseBlockChance":2
+        }
+    },
+    {
+        "id":"kids_shield",
+        "iconID":"items_japozero:181",
+        "name":"Kid's shield",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":100,
+        "category":"shld_wd_li",
+        "description":"Part of Andor's training equipment.",
+        "equipEffect":{
+            "increaseBlockChance":1,
+            "increaseDamageResistance":1
+        }
     }
 ]

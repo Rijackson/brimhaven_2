@@ -1,0 +1,31 @@
+[
+    {
+        "id":"startitems2",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":12,
+                    "max":12
+                }
+            },
+            {
+                "itemID":"kids_shirt",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"kids_gloves",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    }
+]
