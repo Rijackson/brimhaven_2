@@ -36,6 +36,10 @@
                 "logText":"You offered Hettar's bone to the Norry. He took it eagerly."
             },
             {
+                "progress":50,
+                "logText":"As you reminded him of Hettar, Norry runs away."
+            },
+            {
                 "progress":80,
                 "logText":"Hettar thanked you a thousend times. He would leave to Blackwater Settlement again.",
                 "rewardExperience":2000

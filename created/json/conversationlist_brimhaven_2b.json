@@ -23,12 +23,12 @@
                 ]
             },
             {
-                "nextPhraseID":"hettar_40",
+                "nextPhraseID":"hettar_50",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"hettar_dog",
-                        "value":40
+                        "value":50
                     }
                 ]
             },
@@ -191,7 +191,7 @@
     },
     {
         "id":"hettar_20",
-        "message":"You must go down there and look for my doggie. Maybe he is injured? Bring him back! Please.",
+        "message":"Please go down there and look for my doggie. Maybe he is injured? Bring him back! You must!",
         "replies":[
             {
                 "text":"OK, I'll do it.",
@@ -215,23 +215,6 @@
                     }
                 ],
                 "nextPhraseID":"hettar_10_6"
-			},
-            {
-                "text":"This brute growled at me, but I got away and let it alive.",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"hettar_dog_nd",
-                        "value":1
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"hettar_dog3",
-                        "value":1,
-						"negate":true
-                    }
-                ],
-                "nextPhraseID":"hettar_20"
 			},
             {
                 "text":"Eh, yes. I better go now.",
@@ -348,17 +331,17 @@
 		]
     },
     {
-        "id":"hettar_40",
+        "id":"hettar_50",
 		"message":"You know what? Norry has come back all alone! You have made all the way down unnecessarily.",
         "replies":[
             {
                 "text":"Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.",
-                "nextPhraseID":"hettar_40_10"
+                "nextPhraseID":"hettar_50_10"
 			}
 		]
     },
     {
-        "id":"hettar_40_10",
+        "id":"hettar_50_10",
 		"message":"Oh. Thank you then.",
         "rewards":[
             {
@@ -567,7 +550,7 @@
     },
     {
         "id":"hettar_dog_20",
-		"switchToNPC":"hettar_dog",
+		"switchToNPC":"none",
 		"message":"A moment later the huge wolfhound was gone.",
         "rewards":[
             {
@@ -579,6 +562,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"hettar_dog2",
                 "mapName":"blackwater_mountain55"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"hettar_dog",
+                "value":50
             }
         ]
     },

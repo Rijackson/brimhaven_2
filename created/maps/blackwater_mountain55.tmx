@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="19">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="21">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,10 +195,10 @@
  </layer>
  <layer name="Above" width="23" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCzJQDVwWIx8+YviDAyXoPiyOKrcZTHcemHiIHoPDr88BJr3CIofiyP0wMy9RMBskPwZSdzm49KDz7/odp4hwmxkPXOZCKsnxr3kAmLcSyl4TCU7qJHGqZlPBisYKn68IoQoK7ZJItjIeBuJfoGpj2amzG3Y7CXFTFLdjU8vJWblYnEzsnnY5GHgMoF6gBJAqI4BAP6eMfE=
+   eJxjYGBguCzJQDVwWIx8+YviDAyXoPiyOKrcZTGI3o1Y9MPMBNF7cPjlIdC8R1D8WByhB2buJRzugqkDyZ+RxG0+Lj34/Itu5xkizEbWM5eJsHpi3EsuIMa9lILHVLKDGmmcmvlksIKh4scrQoiyYpskgo2Mt5HoF5j6aGbK3IbNXlLMJNbd2MpCdL2khgEyyMXiZmTzsMnDwGUC9QAlgFAdAwCecDN/
   </data>
  </layer>
- <layer name="Walkable" width="23" height="19">
+ <layer name="Walkable" width="23" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJytk8sNACAIQ53C/VdgQ714IaW0KokXlUf5xRwj9jkWsz+VIU5+ZywWz9WY/V7ZCkthZ39UP4WF/ivG/jo1RnqqO0VTpU+p2a85QEyWm5Ir09/tktsP1Zh/x6ri3cxijtfV3N0/pU7dzjl5/OyRE/dWn8t25lHt5Qu/0rgAv0WjPw==
   </data>
@@ -223,6 +223,18 @@
    </properties>
   </object>
   <object id="14" name="hettar_bones" type="script" x="672" y="96" width="32" height="32"/>
+  <object id="19" name="test1" type="mapchange" x="672" y="32" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain55"/>
+    <property name="place" value="test2"/>
+   </properties>
+  </object>
+  <object id="20" name="test2" type="mapchange" x="704" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain55"/>
+    <property name="place" value="test1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="7" name="wyrm_2" type="spawn" x="32" y="448" width="512" height="96">
