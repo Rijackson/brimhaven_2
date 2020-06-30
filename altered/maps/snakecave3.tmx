@@ -250,13 +250,13 @@
     <property name="spawngroup" value="cavesnake3"/>
    </properties>
   </object>
-  <object name="cavesnake_master_ewmondold" type="spawn" x="32" y="96" width="416" height="96">
+  <object name="cavesnake_master_ewmondold" type="spawn" x="128" y="96" width="128" height="96">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ewmondold_snake_master"/>
    </properties>
   </object>
-  <object name="ewmondold_snake_master_20" type="script" x="32" y="384" width="32" height="32">
+  <object name="ewmondold_snake_master_20" type="script" x="96" y="64" width="192" height="192">
    <properties>
     <property name="when" value="enter"/>
    </properties>
