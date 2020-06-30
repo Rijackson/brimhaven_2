@@ -1,42 +1,5 @@
 [
     {
-        "id":"mikhail_bread_continue",
-        "message":"Did you get my bread from Mara at the town hall yet?",
-        "replies":[
-            {
-                "text":"Yes, here you go.",
-                "nextPhraseID":"mikhail_bread_complete",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"bread",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"No, not yet.",
-                "nextPhraseID":"mikhail_default"
-            },
-            {
-                "text":"Yes, here you go.",
-                "nextPhraseID":"mikhail_bread_and_rats_complete",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"bread",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mikhail_rats",
-                        "value":100
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"mikhail_rats_continue",
         "message":"Did you kill those two rats in our garden?",
         "replies":[
@@ -54,17 +17,28 @@
             {
                 "text":"No, not yet.",
                 "nextPhraseID":"mikhail_rats_start2"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_rats_complete",
+        "message":"Oh you did? Wow, thanks a lot for your help! Please take Andor's training shield, your going to need it.\n\nIf you are hurt, use your bed over there to rest and regain your strength.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mikhail_rats",
+                "value":100
             },
             {
-                "text":"Yes, I have dealt with the rats now.",
-                "nextPhraseID":"mikhail_rats_and_bread_complete",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"tail_trainingrat",
-                        "value":2
-                    }
-                ]
+                "rewardType":"giveItem",
+                "rewardID":"kids_shield",
+                "value":1
             }
         ]
     }
