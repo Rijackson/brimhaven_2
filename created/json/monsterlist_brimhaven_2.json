@@ -6,5 +6,33 @@
         "monsterClass":"humanoid",
         "spawnGroup":"brv_guard_deputy",
         "phraseID":"brv_guard_deputy_10"
+    },
+    {
+        "id":"inspiring_snake_master",
+        "name":"Ewmondold",
+        "iconID":"monsters_rltiles2:82",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"inspiring_snake_master",
+        "phraseID":"inspiring_snake_master_10"
+    },
+    {
+        "id":"ewmondold_snake_master",
+        "name":"Ewmondold",
+        "iconID":"monsters_tometik1:18",
+        "maxHP":75,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":2,
+            "max":6
+        },
+        "phraseID":"ewmondold_snake_master_10",
+        "droplistID":"gold200",
+        "attackCost":5,
+        "attackChance":70,
+        "criticalSkill":200,
+        "criticalMultiplier":3.0,
+        "blockChance":15,
+        "damageResistance":5
     }
 ]

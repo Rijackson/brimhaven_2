@@ -769,50 +769,170 @@
         ]
     },
     {
-        "id":"mikhail_bread_and_rats_complete",
-        "message":"Thanks a lot, now I can make my breakfast. Here, take these coins and Andor's training shield for your help.",
+        "id":"inspiring_snake_master_10",
+        "message":"Hello, young adventurer.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mikhail_default"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mikhail_bread",
-                "value":100
+                "nextPhraseID":"inspiring_snake_master_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"snake_master",
+                        "value":1
+                    }
+                ]
             },
             {
-                "rewardType":"dropList",
-                "rewardID":"gold50"
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"kids_shield",
-                "value":1
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_30"
             }
         ]
     },
     {
-        "id":"mikhail_rats_and_bread_complete",
-        "message":"Oh you did? Wow, thanks a lot for your help!  Please take Andor's training shield.\n\nIf you are hurt, use your bed over there to rest and regain your strength.",
+        "id":"inspiring_snake_master_20",
+        "message":"Thanks for killing the Snake master, sucker - the way for me to rule is now free...",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"inspiring_snake_master",
+                "mapName":"wild2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"new_snake_master",
+                "value":10
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"cavesnake_master_ewmondold",
+                "mapName":"snakecave3"
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_30",
+        "message":"Are you looking to help a man in need?",
+        "replies":[
+            {
+                "text":"Not right now.  Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, of course I am.  What can I do for you?",
+                "nextPhraseID":"inspiring_snake_master_40"
+            }
+        ]
+    },
+    {
+        "id":"ewmondold_snake_master_10",
+        "message":"Oh, you think you can stop me do you?  Come and try!",
+        "replies":[
+            {
+                "text":"Here I come!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_40",
+        "message":"I too am an adventurer.  I recently attempted to make my way through this here cave.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mikhail_default"
+                "nextPhraseID":"inspiring_snake_master_50"
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_50",
+        "message":"In the beginning it was relatively easy.  It wasn't until I ran into the Snake master's minions.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_60"
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_60",
+        "message":"I was quickly ambushed and was forced to flee in order to save my life. But of course, during my attempt to flee, I dropped my map.",
+        "replies":[
+            {
+                "text":"I could retrieve the map for you.",
+                "nextPhraseID":"inspiring_snake_master_70"
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_70",
+        "message":"Please do and hurry back to me.",
+        "replies":[
+            {
+                "text":"Here, I've retrieved your map.",
+                "nextPhraseID":"inspiring_snake_master_80",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"inspiring_snake_master_map",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"mikhail_rats",
-                "value":100
+                "rewardID":"new_snake_master",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_80",
+        "message":"Thank you for bringing me back my 'map'.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"new_snake_master",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"ewmondold_snake_master_20",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ewmondold_snake_master_30",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ewmondold_snake_master",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ewmondold_snake_master_30",
+        "message":"You've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"new_snake_master",
+                "value":40
             },
             {
-                "rewardType":"giveItem",
-                "rewardID":"kids_shield",
-                "value":1
+                "rewardType":"dropList",
+                "rewardID":"gold100"
             }
         ]
     }
