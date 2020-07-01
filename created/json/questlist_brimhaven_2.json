@@ -2,6 +2,7 @@
     {
         "id":"new_snake_master",
         "name":"Perception is not reality",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,

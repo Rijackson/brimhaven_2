@@ -770,22 +770,11 @@
     },
     {
         "id":"inspiring_snake_master_10",
-        "message":"Hello, young adventurer.",
+        "message":"Hello, young adventurer. I am Ewmondold, a world famous traveler.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"inspiring_snake_master_20",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"snake_master",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"inspiring_snake_master_30"
+                "nextPhraseID":"inspiring_snake_master_select"
             }
         ]
     },
@@ -933,6 +922,67 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"gold100"
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_select",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_30",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"snake_master",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":20
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"snake_master",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_20",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"snake_master",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"inspiring_snake_master_25",
+        "message":"Have you found my map yet?",
+        "replies":[
+            {
+                "text":"No, net yet.",
+                "nextPhraseID":"X"
             }
         ]
     }
