@@ -20,19 +20,20 @@
         "id":"ewmondold_snake_master",
         "name":"Ewmondold",
         "iconID":"monsters_tometik1:18",
-        "maxHP":75,
+        "maxHP":70,
+        "unique":1,
         "monsterClass":"humanoid",
         "attackDamage":{
             "min":2,
-            "max":6
+            "max":5
         },
         "phraseID":"ewmondold_snake_master_10",
         "droplistID":"gold200",
         "attackCost":5,
-        "attackChance":70,
+        "attackChance":67,
         "criticalSkill":200,
         "criticalMultiplier":3.0,
-        "blockChance":15,
-        "damageResistance":5
+        "blockChance":13,
+        "damageResistance":4
     }
 ]
