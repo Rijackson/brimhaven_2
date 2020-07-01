@@ -256,9 +256,9 @@
     <property name="spawngroup" value="ewmondold_snake_master"/>
    </properties>
   </object>
-  <object name="ewmondold_snake_master_20" type="script" x="96" y="64" width="192" height="192">
+  <object name="ewmondold_snake_master_defeted_script_10" type="script" x="96" y="64" width="192" height="192">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
