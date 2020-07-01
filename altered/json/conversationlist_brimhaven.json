@@ -426,5 +426,95 @@
     {
         "id":"brv_prison_guard_20",
         "message":"Are you looking for the captain? She has been gone for a while now, arresting the person that destroyed the dam."
+    },
+    {
+        "id":"mikhail_present_20",
+        "message":"Oh, you are such a nice child.",
+        "replies":[
+            {
+                "text":"[Give him the cheap necklace]",
+                "nextPhraseID":"mikhail_present_20_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_for_father1",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Give him the necklace]",
+                "nextPhraseID":"mikhail_present_20_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_for_father2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Give him the expensive necklace]",
+                "nextPhraseID":"mikhail_present_20_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_for_father3",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Maybe I promised too much.",
+                "nextPhraseID":"mikhail_default",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"necklace_for_father1",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"necklace_for_father2",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"necklace_for_father3",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mikhail_present_20_2",
+        "message":"Thank you my child for this wonderful necklace. Oh and it is in our family colors!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_present",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_50",
+        "message":"Thank you my child. Keep on searching for Andor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_default"
+            }
+        ]
     }
 ]
