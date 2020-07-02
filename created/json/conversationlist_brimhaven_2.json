@@ -982,6 +982,12 @@
                         "requireType":"killedMonster",
                         "requireID":"snake_master",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":5,
+                        "negate":true
                     }
                 ]
             },
