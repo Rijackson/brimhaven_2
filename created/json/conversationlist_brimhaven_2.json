@@ -565,6 +565,24 @@
                         "value":220
                     }
                 ]
+            },
+            {
+                "text":"I'm still investigating. I'll come back when I have more information.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":190,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":220,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
