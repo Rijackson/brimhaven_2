@@ -895,7 +895,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"new_snake_master",
-                "value":30
+                "value":20
             }
         ]
     },
@@ -928,7 +928,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"new_snake_master",
-                "value":40
+                "value":30
             },
             {
                 "rewardType":"dropList",

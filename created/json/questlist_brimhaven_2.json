@@ -13,13 +13,13 @@
                 "logText":"Ewmondold has asked me to venture into the Snake Cave to retrieve his map."
             },
             {
-                "progress":40,
+                "progress":30,
                 "logText":"I've destroyed Ewmondold and eliminated his threat to Crossglen and the surrounding area.",
                 "rewardExperience":250,
                 "finishesQuest":1
             },
             {
-                "progress":30,
+                "progress":20,
                 "logText":"I've returned Ewmondold's map to him.",
                 "rewardExperience":450
             }
