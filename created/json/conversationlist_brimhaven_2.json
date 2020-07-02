@@ -874,24 +874,11 @@
     {
         "id":"inspiring_snake_master_70",
         "message":"Please do and hurry back to me.",
-        "replies":[
-            {
-                "text":"Here, I've retrieved your map.",
-                "nextPhraseID":"inspiring_snake_master_80",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"inspiring_snake_master_map",
-                        "value":1
-                    }
-                ]
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"new_snake_master",
-                "value":20
+                "value":5
             }
         ]
     },
@@ -965,7 +952,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"new_snake_master",
-                        "value":20,
+                        "value":5,
                         "negate":true
                     }
                 ]
@@ -977,7 +964,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"new_snake_master",
-                        "value":20
+                        "value":5
                     },
                     {
                         "requireType":"killedMonster",
@@ -994,6 +981,42 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"snake_master",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"inspiring_snake_master_map"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"inspiring_snake_master_80",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":5
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"snake_master",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"inspiring_snake_master_map",
                         "value":1
                     }
                 ]
