@@ -1021,7 +1021,7 @@
                         "value":1
                     },
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"inspiring_snake_master_map",
                         "value":1
                     }
