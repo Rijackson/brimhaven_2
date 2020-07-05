@@ -914,7 +914,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"new_snake_master",
-                        "value":40,
+                        "value":30,
                         "negate":true
                     }
                 ]
