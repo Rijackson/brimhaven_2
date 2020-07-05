@@ -649,5 +649,16 @@
                 "nextPhraseID":"tamarukh_20"
             }
         ]
+    },
+    {
+        "id":"brv_brothers_3",
+        "message":"HEH HEH. Yeah!",
+        "switchToNPC":"brv_attohead",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_brothers_4"
+            }
+        ]
     }
 ]
