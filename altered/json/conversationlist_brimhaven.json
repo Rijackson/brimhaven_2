@@ -332,6 +332,18 @@
                         "requireType":"inventoryKeep",
                         "requireID":"ogea_glove",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":190,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":210,
+                        "negate":true
                     }
                 ]
             }

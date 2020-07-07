@@ -90,6 +90,12 @@
                         "requireID":"dagger_assassin",
                         "value":1,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":50,
+                        "negate":true
                     }
                 ]
             },
@@ -199,11 +205,6 @@
     {
         "id":"arlish_asd_15",
         "message":"Well, he did have a dagger, but I can't say if the one you had was his if I can't look at it.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -402,7 +403,7 @@
     },
     {
         "id":"brv_laundry_boss_30",
-        "message":"He came to me with a story that he lost his glove while hunting one night and how he wanted me to make him a replacement as he could not efford to purchase a new pair.",
+        "message":"He came to me with a story that he lost his glove while hunting one night and how he wanted me to make him a replacement as he could not afford to purchase a new pair.",
         "replies":[
             {
                 "text":"Are you sure?",
@@ -426,7 +427,7 @@
         "message":"I'm sure you think that, but do you have any proof?",
         "replies":[
             {
-                "text":"In fact, I do! I have physical evidence that proves you killed him.",
+                "text":"In fact, I do! I have physical evidence that puts you at the scene of Lawellyn's death.",
                 "nextPhraseID":"brv_villager3_asd_20"
             }
         ]
@@ -447,12 +448,12 @@
         "replies":[
             {
                 "text":"Well, you can start by explaining what happened.",
-                "nextPhraseID":" brv_villager3_asd_40"
+                "nextPhraseID":"brv_villager3_asd_40"
             }
         ]
     },
     {
-        "id":" brv_villager3_asd_40",
+        "id":"brv_villager3_asd_40",
         "message":"Yes, I'd like to.",
         "replies":[
             {
@@ -500,7 +501,7 @@
                 "nextPhraseID":"brv_villager3_asd_90"
             },
             {
-                "text":"No.  In fact, I want do know more.  Like, what did you do with Lawellyn's dagger?",
+                "text":"No.  In fact, I want to know more.  Like, what did you do with Lawellyn's dagger?",
                 "nextPhraseID":"brv_villager3_asd_100"
             }
         ]
@@ -552,6 +553,18 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":190
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":200,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":230,
+                        "negate":true
                     }
                 ]
             },
@@ -588,7 +601,7 @@
     },
     {
         "id":"arlish_asd_110",
-        "message":"I'm sorry too. Thank you for tyring.",
+        "message":"I'm sorry too. Thank you for trying.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -726,12 +739,7 @@
     },
     {
         "id":"guard_advent_asd_10",
-        "message":"Death? The last I knew was that Arlish reported him missing.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"Death? The last I knew was that Arlish reported him missing."
     },
     {
         "id":"brv_tavern_west_guest_asd_inquiry_10",
