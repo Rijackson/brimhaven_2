@@ -158,10 +158,10 @@
     },
     {
         "id":"arlish_asd_70",
-        "message":"Yes. I fear he was murdered. Will you help?",
+        "message":"Indeed it does.  In fact, I fear he was murdered. Will you help?",
         "replies":[
             {
-                "text":"Yes.  Of course I will.  You are in need.",
+                "text":"Yes.  Of course I will go investigate a little.  You are in need.",
                 "nextPhraseID":"arlish_asd_80"
             },
             {
@@ -175,7 +175,7 @@
         "message":"But I tried to explain to her that Lawellyn would not do so without telling me.",
         "replies":[
             {
-                "text":"That sounds suspicious.  Would you like me to investigate a little?",
+                "text":"That sounds suspicious.",
                 "nextPhraseID":"arlish_asd_70"
             }
         ]
