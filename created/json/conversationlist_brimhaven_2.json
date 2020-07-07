@@ -562,17 +562,6 @@
                 ]
             },
             {
-                "text":"N",
-                "nextPhraseID":"arlish_asd_140",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":220
-                    }
-                ]
-            },
-            {
                 "text":"I'm still investigating. I'll come back when I have more information.",
                 "nextPhraseID":"X",
                 "requires":[
@@ -587,6 +576,17 @@
                         "requireID":"brv_dagger",
                         "value":220,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have some good news for you.",
+                "nextPhraseID":"arlish_asd_140",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":220
                     }
                 ]
             }
@@ -698,7 +698,7 @@
     },
     {
         "id":"arlish_asd_140",
-        "message":"I heard that you found my father's murderer.",
+        "message":"I know you do.  I heard that you found my father's murderer.",
         "replies":[
             {
                 "text":"N",
