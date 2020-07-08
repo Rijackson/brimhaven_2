@@ -904,21 +904,7 @@
         "id":"ewmondold_snake_master_defeted_script_10",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"ewmondold_snake_master_defeted_script_20",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"ewmondold_snake_master",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"new_snake_master",
-                        "value":30,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"ewmondold_snake_master_defeted_script_15"
             }
         ]
     },
@@ -1049,6 +1035,16 @@
             {
                 "text":"I won't try, I'll succeed!",
                 "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"ewmondold_snake_master_defeted_script_15",
+        "message":"You hear Ewmondold gasp his last breath.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ewmondold_snake_master_defeted_script_20"
             }
         ]
     }
