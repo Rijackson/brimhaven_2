@@ -1,0 +1,173 @@
+[
+    {
+        "id":"falothen1_5",
+        "message":"I can teach you about swords, either one-handed or two-handed ones. I know a bit about daggers, axes, polearms, and blunt weapons. I also know a fair deal about fighting with your bare fists.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"falothen1_6"
+            }
+        ]
+    },
+    {
+        "id":"falothen1_6",
+        "message":"I only have time to teach you about one type of weapon, so make sure you pick the one that suits you best.",
+        "replies":[
+            {
+                "text":"Tell me more about fighting with your bare fists.",
+                "nextPhraseID":"falothen1_7_f"
+            },
+            {
+                "text":"Tell me more about two-handed swords.",
+                "nextPhraseID":"falothen1_7_2hs"
+            },
+            {
+                "text":"Tell me more about one-handed swords.",
+                "nextPhraseID":"falothen1_7_1hs"
+            },
+            {
+                "text":"Tell me more about daggers.",
+                "nextPhraseID":"falothen1_7_d"
+            },
+            {
+                "text":"Tell me more about axes.",
+                "nextPhraseID":"falothen1_7_a"
+            },
+            {
+                "text":"Tell me more about blunt weapons.",
+                "nextPhraseID":"falothen1_7_b"
+            },
+            {
+                "text":"Tell me more about polearms.",
+                "nextPhraseID":"falothen1_7_pa"
+            },
+            {
+                "text":"I'll be right back.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"charwood1",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"falothen1",
+        "replies":[
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":71
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":73
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":74
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":75
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":76
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_1"
+            }
+        ]
+    },
+    {
+        "id":"falothen1_14",
+        "message":"Which weapon type would you be interested in?",
+        "replies":[
+            {
+                "text":"Tell me more about fighting with your bare fists.",
+                "nextPhraseID":"falothen1_2nd_f"
+            },
+            {
+                "text":"Tell me more about two-handed swords.",
+                "nextPhraseID":"falothen1_2nd_2hs"
+            },
+            {
+                "text":"Tell me more about one-handed swords.",
+                "nextPhraseID":"falothen1_2nd_1hs"
+            },
+            {
+                "text":"Tell me more about daggers.",
+                "nextPhraseID":"falothen1_2nd_d"
+            },
+            {
+                "text":"Tell me more about axes.",
+                "nextPhraseID":"falothen1_2nd_a"
+            },
+            {
+                "text":"Tell me more about blunt weapons.",
+                "nextPhraseID":"falothen1_2nd_b"
+            },
+            {
+                "text":"Tell me more about polearms.",
+                "nextPhraseID":"falothen1_2nd_pa"
+            },
+            {
+                "text":"I'll be right back.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

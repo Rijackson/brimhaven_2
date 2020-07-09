@@ -1047,5 +1047,125 @@
                 "nextPhraseID":"ewmondold_snake_master_defeted_script_20"
             }
         ]
+    },
+    {
+        "id":"falothen1_7_pa",
+        "message":"Polearms are a spike or a blade, or both, on the end of a long pole. Weilding one with one hand is not practical, but they make up for that with their defensive capabilities. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"falothan1_7_pa1"
+            }
+        ]
+    },
+    {
+        "id":"falothan1_7_pa1",
+        "message":"You can attack your foe from a great distance with a polearm, making it difficult for your foe to attack you.",
+        "replies":[
+            {
+                "text":"Let's go back to the other types of weapons.",
+                "nextPhraseID":"falothen1_6"
+            },
+            {
+                "text":"Sounds good. Teach me how to fight with polearms.",
+                "nextPhraseID":"falothen_1_pa2"
+            }
+        ]
+    },
+    {
+        "id":"falothen_1_pa2",
+        "message":"[Falothen teaches you the polearm skill]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"falothen1_8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"charwood1",
+                "value":76
+            },
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"weaponProficiencyPole"
+            }
+        ]
+    },
+    {
+        "id":"falothen1_2nd_pa",
+        "replies":[
+            {
+                "nextPhraseID":"falothen1_2nd_no",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":76
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"falothen1_2nd_pa0"
+            }
+        ]
+    },
+    {
+        "id":"falothen1_2nd_pa0",
+        "message":"Polearms are a spike or a blade, or both, on the end of a long pole. Weilding one with one hand is not practical, but they make up for that with their defensive capabilities. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"falothen1_2nd_pa1"
+            }
+        ]
+    },
+    {
+        "id":"falothen1_2nd_pa1",
+        "message":"You can attack your foe from a great distance with a polearm, making it difficult for your foe to attack you.",
+        "replies":[
+            {
+                "text":"Sounds good. Teach me how to better fight with polearms. Here are two Oegyth crystals and 5000 gold as payment.",
+                "nextPhraseID":"falothen1_2nd_pa3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5000
+                    }
+                ]
+            },
+            {
+                "text":"Let's go back to the other types of weapons.",
+                "nextPhraseID":"falothen1_14"
+            }
+        ]
+    },
+    {
+        "id":"falothen1_2nd_pa3",
+        "message":"[Falothen teaches you the polearm skill]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"falothen1_15"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"charwood1",
+                "value":76
+            },
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"weaponProficiencyPole"
+            }
+        ]
     }
 ]
