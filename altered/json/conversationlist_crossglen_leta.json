@@ -1,0 +1,87 @@
+[
+    {
+        "id":"oromir1",
+        "message":"Oh you startled me.\nHello.",
+        "replies":[
+            {
+                "text":"Hello.",
+                "nextPhraseID":"oromir2"
+            }
+        ]
+    },
+    {
+        "id":"oromir2",
+        "message":"I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here.",
+        "replies":[
+            {
+                "text":"OK.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Your secret is safe with me.",
+                "nextPhraseID":"oromir_trees_help_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir1",
+        "message":"Do you know anything about my husband? He should be here helping me with the farm today, but he seems to be missing as usual.\nSigh.",
+        "replies":[
+            {
+                "text":"I have no idea.",
+                "nextPhraseID":"leta_oromir2"
+            },
+            {
+                "text":"Yes, I found him. He is hiding among some trees to the east.",
+                "nextPhraseID":"leta_oromir_complete",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I have no idea.",
+                "nextPhraseID":"leta_oromir1_trees_help",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I have no idea.",
+                "nextPhraseID":"leta_oromir1_behind_inn_help",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"[Lie] I have no idea.",
+                "nextPhraseID":"leta_oromir1_behind_haystack_help",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":45
+                    }
+                ]
+            }
+        ]
+    }
+]

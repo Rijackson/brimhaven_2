@@ -35,5 +35,29 @@
         "criticalMultiplier":3.0,
         "blockChance":13,
         "damageResistance":4
+    },
+    {
+        "id":"oromir_behind_inn_help",
+        "name":"Oromir",
+        "iconID":"monsters_man1:0",
+        "movementAggressionType":"none",
+        "spawnGroup":"oromir_behind_inn_help",
+        "phraseID":"oromir_behind_inn_help_10"
+    },
+    {
+        "id":"oromir_behind_haystack_help",
+        "name":"Oromir",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"oromir_behind_haystack_help",
+        "phraseID":"oromir_behind_haystack_help_10"
+    },
+    {
+        "id":"oromir_basement_help",
+        "name":"Oromir",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "phraseID":"oromir_basement_help_10"
     }
 ]

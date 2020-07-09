@@ -176,29 +176,16 @@
         }
     },
     {
-        "id":"spear_rusty",
-        "iconID":"items_misc_2:61",
-        "name":"Rusty iron spear",
-        "displaytype":"ordinary",
-        "category":"pole",
+        "id":"kids_boots",
+        "iconID":"items_japozero:210",
+        "name":"Kid's boots",
+        "displaytype":"rare",
+        "category":"feet_clth",
+        "description":"Part of Andor's training equipment.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":2
-            },
-            "increaseAttackCost":6,
-            "increaseBlockChance":3,
-            "setNonWeaponDamageModifier":130
-        },
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"poison_blood",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"5"
-                }
-            ]
+            "increaseMaxHP":1,
+            "increaseAttackChance":1,
+            "increaseBlockChance":2
         }
     }
 ]

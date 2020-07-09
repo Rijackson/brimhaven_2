@@ -1,0 +1,44 @@
+[
+    {
+        "id":"leta",
+        "name":"Missing husband",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Leta in Crossglen village wants me to look for her husband Oromir.",
+                "finishesQuest":0
+            },
+            {
+                "progress":20,
+                "logText":"I have found Oromir in Crossglen village, hiding from his wife Leta.",
+                "finishesQuest":0
+            },
+            {
+                "progress":100,
+                "logText":"I have told Leta that Oromir is hiding in Crossglen village.",
+                "rewardExperience":80,
+                "finishesQuest":1
+            },
+            {
+                "progress":25,
+                "logText":"I have found Oromir in Crossglen village, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts.",
+                "rewardExperience":50
+            },
+            {
+                "progress":35,
+                "logText":"I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts.",
+                "rewardExperience":50
+            },
+            {
+                "progress":45,
+                "logText":"I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts."
+            },
+            {
+                "progress":105,
+                "logText":"Even after all my help, Oromir was still brought back home to Leta.",
+                "rewardExperience":50
+            }
+        ]
+    }
+]
