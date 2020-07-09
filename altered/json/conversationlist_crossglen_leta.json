@@ -40,7 +40,7 @@
             },
             {
                 "text":"Yes, I found him. He is hiding among some trees to the east.",
-                "nextPhraseID":"leta_oromir_complete",
+                "nextPhraseID":"leta_oromir1_trees",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -79,6 +79,71 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":45
+                    }
+                ]
+            },
+            {
+                "text":"He's found a new hiding spot.",
+                "nextPhraseID":"leta_oromir1_behind_inn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"He's found another new hiding spot. Give him credit, he is great at avoiding work.",
+                "nextPhraseID":"leta_oromir1_behind_haystack_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"He's in your basement.",
+                "nextPhraseID":"leta_oromir1_basement_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":80
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir_select",
+        "replies":[
+            {
+                "nextPhraseID":"leta_oromir_complete2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"leta_oromir1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":105,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":100,
+                        "negate":true
                     }
                 ]
             }

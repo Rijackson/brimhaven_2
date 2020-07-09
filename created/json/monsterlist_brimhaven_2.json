@@ -40,6 +40,7 @@
         "id":"oromir_behind_inn_help",
         "name":"Oromir",
         "iconID":"monsters_man1:0",
+        "unique":1,
         "movementAggressionType":"none",
         "spawnGroup":"oromir_behind_inn_help",
         "phraseID":"oromir_behind_inn_help_10"
@@ -48,6 +49,7 @@
         "id":"oromir_behind_haystack_help",
         "name":"Oromir",
         "iconID":"monsters_man1:0",
+        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"oromir_behind_haystack_help",
@@ -59,5 +61,34 @@
         "iconID":"monsters_man1:0",
         "monsterClass":"humanoid",
         "phraseID":"oromir_basement_help_10"
+    },
+    {
+        "id":"oromir_behind_inn",
+        "name":"Oromir",
+        "iconID":"monsters_man1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"oromir_behind_inn",
+        "phraseID":"oromir_behind_inn_10"
+    },
+    {
+        "id":"oromir_behind_haystack",
+        "name":"Oromir",
+        "iconID":"monsters_man1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"oromir_behind_haystack",
+        "phraseID":"oromir_behind_haystack_10"
+    },
+    {
+        "id":"oromir_basement",
+        "name":"oromir_basement",
+        "iconID":"monsters_man1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"oromir_basement",
+        "phraseID":"oromir_basement_10"
     }
 ]

@@ -1330,5 +1330,162 @@
                 "rewardID":"weaponProficiencyPole"
             }
         ]
+    },
+    {
+        "id":"leta_oromir1_trees",
+        "message":"Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"oromir",
+                "mapName":"crackshot_hideout3"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"oromir_behind_inn",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"oromir_behind_inn_10",
+        "message":"Why did you tell Leta where is was?",
+        "replies":[
+            {
+                "text":"You are needed at home.",
+                "nextPhraseID":"oromir_behind_inn_20"
+            }
+        ]
+    },
+    {
+        "id":"oromir_behind_inn_20",
+        "message":"I see.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir1_behind_inn_10",
+        "message":"Where?",
+        "replies":[
+            {
+                "text":"Tucked away between the back of the inn and the woods.",
+                "nextPhraseID":"leta_oromir1_behind_inn_20"
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir1_behind_inn_20",
+        "message":"Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"oromir_behind_inn",
+                "mapName":"crossglen"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":50
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"oromir_behind_haystack",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"oromir_behind_haystack_10",
+        "message":"You did it again? Stop telling Leta where I am.",
+        "replies":[
+            {
+                "text":"A happy wife is a happy life.  Go home.",
+                "nextPhraseID":"oromir_behind_haystack_20"
+            }
+        ]
+    },
+    {
+        "id":"oromir_behind_haystack_20",
+        "message":"No thanks. I'm staying here.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir1_behind_haystack_10",
+        "message":"Where?",
+        "replies":[
+            {
+                "text":"Hiding behind a haystack.",
+                "nextPhraseID":"leta_oromir1_behind_haystack_20"
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir1_behind_haystack_20",
+        "message":"Hiding is he? That's not surprising. Tell him to hurry back here and help me with the housework.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"oromir_behind_haystack",
+                "mapName":"crossglen"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":70
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"oromir_basement",
+                "mapName":"crossglen_farmhouse_basement"
+            }
+        ]
+    },
+    {
+        "id":"oromir_basement_10",
+        "message":"You did it again? Stop telling Leta where I am.",
+        "replies":[
+            {
+                "text":"I'm sorry, but I think that it's better if I'm on Leta's side.",
+                "nextPhraseID":"oromir_basement_20"
+            }
+        ]
+    },
+    {
+        "id":"oromir_basement_20",
+        "message":"Yep. That's something that I've not learnt to do.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir1_basement_10",
+        "message":"What?! How? Oh, it doesn't matter.  Thank you for finding him.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"leta",
+                "value":100
+            }
+        ]
     }
 ]

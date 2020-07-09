@@ -311,6 +311,18 @@
     <property name="spawngroup" value="oromir_behind_haystack_help"/>
    </properties>
   </object>
+  <object name="oromir_behind_inn" type="spawn" x="864" y="512" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="oromir_behind_inn"/>
+   </properties>
+  </object>
+  <object name="oromir_behind_haystack" type="spawn" x="512" y="160" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="oromir_behind_haystack"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
