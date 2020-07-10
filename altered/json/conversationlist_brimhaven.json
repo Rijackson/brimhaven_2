@@ -672,5 +672,33 @@
                 "nextPhraseID":"brv_brothers_4"
             }
         ]
+    },
+    {
+        "id":"brv2_grave_9",
+        "replies":[
+            {
+                "nextPhraseID":"brv2_grave_9_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv2_grave_9_1",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv2_grave_9_0"
+            }
+        ]
     }
 ]
