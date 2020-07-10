@@ -904,7 +904,14 @@
         "id":"ewmondold_snake_master_defeted_script_10",
         "replies":[
             {
-                "nextPhraseID":"ewmondold_snake_master_defeted_script_15"
+                "nextPhraseID":"ewmondold_snake_master_defeted_script_15",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ewmondold_snake_master",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
