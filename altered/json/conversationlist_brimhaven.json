@@ -782,6 +782,18 @@
                         "requireID":"brv_dagger",
                         "value":230,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":115,
+                        "negate":true
                     }
                 ]
             }
