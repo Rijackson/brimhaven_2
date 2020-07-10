@@ -84,7 +84,7 @@
     },
     {
         "id":"oromir_basement",
-        "name":"oromir_basement",
+        "name":"Oromir",
         "iconID":"monsters_man1:0",
         "unique":1,
         "monsterClass":"humanoid",

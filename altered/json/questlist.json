@@ -35,7 +35,8 @@
             },
             {
                 "progress":45,
-                "logText":"I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts."
+                "logText":"I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts.",
+                "rewardExperience":50
             },
             {
                 "progress":50,

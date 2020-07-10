@@ -46,6 +46,36 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":35,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":80,
+                        "negate":true
                     }
                 ]
             },
@@ -57,6 +87,18 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":35,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":45,
+                        "negate":true
                     }
                 ]
             },
@@ -68,6 +110,18 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":45,
+                        "negate":true
                     }
                 ]
             },
@@ -79,6 +133,18 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":35,
+                        "negate":true
                     }
                 ]
             },
@@ -90,6 +156,18 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":80,
+                        "negate":true
                     }
                 ]
             },
@@ -101,6 +179,12 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":80,
+                        "negate":true
                     }
                 ]
             },

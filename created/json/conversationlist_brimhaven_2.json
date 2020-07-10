@@ -1089,7 +1089,7 @@
     },
     {
         "id":"oromir_behind_inn_help_10",
-        "message":"I had a feeling that Leta was close to find me, so I moved here.",
+        "message":"I had a feeling that Leta was close to finding me, so I moved here.",
         "replies":[
             {
                 "text":"That's a wise move because she has asked me to inform her of your whereabouts.  But I won't do so.",
@@ -1131,7 +1131,7 @@
     },
     {
         "id":"oromir_behind_haystack_help_10",
-        "message":"I had a feeling that Leta was close to find me, so I moved here.",
+        "message":"I had a feeling that Leta was close to finding me, so I moved here.",
         "replies":[
             {
                 "text":"That's a wise move because she has asked me to inform her of your whereabouts.  But I won't do so.",
@@ -1186,15 +1186,12 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"N"
             }
         ]
     },
     {
         "id":"oromir_basement_help_20",
-        "message":"That mysterious looking man in the inn saw me and ratted me out and now I'm down here cleaning as a punishment.",
+        "message":"That mysterious looking man in the inn saw me and ratted me out. Now I'm down here cleaning as a punishment.",
         "replies":[
             {
                 "text":"I'm sorry to hear that.",
@@ -1361,7 +1358,7 @@
     },
     {
         "id":"oromir_behind_inn_10",
-        "message":"Why did you tell Leta where is was?",
+        "message":"Why did you tell Leta where I was?",
         "replies":[
             {
                 "text":"You are needed at home.",
@@ -1416,7 +1413,7 @@
         "message":"You did it again? Stop telling Leta where I am.",
         "replies":[
             {
-                "text":"A happy wife is a happy life.  Go home.",
+                "text":"A happy wife is a happy life. Go home.",
                 "nextPhraseID":"oromir_behind_haystack_20"
             }
         ]
@@ -1486,7 +1483,7 @@
     },
     {
         "id":"leta_oromir1_basement_10",
-        "message":"What?! How? Oh, it doesn't matter.  Thank you for finding him.",
+        "message":"What?! How? Oh, it doesn't matter. Thank you for finding him.",
         "rewards":[
             {
                 "rewardType":"questProgress",
