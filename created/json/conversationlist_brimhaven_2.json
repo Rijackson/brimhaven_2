@@ -1,10 +1,34 @@
 [
     {
         "id":"sign_waytobrim3_grave3_0",
-        "message":"Here lies Connat, who spent his life complaining that he was dying. In the end, he was right."
+        "replies":[
+            {
+                "nextPhraseID":"sign_waytobrim3_grave3_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sign_waytobrim3_grave3_1",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"dagger_assassin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sign_waytobrim3_grave3"
+            }
+        ]
     },
     {
-        "id":"brv2_grave_9_1",
+        "id":"sign_waytobrim3_grave3_1",
         "message":"Here lies Lawellyn the weak.\nSurvived by Arlish\n['Survived by Arlish'.  You wonder if this is the person that you should talk to.]",
         "rewards":[
             {
@@ -256,7 +280,7 @@
     },
     {
         "id":"kizzo_asd_30",
-        "message":"That's all I know.  Maybe you could find out more if you can find the crime scene?",
+        "message":"That's all I know.  Maybe you could find out more if you can find the scene of the murder?",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -616,7 +640,7 @@
         "message":"Let me hear it.",
         "replies":[
             {
-                "text":"I found his glove at the crime scene covered in dried blood and a witness that says the glove is Ogea's. Ogea also admitted that he stole the dagger.",
+                "text":"I found his glove at the scene of the murder covered in dried blood and a witness that says the glove is Ogea's. Ogea also admitted that he stole the dagger.",
                 "nextPhraseID":"brv_guard_deputy_asd_20",
                 "requires":[
                     {
@@ -880,14 +904,7 @@
         "id":"ewmondold_snake_master_defeted_script_10",
         "replies":[
             {
-                "nextPhraseID":"ewmondold_snake_master_defeted_script_15",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"ewmondold_snake_master",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"ewmondold_snake_master_defeted_script_15"
             }
         ]
     },
@@ -1065,7 +1082,7 @@
     },
     {
         "id":"oromir_behind_inn_help_10",
-        "message":"I had a feeling that Leta was close to finding me, so I moved here.",
+        "message":"I had a feeling that Leta was close to find me, so I moved here.",
         "replies":[
             {
                 "text":"That's a wise move because she has asked me to inform her of your whereabouts.  But I won't do so.",
@@ -1107,7 +1124,7 @@
     },
     {
         "id":"oromir_behind_haystack_help_10",
-        "message":"I had a feeling that Leta was close to finding me, so I moved here.",
+        "message":"I had a feeling that Leta was close to find me, so I moved here.",
         "replies":[
             {
                 "text":"That's a wise move because she has asked me to inform her of your whereabouts.  But I won't do so.",
@@ -1162,12 +1179,15 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"N"
             }
         ]
     },
     {
         "id":"oromir_basement_help_20",
-        "message":"That mysterious looking man in the inn saw me and ratted me out. Now I'm down here cleaning as a punishment.",
+        "message":"That mysterious looking man in the inn saw me and ratted me out and now I'm down here cleaning as a punishment.",
         "replies":[
             {
                 "text":"I'm sorry to hear that.",
@@ -1334,7 +1354,7 @@
     },
     {
         "id":"oromir_behind_inn_10",
-        "message":"Why did you tell Leta where I was?",
+        "message":"Why did you tell Leta where is was?",
         "replies":[
             {
                 "text":"You are needed at home.",
@@ -1389,7 +1409,7 @@
         "message":"You did it again? Stop telling Leta where I am.",
         "replies":[
             {
-                "text":"A happy wife is a happy life. Go home.",
+                "text":"A happy wife is a happy life.  Go home.",
                 "nextPhraseID":"oromir_behind_haystack_20"
             }
         ]
@@ -1459,7 +1479,7 @@
     },
     {
         "id":"leta_oromir1_basement_10",
-        "message":"What?! How? Oh, it doesn't matter. Thank you for finding him.",
+        "message":"What?! How? Oh, it doesn't matter.  Thank you for finding him.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1467,13 +1487,5 @@
                 "value":100
             }
         ]
-    },
-    {
-        "id":"brv2_grave_9_0",
-        "message":"Here lies Lawellyn the weak.\nSurvived by Arlish"
-    },
-    {
-        "id":"fangwurm_asld_inquiry_10",
-        "message":"Sorry, I don't know anything about how he died.  I just buried him."
     }
 ]
