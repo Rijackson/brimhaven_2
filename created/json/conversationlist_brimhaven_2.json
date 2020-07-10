@@ -1471,5 +1471,9 @@
     {
         "id":"brv2_grave_9_0",
         "message":"Here lies Lawellyn the weak.\nSurvived by Arlish"
+    },
+    {
+        "id":"fangwurm_asld_inquiry_10",
+        "message":"Sorry, I don't know anything about how he died.  I just buried him."
     }
 ]
