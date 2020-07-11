@@ -1,35 +1,11 @@
 [
     {
         "id":"sign_waytobrim3_grave3_0",
-        "replies":[
-            {
-                "nextPhraseID":"sign_waytobrim3_grave3_1",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"dagger_assassin",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"sign_waytobrim3_grave3_1",
-                "requires":[
-                    {
-                        "requireType":"wear",
-                        "requireID":"dagger_assassin",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"sign_waytobrim3_grave3"
-            }
-        ]
+        "message":"Here lies Connat, who spent his life complaining that he was dying. In the end, he was right."
     },
     {
-        "id":"sign_waytobrim3_grave3_1",
-        "message":"Here lies Lawellyn the weak.\nSurvived by Arlish\n['Survived by Arlish'.  You wonder if this is the person that you should talk to.]",
+        "id":"brv2_grave_9_1",
+        "message":"Here lies Lawellyn the weak.\nSurvived by Arlish",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1494,5 +1470,9 @@
                 "value":100
             }
         ]
+    },
+    {
+        "id":"brv2_grave_9_0",
+        "message":"Here lies Lawellyn the weak.\nSurvived by Arlish"
     }
 ]
