@@ -186,50 +186,32 @@
  </tileset>
  <layer name="Ground" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJw7xsHAcIzGeIc4dTC6WTDzT4hTB6ObBTP/MA78UYaB4RMa/iyDWz26WYTMZ5RlYGBCw8yy5Jv/BIfbRGQhGJscsh5C5n/B43dcGFkPKE7xmc+Cx424/Ias5wQB8wWBaoWw4OcyEIxNDoSFoXY8BKp5LIPbfHxhQEzYfURLX8jm43I7Ke7HZ/5QdT96mqKm+3eIY6YpXGkQV9rFZz7I7Kcc1MOM0PIDWQwA1OAdiw==
+   eJw7xsHAcIzGeIc4bTDM/BPitMEw83/SCI+aP2r+qPm0NR9UTtDK/B3QcoJW5oPMfspBWwwAnxxuQA==
   </data>
  </layer>
  <layer name="Objects" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPeCjJwKAkjWAji+9jhWB0cRAA6UEWxwU+AtUYSSPYWTII9jlWCP4INQckB2OD9HwkYL4h1FwnIH1RGMKukoGwi6VRcYk0Qu6wMEIPzIw4IDseiBOECfuJEDiMxYw8oFg+EBegyR0kwz6Y+cToRVbDDfQrPxDzADEvGuaBygkA8SUizZ8NlJ+DRU2MDCI+8IkRMn81UH4NFeIDH7gkxcDwGA1fkcJ0K7HqtKVp6150MOp+VHX0dj+tAACCPVTE
+   eJxjYBh6IFaYtubn0tj8WhqbPwpGwSgYBcQAAFwwAYE=
   </data>
  </layer>
  <layer name="Above" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9OCxMW7PQxV5LQegkaQaGZDScIg2R+yBFuflFULOU+TD1UMN8fIBU858gqf8NZP8H4j9YzPgHlWOQRogh68Vl/hcsZvnIECdGjPmUAGS3XaKB+YTAqPmj5g9WAABKqibz
+   eJxjYKA9OCw8av6o+aPmj5o/av5gAwAmEQu1
   </data>
  </layer>
- <layer name="Walkable" width="24" height="16" visible="0">
+ <layer name="Walkable" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJzbKMzAsHEUE8QggExTUw86wCZGjBpi3EGO+YT8gE09Pr+hyxEKK3z+JUUMXQ6XG6kF0N1PbNyTqm7U/cPb/dQsw9DNBQBNcJz1
+   eJzbKMzAsHGIYRCgp/m0AqPmj5o/av6o+YTMpyUGAGJGWlk=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="entrance" type="mapchange" x="608" y="480" width="64" height="32">
+  <object name="up" type="mapchange" x="672" y="32" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven2"/>
-    <property name="place" value="church"/>
-   </properties>
-  </object>
-  <object name="down" type="mapchange" x="672" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_church_basement"/>
-    <property name="place" value="up"/>
+    <property name="map" value="brimhaven_church"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object name="fangwurm" type="spawn" x="256" y="128" width="128" height="64">
-   <properties>
-    <property name="spawngroup" value="fangwurm"/>
-   </properties>
-  </object>
-  <object name="chapelgoer" type="spawn" x="96" y="256" width="640" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="chapelgoer"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
 </map>
