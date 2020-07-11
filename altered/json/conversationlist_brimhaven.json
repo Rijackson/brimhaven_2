@@ -761,41 +761,6 @@
             },
             {
                 "nextPhraseID":"fangwurm_talking"
-            },
-            {
-                "text":"I'm wondering, do you know anything about Lawellyn's death?",
-                "nextPhraseID":"fangwurm_asld_inquiry_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":90
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":200,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":230,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":70,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_dagger",
-                        "value":115,
-                        "negate":true
-                    }
-                ]
             }
         ]
     }
