@@ -90,5 +90,14 @@
         "monsterClass":"humanoid",
         "spawnGroup":"oromir_basement",
         "phraseID":"oromir_basement_10"
+    },
+    {
+        "id":"brv_undertaker",
+        "name":"Zorvan",
+        "iconID":"monsters_rltiles1:83",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"zorvan"
     }
 ]

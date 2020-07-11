@@ -186,22 +186,27 @@
  </tileset>
  <layer name="Ground" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJw7xsHAcIzGeIc4bTDM/BPitMEw83/SCI+aP2r+qPm0NR9UTtDK/B3QcoJW5oPMfspBWwwAnxxuQA==
+   eJw7xsHAcIzGeIc4cZgUtTD1IHxCnDhMitoTSOb/JBKTovYnx6j5Q818UJqjpfknaGw+qXg4mE9qnJGCd4iTHmekYJDZTzloiwFyLWzb
   </data>
  </layer>
  <layer name="Objects" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBh6IFaYtubn0tj8WhqbPwpGwSgYBcQAAFwwAYE=
+   eJxjYKAv8JOFYC4mVPGJstjVcwLV+UPlJkHpWGFMddFo+qWA+nawMDDsBGIfGYS4DCsDgywrgi+J5g4QyEUz3xdodjYQx0AxTOwE0OyTQByDZL4O0GxdINYDYkNpCAaBoywINbVY3B+Lw/8gwInFjcjAGYu8A5IfbVkw5UFAHKhGghUSBregahKxuCMYi/kBSOb74jBfHahGA6oOZr4CHn8igwQizEcGr6BqDIg0HxmAzE/FYwcbPwMDOz+ETaz7kcOckPth5sswEed+VxZUM2OJCB9SQCia+duQ2NjSGjkA2c3HkNiXgewrUEwOwOa+N0hmPQayn0AxsaALKX9jywvkghoZhPm1QFyFxKcXAACreyVa
   </data>
  </layer>
  <layer name="Above" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9OCw8av6o+aPmj5o/av5gAwAmEQu1
+   eJxjYKA9OCw8cszPlqGt+dVkmG8rS7oeUsBKftqaP5jilxyQTIPwF+JDsGnhfmYam48MBqv5OUh5LRfIzsKR92jtfloCAKCeDas=
   </data>
  </layer>
- <layer name="Walkable" width="24" height="16">
+ <layer name="Top" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJzbKMzAsHGIYRCgp/m0AqPmj5o/av6o+YTMpyUGAGJGWlk=
+   eJxjYBhc4LDwqPnUNp8UPYPRfFLAYDSfFD2XaOz+UTAKkAEAiH4KGA==
+  </data>
+ </layer>
+ <layer name="Walkable" width="24" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMzAsHGIYRCgp/m4ALFugsnh0k8sIEU9NjfgM48Y/w4283GpJxYQawepbiFVDyV+JdXPxABam4/NDmzi1LSDEvOJSd/kug+bm+hRxsEwACVoi1k=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -212,6 +217,12 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="zorvan" type="spawn" x="384" y="96" width="352" height="384">
+   <properties>
+    <property name="spawngroup" value="zorvan"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
 </map>
