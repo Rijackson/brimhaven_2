@@ -99,5 +99,14 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"zorvan"
+    },
+    {
+        "id":"hunchback",
+        "name":"Quasi",
+        "iconID":"monsters_ld2:58",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"quasi_0"
     }
 ]

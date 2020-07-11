@@ -1474,5 +1474,61 @@
     {
         "id":"brv2_grave_9_0",
         "message":"Here lies Lawellyn the weak.\nSurvived by Arlish"
+    },
+    {
+        "id":"quasi_0",
+        "message":"Hello. I'm Quasi. I like to dig.",
+        "replies":[
+            {
+                "text":"Dig?",
+                "nextPhraseID":"quasi_1"
+            },
+            {
+                "text":"I think I'll leave now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"quasi_1",
+        "message":"Yes. Holes. To put people in. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"quasi_2"
+            }
+        ]
+    },
+    {
+        "id":"quasi_2",
+        "message":"But Zorvan only lets me put dead people in the holes. ",
+        "replies":[
+            {
+                "text":"You find that surprising?",
+                "nextPhraseID":"quasi_3"
+            },
+            {
+                "text":"Time to leave!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I think he's right! Bye!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"quasi_3",
+        "message":"He says they don't like it. I buried two living people once. They complained, but not for very long. Zorvan was very angry about it, so I will not do it again.",
+        "replies":[
+            {
+                "text":"I didn't need to know that. I'll be leaving now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm outta here!",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
