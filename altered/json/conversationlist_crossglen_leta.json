@@ -76,6 +76,12 @@
                         "requireID":"leta",
                         "value":80,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":25,
+                        "negate":true
                     }
                 ]
             },
