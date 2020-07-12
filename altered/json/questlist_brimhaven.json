@@ -35,7 +35,7 @@
     },
     {
         "id":"brv_dagger",
-        "name":"A strange-looking dagger",
+        "name":"A strange looking dagger",
         "showInLog":1,
         "stages":[
             {
@@ -87,8 +87,12 @@
                 "rewardExperience":300
             },
             {
+                "progress":105,
+                "logText":"Zorvan told me Lawellyn is dead and buried, but could tell me little more other than that his death was suspicious."
+            },
+            {
                 "progress":110,
-                "logText":"I've found a gravestone that told me that Lawellyn was related to Arlish.  Is she still alive?  I should try to find her.",
+                "logText":"I've found a gravestone that told me that Lawellyn was related to Arlish. I should try to find her.",
                 "rewardExperience":100
             },
             {

@@ -1519,7 +1519,7 @@
     },
     {
         "id":"quasi_3",
-        "message":"He says they don't like it. I buried two living people once. They complained, but not for very long. Zorvan was very angry about it, so I will not do it again.",
+        "message":"He says living people don't like it. I suggested burying living people once. Zorvan was very angry about it, so I will not suggest that again.",
         "replies":[
             {
                 "text":"I didn't need to know that. I'll be leaving now.",
@@ -1528,6 +1528,79 @@
             {
                 "text":"I'm outta here!",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"zorvan_0",
+        "message":"You shouldn't be down here. What do you want?",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"zorvan_1_0"
+            },
+            {
+                "text":"Can you tell me anything about what happened to Lawellyn?",
+                "nextPhraseID":"zorvan_2_0"
+            },
+            {
+                "text":"Sorry. I'll leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"zorvan_1_0",
+        "message":"My name is Zorvan. I perform several dutires at the church, but the most important is that I am the undertaker for Brimhaven. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zorvan_1_1"
+            }
+        ]
+    },
+    {
+        "id":"zorvan_1_1",
+        "message":"As such, I prepare dead bodies for burial, make the funeral arrangements, etc. I am also responsible for preparation of the grave. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"zorvan_1_2"
+            }
+        ]
+    },
+    {
+        "id":"zorvan_1_2",
+        "message":"I don't actually dig the grave of course. Quasi, over there, does that. He's not very pretty, but he's strong, and he enjoys digging. Oddly, he seems to enjoy filling the soil back in on top of the casket even more. He's useful, so I prefer not to think about his motives. ",
+        "replies":[
+            {
+                "text":"It sounds like you have a really fun job (sarcasm). Can you tell me anything about what happened to Lawellyn?",
+                "nextPhraseID":"zorvan_2_0"
+            },
+            {
+                "text":"It sounds like you have a really fun job (sarcasm). I'll be leaving now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"zorvan_2_0",
+        "message":"Not really. I buried him some time ago. The circumstances of his death were apparanently suspicious, but I don't know anything more. My job is to put them in the ground, not to worry about how they died.",
+        "replies":[
+            {
+                "text":"What is it you do?",
+                "nextPhraseID":"zorvan_1_0"
+            },
+            {
+                "text":"OK. Thanks. I'll be going now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":105
             }
         ]
     }

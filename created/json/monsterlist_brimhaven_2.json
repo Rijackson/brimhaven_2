@@ -98,7 +98,8 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"zorvan"
+        "spawnGroup":"zorvan",
+        "phraseID":"zorvan_0"
     },
     {
         "id":"hunchback",
