@@ -87,7 +87,7 @@
     },
     {
         "id":"edrin_7_1a",
-        "message":"Yes, it is done. Here is the repaired dagger.  It's nice to see Lawellyn's dagger brought back to it's original glory.",
+        "message":"Yes, it is done. Here is the repaired dagger.  It's nice to see Lawellyn's dagger brought back to it's original glory. There is some mystery about his death. I don't know anything about it though. Maybe someone else in town can tell you more.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -103,7 +103,7 @@
     },
     {
         "id":"edrin_7_1b",
-        "message":"Yes, it is done. Here is the repaired dagger.  It's nice to see Lawellyn's dagger brought back to it's original glory.",
+        "message":"Yes, it is done. Here is the repaired dagger.  It's nice to see Lawellyn's dagger brought back to it's original glory. There is some mystery about his death. I don't know anything about it though. Maybe someone else in town can tell you more.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -761,6 +761,77 @@
             },
             {
                 "nextPhraseID":"fangwurm_talking"
+            }
+        ]
+    },
+    {
+        "id":"edrin_2_1",
+        "message":"I recognize this. I made it, many years ago, for a man called Lawellyn. Alas, I hear he is now dead. See this recess in the pommel? There used to be an unusual gem in that. It gave the dagger some special properties. If you can find the gem, I can repair it for you.",
+        "replies":[
+            {
+                "text":"I think I know where to find that. I'll go and get it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK. Thanks for the information. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Let's talk about something else.",
+                "nextPhraseID":"edrin_0_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"edrin_3_1",
+        "message":"I recognize this. It was used in something I made, many years ago. It was set into the pommel of a dagger I made for a man called Lawellyn. Alas, I hear he is now dead. It gave the dagger some special properties. If you can find the dagger, I can repair it for you.",
+        "replies":[
+            {
+                "text":"I think I know where to find that. I'll be right back.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe if I find the time I'll look for it. Let's talk about something else.",
+                "nextPhraseID":"edrin_0_0"
+            },
+            {
+                "text":"OK. Thanks for the information.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"edrin_4_1",
+        "message":"I recognize these. I made the dagger, many years ago, for a man called Lawellyn. Alas, I hear he is now dead. See this recess in the pommel? The gem you have fits in that. It gave the dagger some special properties. If you wish, I can repair it for you.",
+        "replies":[
+            {
+                "text":"How much will that cost?",
+                "nextPhraseID":"edrin_4_2"
+            },
+            {
+                "text":"I'll think about it.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_dagger",
+                "value":25
             }
         ]
     }
