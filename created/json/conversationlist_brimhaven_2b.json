@@ -94,15 +94,15 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I have seen a great wolfhound down there a short while ago. But you are missing a little doggie.",
-                "nextPhraseID":"hettar_10",
+                "text":"I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"hettar_dog_nd",
                         "value":1
                     }
-                ]
+                ],
+                "nextPhraseID":"hettar_10"
             }
         ],
         "rewards":[
@@ -132,15 +132,15 @@
                 "nextPhraseID":"hettar_20"
             },
             {
-                "text":"The wolfhound down there had brown fur with white patch on the breast. He was enjoying himself gnawing some huge bones.",
-                "nextPhraseID":"hettar_10_4",
+                "text":"The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge bones.",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"hettar_dog_nd",
                         "value":1
                     }
-                ]
+                ],
+                "nextPhraseID":"hettar_10_4"
             }
         ]
     },
@@ -273,11 +273,11 @@
     },
     {
         "id":"hettar_20_20",
-        "message":"I gave you the last one of my bones for Norry. Did you lost it?"
+		"message":"I gave you my last piece of Wyrm meat for Norry. Did you lost it?"
     },
     {
         "id":"hettar_20_30",
-        "message":"Good that you have mentioned it. I'll give you one of the bones that I have as food for Norry. He loves them.",
+		"message":"Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -331,7 +331,7 @@
     },
     {
         "id":"hettar_50",
-        "message":"You know what? Norry has come back all alone! You have made all the way down unnecessarily.",
+		"message":"Haha! You know what? Norry has come back all alone! You have made all the way down unnecessarily.",
         "replies":[
             {
                 "text":"Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.",
@@ -468,8 +468,7 @@
         "message":"Growl!",
         "replies":[
             {
-                "text":"Hey Norry, look here! I have a much more delicious bone for you from Hettar.",
-                "nextPhraseID":"hettar_dog_10",
+                "text":"Hey Norry, look here! I have some much better food for you from Hettar.",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -481,11 +480,11 @@
                         "requireID":"hettar_dog_nd",
                         "value":2
                     }
-                ]
+                ],
+                "nextPhraseID":"hettar_dog_10"
             },
             {
-                "text":"Hey Norry, look here! I have a bone for you from Hettar.",
-                "nextPhraseID":"hettar_dog_50",
+                "text":"Hey Norry, look here! I have a Wyrm steak for you from Hettar.",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -498,7 +497,8 @@
                         "value":2,
                         "negate":true
                     }
-                ]
+                ],
+                "nextPhraseID":"hettar_dog_50"
             },
             {
                 "text":"Now run to Hettar! He is waiting for you.",
@@ -526,8 +526,8 @@
     },
     {
         "id":"hettar_dog_10",
-        "message":"The wolfhound fetches the bone from your hand. Seconds later, the bone has disappeared.",
-        "switchToNPC":"none",
+		"switchToNPC":"none",
+        "message":"The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.",
         "replies":[
             {
                 "text":"There, there. And now run to Hettar! He is waiting for you.",
@@ -574,7 +574,7 @@
         "message":"Grrrowl.",
         "replies":[
             {
-                "text":"Ah, I see. These monstrous bones here on the ground are more delicious.",
+                "text":"Ah, I see. These monstrous bones here on the ground are delicious too.",
                 "nextPhraseID":"X"
             }
         ]
