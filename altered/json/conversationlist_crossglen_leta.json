@@ -120,12 +120,6 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"leta",
-                        "value":25,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"leta",
                         "value":45,
                         "negate":true
                     }
@@ -139,18 +133,6 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":45
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"leta",
-                        "value":25,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"leta",
-                        "value":35,
-                        "negate":true
                     }
                 ]
             },
