@@ -107,7 +107,7 @@
         "rewards":[
             {
                 "rewardType":"giveItem",
-                "rewardID":"strange_dagger",
+                "rewardID":"dagger_assassin",
                 "value":1
             },
             {
