@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="6">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -185,7 +185,7 @@
  </tileset>
  <layer id="1" name="Ground" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eAHNlEkKAkEMReOwcOsAbvT+V3AvNF5DVFw7HMB8sOAR0l0iJbj4dCqpev07HaqbmXU/1m5t1kLySU7xfXB+C4lHTuHvPZ/ptjG7Bz18ne1VTjzWavzR1mwcNPE1GYxr/HOPt5UzJbJKzDM1/rOHX1jZk2f0b7kn9mc64JE+yeAZ/VvWIn/u/EWiq3+XlNWUW759HX3PCT2IfL6bsXrAPrDGWPPG+SK/z7v8fep/iE8fMf5n/3Gmonetv/UvdpypjK8Z5Bxme5SL/Rf74vlW0n2i+4O8F9TgHYs=
+   eAHNlM0KwkAMhFPtwata8KLv/wreheJriErP/jyAGXBgCFnXwwoehuwm6dfpNuy4MBt/rP3GrIXgUzn0fXR+C4GnHPIPns9025rdgx6+z3qRA09rNX63M5sFzX2vDF3X+JeCt8GZkLK41mdq/L7AICuLT/GEf6s9tfNhLzyqT+YR1RP+rdYif+n+V4km50NZDbn1+7tP3nN28R2Rz3yMOAM9h1jnHvOm86X8knf4+9b/Jz49ZPGf/ceZaukf7DhTGR8zqHOY9SAXzx/sq+dbCfcJ7g/lvQCVoR1G
   </data>
  </layer>
  <layer id="2" name="Objects" width="24" height="16">
@@ -235,7 +235,7 @@
     <property name="spawngroup" value="chapelgoer"/>
    </properties>
   </object>
-  <object name="guard" type="spawn" x="640" y="192" width="32" height="32">
+  <object id="6" name="guard" type="spawn" x="640" y="192" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brimhaven_church_guard"/>
    </properties>
