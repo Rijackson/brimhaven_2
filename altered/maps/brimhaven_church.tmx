@@ -235,6 +235,11 @@
     <property name="spawngroup" value="chapelgoer"/>
    </properties>
   </object>
+  <object name="guard" type="spawn" x="640" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brimhaven_church_guard"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="7" name="Keys"/>
 </map>

@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="15" height="30">
   <data encoding="base64" compression="zlib">
    eJylld0NgzAMhFHeuv8rKyQgdYA0bEDpCB2kROKk68n5AR5OiODPPtlyCG4Ypl2BNMo7S2MRr8xonFtsKfZsvR6BiRdYaN3lxddLVPPObH6+Rb7CRmG/Im8w7Htu+FLfHLfcYD832FYvre/Px7962Ty75NpspDnje57dJvUtdqU5J4OFksGGY84zxYOFp2TkYi2SayRPNY7nyP1LR54ap/uKHWjVs/LESm+s+WjvUbO0s+hF6Y5Irryz6OkqZ/C8ub6d5TP2XIu7qrN36dW7t9cr/wssprf2JLwv1IB+QO09VA==
@@ -203,7 +200,7 @@
  </layer>
  <layer name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJydk8sNwCAMQ5mitw7OGGxY9cAF2c4LkRClwp+EZD1jLLh23N53WBXqf6XjeIhHgldnqpu4HC+p462W8qv8p+8T6+44XcdVYSu+rk7qiU6tOrpVL95iq/p15lbl3cV1MWQeiF7ykML1W/Lv9g425Z/eWmFPvMox+SG1Jbnv83xZ3Wlv07mg/P/6AGVWwX8=
+   eJydU8kNACEItAr7b8EOffkxc0JiVo1zwMLZa51wvZi+Z1gU6N7pMJ7EY4JH51RXcTHepI5TLeQX+Vf7H8veMF3G5bCOr9VRPdHUqtF1vTjFuvo1c4vybnEtJpmHRE95UMH6Tfln3war8lf/GmF/PMpR+Ulqm+TufCSekpyaeWLrAnBBwZA=
   </data>
  </layer>
  <objectgroup name="Mapevents">
