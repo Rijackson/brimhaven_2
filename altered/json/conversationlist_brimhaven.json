@@ -680,19 +680,9 @@
                 "nextPhraseID":"brv2_grave_9_1",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"dagger_assassin",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"brv2_grave_9_1",
-                "requires":[
-                    {
-                        "requireType":"wear",
-                        "requireID":"dagger_assassin",
-                        "value":1
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":105
                     }
                 ]
             },
