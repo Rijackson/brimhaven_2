@@ -824,5 +824,23 @@
                 "value":25
             }
         ]
+    },
+    {
+        "id":"brimhaven_church_guard",
+        "message":"Stop! You are not allowed to go any further.",
+        "replies":[
+            {
+                "text":"I'm on a mission.",
+                "nextPhraseID":"brimhaven_church_guard_1"
+            },
+            {
+                "text":"OK, I'll leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK. I'll leave [lie].",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

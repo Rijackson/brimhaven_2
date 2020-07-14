@@ -1621,5 +1621,9 @@
     {
         "id":"oromir_basement_help_15",
         "message":"Goodbye."
+    },
+    {
+        "id":"brimhaven_church_guard_1",
+        "message":"Well, in that case I suppose it's OK. You can proceed."
     }
 ]
