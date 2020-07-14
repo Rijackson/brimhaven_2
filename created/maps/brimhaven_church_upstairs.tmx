@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="6">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -183,58 +183,39 @@
  <tileset firstgid="7449" name="map_indoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="24" height="16">
+ <layer id="1" name="Ground" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eAHNlEkKAkEMReOwcOsAbvT+V3AvNF5DVFw7HMB8sOAR0l0iJbj4dCqpev07HaqbmXU/1m5t1kLySU7xfXB+C4lHTuHvPZ/ptjG7Bz18ne1VTjzWavzR1mwcNPE1GYxr/HOPt5UzJbJKzDM1/rOHX1jZk2f0b7kn9mc64JE+yeAZ/VvWIn/u/EWiq3+XlNWUW759HX3PCT2IfL6bsXrAPrDGWPPG+SK/z7v8fep/iE8fMf5n/3Gmonetv/UvdpypjK8Z5Bxme5SL/Rf74vlW0n2i+4O8F9TgHYs=
+   eAE7xsHAcIxEvEOcgYEYDDP3BFA9MRim/jDQPcRgctSD3E2M2SA1ILUgdxOrHqT2KVAfKRgANBVPFQ==
   </data>
  </layer>
- <layer id="2" name="Objects" width="24" height="16">
+ <layer id="2" name="Objects" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYKAPeCjJwKAkDbELxIYBEHsfKwSji4PUgPQgi8P0odMfgeYYQc0HsbNkICpA7HNA80EYxAYBkByMDdIDY0NkMUlDqLlOQPqiMES+CmgGiF0MFEPGJUA+TO4wUB6mB2ZGHFAsHogTgJhSADIfHeQBxfKBuABN7iAaH10fNj7MfEJ6QX5DVsMN5PMDMQ8Q86JhkBhITgCIL0HdhKwXmztmA9XNweL+GGgcIOvBJkbI/NVAs9dgMR/ZXErYoPC5JMXA8BgNXwHyYekJZj6x6rSBZtITEOsuYtWNup+esYfbLgBkRVVc
+   eAFjYBh5YLkwA8MKIB4MAADKagF2
   </data>
  </layer>
- <layer id="3" name="Above" width="24" height="16">
+ <layer id="3" name="Above" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYKA9OCxMPTuwmYUu9loKYl+SNANDMhpOAfJB4ANUDYSHINHNAsmgi8HML4KapcyH0A9jUcN8mFnYaFLNf4Lk399A9n8g/oMkBrPjH1SOAeo3kDiyXvSwAMmDxL5gMctHBiSLCrCJEWM+qimk8ZDddglLWsTmJ9JswK961PzR8MEfAgMnCwBKqibz
+   eAFjYKA9OCxMmh1DXT0pvgUAExYELw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="24" height="16">
+ <layer id="4" name="Top" width="12" height="8">
   <data encoding="base64" compression="zlib">
-   eAHtkFEKwCAMQ73D7n8IbzgdPAgPdWPzcwOXpolpsR6l1P/cvkFpX38n8Mmb4QW5f4W0Hxlw0D76iSOPe5mfWtaZmXV6qEF8necZ9emBM3/XZ/ncNdo/ysie/aNdPOMLz/xZ7fw3Pmfs4uzS86iNnmUdvvJZ28VzNrXRs6zDVz5ruzizdyF7Zd4J58mWEQ==
+   eAFjYCAdHBYmXc+oDuwhAAAXBADX
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="entrance" type="mapchange" x="608" y="480" width="64" height="32">
+ <layer id="5" name="Walkable" width="12" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eAHbKMzAsHGQYQYiAczdRCqH+xOkHqSXECDXfJg+YmgAo18rpQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="down" type="mapchange" x="32" y="160" width="32" height="32">
    <properties>
-    <property name="map" value="brimhaven2"/>
-    <property name="place" value="church"/>
-   </properties>
-  </object>
-  <object id="2" name="down" type="mapchange" x="672" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_church_basement"/>
+    <property name="map" value="brimhaven_church"/>
     <property name="place" value="up"/>
    </properties>
   </object>
-  <object id="3" name="up" type="mapchange" x="32" y="224" width="32" height="32">
-   <properties>
-    <property name="map" value="brimhaven_church_upstairs"/>
-    <property name="place" value="down"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="4" name="fangwurm" type="spawn" x="256" y="128" width="128" height="64">
-   <properties>
-    <property name="spawngroup" value="fangwurm"/>
-   </properties>
-  </object>
-  <object id="5" name="chapelgoer" type="spawn" x="96" y="256" width="640" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="chapelgoer"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
 </map>
