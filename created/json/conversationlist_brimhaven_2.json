@@ -1158,13 +1158,21 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"leta",
-                        "value":105,
-                        "negate":true
+                        "value":45,
+                        "negate":false
                     }
                 ]
             },
             {
-                "text":"N"
+                "text":"Your welcome",
+                "nextPhraseID":"oromir_basement_help_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":105
+                    }
+                ]
             }
         ]
     },
@@ -1603,5 +1611,9 @@
                 "value":105
             }
         ]
+    },
+    {
+        "id":"oromir_basement_help_15",
+        "message":"Goodbye."
     }
 ]
