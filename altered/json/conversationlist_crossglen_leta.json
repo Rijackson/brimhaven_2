@@ -218,6 +218,16 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"leta_oromir_complete2_helped_oromir",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":105
+                    }
+                ]
             }
         ]
     }

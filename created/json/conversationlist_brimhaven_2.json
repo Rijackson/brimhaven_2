@@ -1351,7 +1351,7 @@
     },
     {
         "id":"oromir_behind_inn_10",
-        "message":"Why did you tell Leta where is was?",
+        "message":"Why did you tell Leta where I was?",
         "replies":[
             {
                 "text":"You are needed at home.",
@@ -1625,5 +1625,23 @@
     {
         "id":"brimhaven_church_guard_1",
         "message":"Well, in that case I suppose it's OK. You can proceed."
+    },
+    {
+        "id":"leta_oromir_complete2_helped_oromir",
+        "message":"What about him?",
+        "replies":[
+            {
+                "text":"Nevermind.I have to be on my way.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm wondering, how long are you going to make him stay in the basement for?",
+                "nextPhraseID":"leta_oromir_complete2_helped_oromir_10"
+            }
+        ]
+    },
+    {
+        "id":"leta_oromir_complete2_helped_oromir_10",
+        "message":"This is my house!  I don't have to answer to you.\nNow get out of here!"
     }
 ]
