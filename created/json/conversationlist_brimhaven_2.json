@@ -1595,7 +1595,7 @@
         "message":"I don't actually dig the grave of course. Quasi, over there, does that. He's not very pretty, but he's strong, and he enjoys digging. Oddly, he seems to enjoy filling the soil back in on top of the casket even more. He's useful, so I prefer not to think about his motives. ",
         "replies":[
             {
-                "text":"[ Sarcasm] It sounds like you have a really fun job. Can you tell me anything about what happened to Lawellyn?",
+                "text":"[Sarcasm] It sounds like you have a really fun job. Can you tell me anything about what happened to Lawellyn?",
                 "nextPhraseID":"zorvan_2_0",
                 "requires":[
                     {
@@ -1645,7 +1645,7 @@
         "message":"What about him?",
         "replies":[
             {
-                "text":"Nevermind.I have to be on my way.",
+                "text":"Nevermind. I have to be on my way.",
                 "nextPhraseID":"X"
             },
             {
