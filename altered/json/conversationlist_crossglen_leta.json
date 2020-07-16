@@ -14,12 +14,20 @@
         "message":"I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here.",
         "replies":[
             {
-                "text":"OK.",
+                "text":"[Lie] OK.",
                 "nextPhraseID":"X"
             },
             {
                 "text":"Your secret is safe with me.",
-                "nextPhraseID":"oromir_trees_help_10"
+                "nextPhraseID":"oromir_trees_help_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":100,
+						"negate":true
+                    }
+                ]
             }
         ],
         "rewards":[

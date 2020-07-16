@@ -2,7 +2,7 @@
     {
         "id":"hettar_dog_nd",
         "name":"hettar_dog_nd",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
@@ -29,11 +29,11 @@
             },
             {
                 "progress":30,
-                "logText":"Hettar gives you one of Norry's bones."
+                "logText":"Hettar gives you a piece of Norry's favourite food."
             },
             {
                 "progress":40,
-                "logText":"You offered Hettar's bone to the Norry. He took it eagerly."
+                "logText":"You offered Hettar's peace of Wyrm meat to the Norry, who took it eagerly."
             },
             {
                 "progress":50,
@@ -42,12 +42,14 @@
             {
                 "progress":80,
                 "logText":"Hettar thanked you a thousend times. He would leave to Blackwater Settlement again.",
-                "rewardExperience":2000
+                "rewardExperience":2000,
+                "finishesQuest":1
             },
             {
                 "progress":90,
                 "logText":"You explained to Hettar, that you had killed Norry. Hettar broke down to the floor in agony.",
-                "rewardExperience":200
+                "rewardExperience":200,
+                "finishesQuest":1
             }
         ]
     }
