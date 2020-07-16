@@ -1555,7 +1555,14 @@
             },
             {
                 "text":"Can you tell me anything about what happened to Lawellyn?",
-                "nextPhraseID":"zorvan_2_0"
+                "nextPhraseID":"zorvan_2_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":100
+                    }
+                ]
             },
             {
                 "text":"Sorry. I'll leave.",
@@ -1588,11 +1595,18 @@
         "message":"I don't actually dig the grave of course. Quasi, over there, does that. He's not very pretty, but he's strong, and he enjoys digging. Oddly, he seems to enjoy filling the soil back in on top of the casket even more. He's useful, so I prefer not to think about his motives. ",
         "replies":[
             {
-                "text":"It sounds like you have a really fun job (sarcasm). Can you tell me anything about what happened to Lawellyn?",
-                "nextPhraseID":"zorvan_2_0"
+                "text":"[ Sarcasm] It sounds like you have a really fun job. Can you tell me anything about what happened to Lawellyn?",
+                "nextPhraseID":"zorvan_2_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":100
+                    }
+                ]
             },
             {
-                "text":"It sounds like you have a really fun job (sarcasm). I'll be leaving now.",
+                "text":"[Sarcasm] It sounds like you have a really fun job. I'll be leaving now.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1631,7 +1645,7 @@
         "message":"What about him?",
         "replies":[
             {
-                "text":"Nevermind.  I have to be on my way.",
+                "text":"Nevermind.I have to be on my way.",
                 "nextPhraseID":"X"
             },
             {
