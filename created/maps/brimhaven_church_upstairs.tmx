@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -183,33 +183,33 @@
  <tileset firstgid="7449" name="map_indoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="12" height="8">
+ <layer id="1" name="Ground" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eAE7xsHAcIxEvEOcgYEYDDP3BFA9MRim/jDQPcRgctSD3E2M2SA1ILUgdxOrHqT2KVAfKRgANBVPFQ==
+   eAE7xsHAcIwA3iHOwIANw/SdAMpjwzD5w0DzsWFi5EH2YtMLEgPJgezFJQ+SewpUhw8DAG+WNME=
   </data>
  </layer>
- <layer id="2" name="Objects" width="12" height="8">
+ <layer id="2" name="Objects" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYBh5YLkwA8MKIB4MAADKagF2
+   eAFjYCAeZMgyMDyQxK/+AwF5bLp7hLGJ0kcMADxkAyc=
   </data>
  </layer>
- <layer id="3" name="Above" width="12" height="8">
+ <layer id="3" name="Above" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYKA9OCxMmh1DXT0pvgUAExYELw==
+   eAFjYKAcHBbGb8ZAy+NzHQAHBwQv
   </data>
  </layer>
- <layer id="4" name="Top" width="12" height="8">
+ <layer id="4" name="Top" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYCAdHBYmXc+oDuwhAAAXBADX
+   eAFjYCAMDgsTVjNUVQAAuNUA1w==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="12" height="8" visible="0">
+ <layer id="5" name="Walkable" width="8" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eAHbKMzAsHGQYQYiAczdRCqH+xOkHqSXECDXfJg+YmgAo18rpQ==
+   eAHbKMzAsJHGmAEHgNmLQxruLkrlYfZgowHYRx6h
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="down" type="mapchange" x="32" y="160" width="32" height="32">
+  <object id="1" name="down" type="mapchange" x="32" y="128" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_church"/>
     <property name="place" value="up"/>

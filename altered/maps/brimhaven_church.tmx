@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPeCjJwKAkjWAji+9jhWB0cRAA6UEWxwU+AtUYSSPYWTII9jlWCP4INQckB2OD9HwkYL4h1FwnIH1RGMKukoGwi6VRcYk0Qu6wMEIPzIw4IDseiBOECfuJEDiMxYw8oFg+EBegyR0kwz6Y+YT0gvyGrIYbyOcHYh4g5kXDPFA5ASC+RKT5s4Hyc7CoiZFBxAc+MULmrwbKr6FCfOACoPC5JMXA8BgNX5HCdCux6rSlaedebGDU/ajq6O1+WgEAZEVVXA==
+   eJxjYKAPeCjJwKAkjWAji+9jhWB0cRAA6UEWxwU+AtUYSSPYWTII9jlWCP4INQckB2OD9HwkYL4h1FwnIH1RGMKukoGwi6VRcYk0Qu6wMEIPzAwY6BYm7CdC4DAJZhwkwz6Y+YT0gvyGrIYbyOcHYh4g5kXDPFA5ASC+RKT5NTjkY2QQ8YFPjBj30xKAzL8kxcDwGA1fkcJ0K7HqtGnsZnQw6n5UdfR2P60AAIU2UR8=
   </data>
  </layer>
  <layer name="Above" width="24" height="16">
@@ -199,7 +199,7 @@
    eJxjYKA9OCxMW7PQxV5LQegkaQaGZDScIg2R+yBFuflFULOU+TD1UMN8fIBU858gqf8NZP8H4j9YzPgHlWOQRogh68Vl/hcsZvnIECdGjPmUAGS3XaKB+YTAqPmj5g9WAABKqibz
   </data>
  </layer>
- <layer name="Walkable" width="24" height="16">
+ <layer name="Walkable" width="24" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMzAsHEUE8QggEyTqwcZYBND1oMPEKMPmzvIMR+bGcjmo/sDmxg+OULmE+NGYsTwuZ8WgNg0QowefOpoBdDTz6j7B8b91CzD0M0FAOfJlhE=
   </data>
@@ -211,7 +211,7 @@
     <property name="place" value="church"/>
    </properties>
   </object>
-  <object name="down" type="mapchange" x="672" y="96" width="32" height="32">
+  <object name="down" type="mapchange" x="704" y="96" width="32" height="32">
    <properties>
     <property name="map" value="brimhaven_church_basement"/>
     <property name="place" value="up"/>
