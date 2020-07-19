@@ -190,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYCAeZMgyMDyQxK/+AwF5bLp7hLGJ0kcMADxkAyc=
+   eAFjYCAM7rJC1GTIMjA8kISwU4FsbOADVB6bHLLYEykEr0cYwQaxDKQZGJDlUWUhPELyX5DMx6YfJgYA4wkI3g==
   </data>
  </layer>
  <layer id="3" name="Above" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eAFjYKAcHBbGb8ZAy+NzHQAHBwQv
+   eAFjYKAcHBbGbwY2eVtZhB5s8kp8+OUJ6Ufoxs8CAGNfBRM=
   </data>
  </layer>
  <layer id="4" name="Top" width="8" height="8">
