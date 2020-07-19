@@ -1,0 +1,68 @@
+[
+    {
+        "id":"guynmart_marbles",
+        "name":"Marble hunting",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Little Stuephant was crying because he lost his marbles. You told him you would find them for him."
+            },
+            {
+                "progress":21,
+                "logText":"I found a green marble."
+            },
+            {
+                "progress":22,
+                "logText":"I found a red marble."
+            },
+            {
+                "progress":23,
+                "logText":"I found a pink marble."
+            },
+            {
+                "progress":24,
+                "logText":"I found a golden marble."
+            },
+            {
+                "progress":25,
+                "logText":"I found a pearl white marble."
+            },
+            {
+                "progress":30,
+                "logText":"That was all of them. I should give them to Stuephant now."
+            },
+            {
+                "progress":90,
+                "logText":"Stuephant was happy again.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"guynmart_wise",
+        "name":"Rare delicacies",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"The old man on the hill top yearned for a meal of bread and cheese together with wine."
+            },
+            {
+                "progress":20,
+                "logText":"I brought him bread, cheese and wine. He is very happy."
+            },
+            {
+                "progress":30,
+                "logText":"He would be even happier if the cheese was cheddar from Charwood.\nYou can only get the cheddar there if you explicitly ask for it."
+            },
+            {
+                "progress":90,
+                "logText":"I got bread, cheddar and wine for him. He started feasting happily.",
+                "rewardExperience":2000,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
