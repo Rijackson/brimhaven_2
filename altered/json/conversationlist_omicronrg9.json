@@ -1,0 +1,16 @@
+[
+    {
+        "id":"guild02_hatchlever_2b",
+        "message":"Looking around the room, you see an unusual mechanism. A crowbar with a locked chain that prevents a lever from being moved.",
+        "replies":[
+            {
+                "text":"Try to break the chain.",
+                "nextPhraseID":"guild02_hatchlever_3b"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

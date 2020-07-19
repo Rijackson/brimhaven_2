@@ -1,0 +1,19 @@
+[
+    {
+        "id":"landa_16",
+        "message":"Also, isn't it strange how Buceth has not gotten ill, while all the others in the village have gotten ill?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"landa_17"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"loneford",
+                "value":31
+            }
+        ]
+    }
+]
