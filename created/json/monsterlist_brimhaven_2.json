@@ -109,5 +109,40 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"quasi_0"
+    },
+    {
+        "id":"brv_churchcat",
+        "name":"Cat",
+        "iconID":"monsters_ld2:103",
+        "maxHP":50,
+        "maxAP":30,
+        "moveCost":2,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":5
+        },
+        "spawnGroup":"brv_churchcat",
+        "attackCost":3,
+        "attackChance":80,
+        "blockChance":50
+    },
+    {
+        "id":"brv_churchmouse",
+        "name":"Mouse",
+        "iconID":"monsters_rats:0",
+        "maxHP":5,
+        "maxAP":10,
+        "moveCost":2,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":1,
+            "max":1
+        },
+        "spawnGroup":"brv_churchmouse",
+        "droplistID":"rat",
+        "attackCost":5,
+        "attackChance":50,
+        "blockChance":30
     }
 ]

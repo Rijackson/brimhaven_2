@@ -1657,5 +1657,21 @@
     {
         "id":"leta_oromir_complete2_helped_oromir_10",
         "message":"This is my house!  I don't have to answer to you.\nNow get out of here!"
+    },
+    {
+        "id":"brv_ring_bells",
+        "message":"D  O  N  G !",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_ring_bells",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75"
+                    }
+                ]
+            }
+        ]
     }
 ]
