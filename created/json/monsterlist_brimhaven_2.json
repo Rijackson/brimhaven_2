@@ -111,6 +111,14 @@
         "phraseID":"quasi_0"
     },
     {
+        "id":"brv_churchman",
+        "name":"Seviron",
+        "iconID":"monsters_rltiles2:136",
+        "monsterClass":"humanoid",
+        "spawnGroup":"brv_churchman",
+        "phraseID":"brv_churchman"
+    },
+    {
         "id":"brv_churchcat",
         "name":"Cat",
         "iconID":"monsters_ld2:103",

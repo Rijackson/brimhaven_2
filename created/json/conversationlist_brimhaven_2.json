@@ -1660,18 +1660,63 @@
     },
     {
         "id":"brv_ring_bells",
-        "message":"D  O  N  G !",
         "replies":[
             {
-                "text":"N",
-				"nextPhraseID":"brv_ring_bells",
+				"nextPhraseID":"brv_ring_bells_10",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"75"
                     }
                 ]
+            },
+            {
+				"nextPhraseID":"brv_ring_bells_20"
             }
         ]
+    },
+    {
+        "id":"brv_ring_bells_10",
+        "message":"D  O  N  G !",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"brv_ring_bells"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_20",
+        "replies":[
+            {
+				"nextPhraseID":"brv_ring_bells_22"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brv_churchman",
+                "mapName":"brimhaven_church_upstairs"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_22",
+		"switchToNPC":"brv_churchman",
+        "message":"What do you think you are doing?",
+        "replies":[
+            {
+                "text":"Ups",
+				"nextPhraseID":"brv_ring_bells_30"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_30",
+        "message":"tbc ..."
+    },
+    {
+        "id":"brv_churchman",
+        "message":"I am Seviron."
     }
 ]
