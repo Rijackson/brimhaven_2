@@ -24,5 +24,16 @@
                 "rewardExperience":450
             }
         ]
+    },
+    {
+        "id":"cat_and_mouse",
+        "name":"A cat and mouse game",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I agreed to help Seviron get rid of the mouse that the cat cannot catch."
+            }
+        ]
     }
 ]

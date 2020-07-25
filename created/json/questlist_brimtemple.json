@@ -1,7 +1,7 @@
 [
     {
         "id":"nondisplay_bhvt",
-        "name":"Placeholder for hidden brimhaven temple quest stages (not displayed)",
+        "name":"Brimhaven2_non-display",
         "stages":[
             {
                 "progress":10,
@@ -12,6 +12,10 @@
                 "progress":20,
                 "logText":"Fed temple cat",
                 "rewardExperience":50
+            },
+            {
+                "progress":30,
+                "logText":"Know about Quasi"
             }
         ]
     }

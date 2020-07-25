@@ -1511,6 +1511,13 @@
                 "text":"N",
                 "nextPhraseID":"quasi_2"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_bhvt",
+                "value":30
+            }
         ]
     },
     {
@@ -1609,11 +1616,18 @@
                 "text":"[Sarcasm] It sounds like you have a really fun job. I'll be leaving now.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_bhvt",
+                "value":30
+            }
         ]
     },
     {
         "id":"zorvan_2_0",
-        "message":"Not really. I buried him some time ago. The circumstances of his death were apparanently suspicious, but I don't know anything more. My job is to put them in the ground, not to worry about how they died.",
+        "message":"Not really. I buried him some time ago. The circumstances of his death were apparently suspicious, but I don't know anything more. My job is to put them in the ground, not to worry about how they died.",
         "replies":[
             {
                 "text":"What is it you do?",
@@ -1662,7 +1676,7 @@
         "id":"brv_ring_bells",
         "replies":[
             {
-				"nextPhraseID":"brv_ring_bells_10",
+                "nextPhraseID":"brv_ring_bells_10",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1671,7 +1685,7 @@
                 ]
             },
             {
-				"nextPhraseID":"brv_ring_bells_20"
+                "nextPhraseID":"brv_ring_bells_20"
             }
         ]
     },
@@ -1681,7 +1695,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"brv_ring_bells"
+                "nextPhraseID":"brv_ring_bells"
             }
         ]
     },
@@ -1689,7 +1703,7 @@
         "id":"brv_ring_bells_20",
         "replies":[
             {
-				"nextPhraseID":"brv_ring_bells_22"
+                "nextPhraseID":"brv_ring_bells_22"
             }
         ],
         "rewards":[
@@ -1702,12 +1716,12 @@
     },
     {
         "id":"brv_ring_bells_22",
-		"switchToNPC":"brv_churchman",
         "message":"What do you think you are doing?",
+        "switchToNPC":"brv_churchman",
         "replies":[
             {
                 "text":"Ups",
-				"nextPhraseID":"brv_ring_bells_30"
+                "nextPhraseID":"brv_ring_bells_30"
             }
         ]
     },
@@ -1717,6 +1731,121 @@
     },
     {
         "id":"brv_churchman",
-        "message":"I am Seviron."
+        "message":"Hello. I am Seviron. You are not supposed to be up here.",
+        "replies":[
+            {
+                "text":"What is this room used for?",
+                "nextPhraseID":"brv_churchman_01"
+            },
+            {
+                "text":"I'm looking for my brother, Andor. Have you seen him?",
+                "nextPhraseID":"brv_churchman_01a"
+            },
+            {
+                "text":"Sorry, I'll leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_01",
+        "message":"This is the church bell tower. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_churchman_02"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_01a",
+        "message":"No. Irritating children do not usually come up here. You are an exception.",
+        "replies":[
+            {
+                "text":"Hmm. OK. What is this room?",
+                "nextPhraseID":"brv_churchman_01"
+            },
+            {
+                "text":"Sorry. I'll leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_02",
+        "message":"We use the bells to both notify townsfolk when there is a service, and to warn of danger to the town. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_churchman_03"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_03",
+        "message":"I am the bell-ringer. Unfortunately, I also have to guard the bells from Quasi. He likes to ring them even when there is no reason to do so.",
+        "replies":[
+            {
+                "text":"Who is Quasi?",
+                "nextPhraseID":"brv_churchman_04a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_bhvt",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Quasi is...interesting.",
+                "nextPhraseID":"brv_churchman_04b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_bhvt",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"OK. Thanks. I'm looking for my brother, Andor. Have you seen him?",
+                "nextPhraseID":"brv_churchman_01a"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_04a",
+        "message":"Quasi is the grave digger. He is usually in the basement. Sometimes he is trouble, but mostly he is useful. Anyway, he has nowhere else to go, so he lives in the church.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_churchman_05"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_04b",
+        "message":"Yes, that is one way to put it. \t\nHe is useful, so he lives here in the church. He has nowhere else to go anyway, so we accomodate him.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_churchman_05"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_05",
+        "message":"Is there anything else I can help you with? You are distracting me from watching the cat and the mouse on the other side of the room.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_churchman_06"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_06",
+        "message":"The mice like to chew the bell rope, which is a problem. So we brought in the cat to control them. That particular mouse seems to be very good at evading the cat though. It knows just when to turn, and just where to hide where the cat cannot reach it. If the cat cannot get rid of it, I will have to think of something else."
     }
 ]
