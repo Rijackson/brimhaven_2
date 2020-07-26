@@ -215,6 +215,28 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I need to find a large empty bottle. Do you have one?",
+                "nextPhraseID":"arlish_bottle_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

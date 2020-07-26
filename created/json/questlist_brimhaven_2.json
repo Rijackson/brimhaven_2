@@ -32,7 +32,23 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"I agreed to help Seviron get rid of the mouse that the cat cannot catch."
+                "logText":"I agreed to help Seviron trap the mouse that the cat cannot catch."
+            },
+            {
+                "progress":20,
+                "logText":"I have given Seviron the rocks."
+            },
+            {
+                "progress":30,
+                "logText":"I have given Seviron the cheese."
+            },
+            {
+                "progress":40,
+                "logText":"I obtained a suitable bottle from Arlish."
+            },
+            {
+                "progress":50,
+                "logText":"I have given Seviron the bottle. Seviron will set the trap, but it may take some time to catch the mouse. I should come back later."
             }
         ]
     }

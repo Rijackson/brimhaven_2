@@ -1794,6 +1794,12 @@
                         "requireID":"nondisplay_bhvt",
                         "value":30,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":10,
+                        "negate":true
                     }
                 ]
             },
@@ -1805,6 +1811,12 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay_bhvt",
                         "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":10,
+                        "negate":true
                     }
                 ]
             },
@@ -1846,6 +1858,360 @@
     },
     {
         "id":"brv_churchman_06",
-        "message":"The mice like to chew the bell rope, which is a problem. So we brought in the cat to control them. That particular mouse seems to be very good at evading the cat though. It knows just when to turn, and just where to hide where the cat cannot reach it. If the cat cannot get rid of it, I will have to think of something else."
+        "message":"The mice like to chew the bell rope, which is a problem. So we brought in the cat to control them. That particular mouse seems to be very good at evading the cat though. It knows just when to turn, and just where to hide where the cat cannot reach it. If the cat cannot get rid of it, I will have to think of something else.",
+        "replies":[
+            {
+                "text":"Can I help in some way?",
+                "nextPhraseID":"brv_churchman_07"
+            },
+            {
+                "text":"I need to find my Brother. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Good luck with that! I have more important things to deal with. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_07",
+        "message":"You could help me trap it. I need some cheese, a large empty bottle, and some rocks that we can use to prop up the bottle at an angle. If the mouse crawls in to get the cheese, it will not be able to get out again.",
+        "replies":[
+            {
+                "text":"OK. I'll help.",
+                "nextPhraseID":"brv_churchman_08"
+            },
+            {
+                "text":"Sorry. I don't have time for that. I have to go.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_08",
+        "message":"Thanks. Just bring me the items. I think three rocks should be enough. ",
+        "replies":[
+            {
+                "text":"I have the rocks.",
+                "nextPhraseID":"brv_churchman_09a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I have the cheese.",
+                "nextPhraseID":"brv_churchman_09b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have the rocks and the cheese.",
+                "nextPhraseID":"brv_churchman_09c",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":3
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'll go and get the items you asked for.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_09a",
+        "message":"Thanks. Now we just need the cheese and the bottle.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_09b",
+        "message":"Thanks. Now we just need the rocks and the bottle.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_09c",
+        "message":"Thanks. Now we just need the bottle. You should ask around town. Someone must have one.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_start",
+        "replies":[
+            {
+                "nextPhraseID":"brv_churchman_b1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_churchman_i1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":10,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_churchman_i1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_churchman",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_b1",
+        "message":"Do you have the bottle?",
+        "replies":[
+            {
+                "text":"Yes. Here it is.",
+                "nextPhraseID":"brv_churchman_b2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"large_bottle",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No Not yet. I'm still looking for one.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_i1",
+        "message":"Do you have the items we need for the trap?",
+        "replies":[
+            {
+                "text":"I have the rocks.",
+                "nextPhraseID":"brv_churchman_09a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have the rocks.",
+                "nextPhraseID":"brv_churchman_09c",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"I have the cheese.",
+                "nextPhraseID":"brv_churchman_09b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have the cheese.",
+                "nextPhraseID":"brv_churchman_09c",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"I have the rocks and the cheese.",
+                "nextPhraseID":"brv_churchman_09c",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+                        "value":3
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_churchman_b2",
+        "message":"Excellent. I'll set the trap. This will require some patience though, so you should come back later to see if it worked.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":50
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"mouse_trap"
+            }
+        ]
+    },
+    {
+        "id":"arlish_bottle_1",
+        "message":"Well, that's an usual request. What would need such a thing for?",
+        "replies":[
+            {
+                "text":"Seviron at the church needs it. I'm just helping out.",
+                "nextPhraseID":"arlish_bottle_2"
+            },
+            {
+                "text":"Nevermind. If you don't have one you should just say so. I'll look elsewhere.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arlish_bottle_2",
+        "message":"Well, I do happen to have one. I don't display is as shop inventory because I've never been asked for such a thing before. Since it's for the church, you can have it for free. ",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":40
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"arlish_bottle"
+            }
+        ]
     }
 ]

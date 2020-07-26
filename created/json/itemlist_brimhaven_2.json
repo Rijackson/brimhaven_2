@@ -187,5 +187,11 @@
             "increaseAttackChance":1,
             "increaseBlockChance":2
         }
+    },
+    {
+        "id":"large_bottle",
+        "iconID":"items_consumables:58",
+        "name":"Large empty bottle",
+        "displaytype":"ordinary"
     }
 ]

@@ -116,7 +116,7 @@
         "iconID":"monsters_rltiles2:136",
         "monsterClass":"humanoid",
         "spawnGroup":"brv_churchman",
-        "phraseID":"brv_churchman"
+        "phraseID":"brv_churchman_start"
     },
     {
         "id":"brv_churchcat",
