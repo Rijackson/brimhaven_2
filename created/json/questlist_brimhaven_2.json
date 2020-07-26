@@ -49,6 +49,26 @@
             {
                 "progress":50,
                 "logText":"I have given Seviron the bottle. Seviron will set the trap, but it may take some time to catch the mouse. I should come back later."
+            },
+            {
+                "progress":60,
+                "logText":"The mouse has been caught! Seviron gave it to me in the bottle. He said I can decide what to do with it."
+            },
+            {
+                "progress":70,
+                "logText":"I decided to give the mouse to the cat. The cat would have eventually killed it anyway.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            },
+            {
+                "progress":80,
+                "logText":"I decided to release the mouse outside. Seviron told me to do that outside the town."
+            },
+            {
+                "progress":90,
+                "logText":"I released the mouse.",
+                "rewardExperience":1500,
+                "finishesQuest":1
             }
         ]
     }

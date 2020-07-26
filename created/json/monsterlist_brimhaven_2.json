@@ -142,6 +142,7 @@
         "maxHP":5,
         "maxAP":10,
         "moveCost":2,
+        "unique":1,
         "monsterClass":"animal",
         "attackDamage":{
             "min":1,

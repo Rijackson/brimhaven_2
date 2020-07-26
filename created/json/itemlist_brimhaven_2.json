@@ -192,6 +192,14 @@
         "id":"large_bottle",
         "iconID":"items_consumables:58",
         "name":"Large empty bottle",
-        "displaytype":"ordinary"
+        "displaytype":"ordinary",
+        "category":"other"
+    },
+    {
+        "id":"trapped_mouse",
+        "iconID":"items_consumables:58",
+        "name":"Trapped mouse",
+        "displaytype":"ordinary",
+        "category":"other"
     }
 ]
