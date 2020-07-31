@@ -126,6 +126,7 @@
         "maxAP":30,
         "moveCost":2,
         "monsterClass":"animal",
+        "phraseID":"brv_churchcat",
         "attackDamage":{
             "min":3,
             "max":5
@@ -144,6 +145,7 @@
         "moveCost":2,
         "unique":1,
         "monsterClass":"animal",
+        "phraseID":"brv_churchmouse",
         "attackDamage":{
             "min":1,
             "max":1

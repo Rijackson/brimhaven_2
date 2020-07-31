@@ -163,5 +163,48 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"brv_nondisplay2",
+        "name":"brv_nondisplay2",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"You run around in classroom."
+            },
+            {
+                "progress":20,
+                "logText":"Talked to Golin."
+            },
+            {
+                "progress":21,
+                "logText":"Thieves?"
+            },
+            {
+                "progress":22,
+                "logText":"Dueled Golin with school weapons."
+            },
+            {
+                "progress":30,
+                "logText":"Talked to the statue."
+            },
+            {
+                "progress":40,
+                "logText":"Reward: cake"
+            },
+            {
+                "progress":42,
+                "logText":"Reward: cake got"
+            },
+            {
+                "progress":50,
+                "logText":"Pupils ran out"
+            },
+            {
+                "progress":60,
+                "logText":"60=banned fromtower"
+            }
+        ]
     }
 ]

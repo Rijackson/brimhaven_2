@@ -1673,6 +1673,14 @@
         "message":"This is my house!  I don't have to answer to you.\nNow get out of here!"
     },
     {
+        "id":"brv_churchcat",
+        "message":"Purr."
+    },
+    {
+        "id":"brv_churchmouse",
+        "message":"Peep."
+    },
+    {
         "id":"brv_ring_bells",
         "replies":[
             {
@@ -1703,31 +1711,160 @@
         "id":"brv_ring_bells_20",
         "replies":[
             {
-                "nextPhraseID":"brv_ring_bells_22"
+                "nextPhraseID":"brv_ring_bells_90",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_ring_bells",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_ring_bells_50",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_ring_bells",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_ring_bells_40",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_ring_bells",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_ring_bells_30"
             }
         ],
         "rewards":[
             {
-                "rewardType":"spawnAll",
-                "rewardID":"brv_churchman",
-                "mapName":"brimhaven_church_upstairs"
-            }
-        ]
-    },
-    {
-        "id":"brv_ring_bells_22",
-        "message":"What do you think you are doing?",
-        "switchToNPC":"brv_churchman",
-        "replies":[
-            {
-                "text":"Ups",
-                "nextPhraseID":"brv_ring_bells_30"
+                "rewardType":"alignmentChange",
+                "rewardID":"brv_ring_bells",
+                "value":1
             }
         ]
     },
     {
         "id":"brv_ring_bells_30",
-        "message":"tbc ..."
+        "message":"Dear child, this bell is no toy. Don't ring it, otherwise people might think of danger, like fire or foe.",
+        "replies":[
+            {
+                "text":"Oh, I didn't know. Sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Really? Then it is even more fun!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_40",
+        "message":"What do you think you are doing?",
+        "switchToNPC":"brv_churchman",
+        "replies":[
+            {
+                "text":"Eh - nothing.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_50",
+        "message":"Let the bells in peace now, or I have to get angry!",
+        "switchToNPC":"brv_churchman",
+        "replies":[
+            {
+                "text":"But it's such a nice sound ...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_90",
+        "message":"That did it! Leave this tower immediatly! And don't you ever dare to come back!",
+        "switchToNPC":"brv_churchman",
+        "replies":[
+            {
+                "text":"Oh my.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay2",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_key",
+        "message":"No, you must not enter the tower any more!",
+        "switchToNPC":"brv_churchman"
+    },
+    {
+        "id":"brv_ring_bells_random",
+        "replies":[
+            {
+                "nextPhraseID":"brv_ring_bells_random_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_random_10",
+        "message":"D  O  N  G !",
+        "replies":[
+            {	
+                "text":"N",
+                "nextPhraseID":"brv_ring_bells_random_12"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_random_12",
+        "replies":[
+            {
+                "nextPhraseID":"brv_ring_bells_random_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_ring_bells_random_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_random_20",
+        "message":"Quasi must have found a way to the tower again..."
     },
     {
         "id":"brv_churchman",
