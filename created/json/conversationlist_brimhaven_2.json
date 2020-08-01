@@ -1759,7 +1759,7 @@
     },
     {
         "id":"brv_ring_bells_30",
-        "message":"Dear child, this bell is no toy. Don't ring it, otherwise people might think of danger, like fire or foe.",
+        "message":"Dear child, these bells are no toy. Don't ring them, otherwise people might think of danger, like fire or foe.",
         "replies":[
             {
                 "text":"Oh, I didn't know. Sorry.",
@@ -1784,7 +1784,7 @@
     },
     {
         "id":"brv_ring_bells_50",
-        "message":"Let the bells in peace now, or I have to get angry!",
+        "message":"Leave the bells alone, or I will get angry!",
         "switchToNPC":"brv_churchman",
         "replies":[
             {
@@ -1795,7 +1795,7 @@
     },
     {
         "id":"brv_ring_bells_90",
-        "message":"That did it! Leave this tower immediatly! And don't you ever dare to come back!",
+        "message":"That does it! Leave this tower immediately! And don't you ever dare come back!",
         "switchToNPC":"brv_churchman",
         "replies":[
             {
@@ -1813,7 +1813,7 @@
     },
     {
         "id":"brv_ring_bells_key",
-        "message":"No, you must not enter the tower any more!",
+        "message":"No, you are not permitted to enter the tower anymore!",
         "switchToNPC":"brv_churchman"
     },
     {
@@ -1839,7 +1839,7 @@
         "id":"brv_ring_bells_random_10",
         "message":"D  O  N  G !",
         "replies":[
-            {	
+            {
                 "text":"N",
                 "nextPhraseID":"brv_ring_bells_random_12"
             }
@@ -2494,5 +2494,36 @@
     {
         "id":"Brv_churchman_default2",
         "message":"Sorry, I haven't seen anyone like that."
+    },
+    {
+        "id":"release_mouse0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"release_mouse1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"trapped_mouse",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"release_mouse1",
+        "message":"This looks like a good place to release the mouse. Hopefully it will find something to eat other than bell ropes!",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"arlish_bottle"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"cat_and_mouse",
+                "value":90
+            }
+        ]
     }
 ]
