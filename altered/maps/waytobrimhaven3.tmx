@@ -268,6 +268,11 @@
     <property name="place" value="west2"/>
    </properties>
   </object>
+  <object name="release_mouse0" type="script" x="736" y="704" width="192" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="erumen_2" type="spawn" x="64" y="256" width="288" height="352">
@@ -303,11 +308,6 @@
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="forestdog"/>
-   </properties>
-  </object>
-  <object name="release_mouse0" type="script" x="736" y="672" width="192" height="96">
-   <properties>
-    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>

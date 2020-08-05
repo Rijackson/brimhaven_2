@@ -220,17 +220,17 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object name="release_mouse0" type="script" x="64" y="64" width="352" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="anakis" type="spawn" x="96" y="64" width="64" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="anakis"/>
-   </properties>
-  </object>
-  <object name="release_mouse0" type="script" x="64" y="64" width="352" height="64">
-   <properties>
-    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>
