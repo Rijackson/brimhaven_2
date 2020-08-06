@@ -2399,9 +2399,9 @@
                 "nextPhraseID":"brv_churchman_trap2",
                 "requires":[
                     {
-                        "requireType":"timerElapsed",
-                        "requireID":"mouse_trap",
-                        "value":15
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_bhvt",
+                        "value":40
                     }
                 ]
             },
@@ -2523,6 +2523,32 @@
                 "rewardType":"questProgress",
                 "rewardID":"cat_and_mouse",
                 "value":90
+            }
+        ]
+    },
+    {
+        "id":"brv_church_timer",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_church_timer_1",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mouse_trap",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_church_timer_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_bhvt",
+                "value":40
             }
         ]
     }

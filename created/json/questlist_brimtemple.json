@@ -16,6 +16,10 @@
             {
                 "progress":30,
                 "logText":"Know about Quasi"
+            },
+            {
+                "progress":40,
+                "logText":"mouse timer expired"
             }
         ]
     }
