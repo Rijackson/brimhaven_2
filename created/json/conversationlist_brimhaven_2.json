@@ -1716,7 +1716,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"brv_ring_bells",
-                        "value":5
+                        "value":6
                     },
                     {
                         "requireType":"questProgress",
@@ -1726,12 +1726,32 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_ring_bells_50",
+                "nextPhraseID":"brv_ring_bells_70",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_ring_bells",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_ring_bells_60",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"brv_ring_bells",
                         "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_ring_bells_50",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"brv_ring_bells",
+                        "value":3
                     }
                 ]
             },
@@ -1767,7 +1787,7 @@
             },
             {
                 "text":"Really? Then it is even more fun!",
-                "nextPhraseID":"X"
+                "nextPhraseID":"brv_ring_bells_10"
             }
         ]
     },
@@ -1789,6 +1809,32 @@
         "replies":[
             {
                 "text":"But it's such a nice sound ...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_60",
+        "message":"Leave the bells alone, or I will get really angry!",
+        "switchToNPC":"brv_churchman",
+        "replies":[
+            {
+                "text":"Well, I will try ...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Pleeease, only one more time, or two ...",
+                "nextPhraseID":"brv_ring_bells_10"
+            }
+        ]
+    },
+    {
+        "id":"brv_ring_bells_70",
+        "message":"Leave the bells alone, or I will get REALLY angry!",
+        "switchToNPC":"brv_churchman",
+        "replies":[
+            {
+                "text":"I just cannot resist ...",
                 "nextPhraseID":"X"
             }
         ]
@@ -2439,11 +2485,6 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"trapped_mouse"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"brv_churchmouse",
-                "mapName":"brimhaven_church_upstairs"
             }
         ]
     },
@@ -2549,6 +2590,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay_bhvt",
                 "value":40
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brv_churchmouse",
+                "mapName":"brimhaven_church_upstairs"
             }
         ]
     }
