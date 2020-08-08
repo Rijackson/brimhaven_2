@@ -1870,12 +1870,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"20"
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brv_nondisplay2",
-                        "value":60
+                        "requireID":"2"
                     }
                 ]
             }
@@ -1904,7 +1899,14 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_ring_bells_random_20"
+                "nextPhraseID":"brv_ring_bells_random_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":60
+                    }
+                ]
             }
         ]
     },
