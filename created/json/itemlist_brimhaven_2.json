@@ -197,7 +197,7 @@
     },
     {
         "id":"trapped_mouse",
-        "iconID":"items_consumables:58",
+        "iconID":"items_rijackson_1:15",
         "name":"Trapped mouse",
         "displaytype":"ordinary",
         "category":"other"
