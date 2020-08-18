@@ -41,5 +41,19 @@
                 "logText":"You found a heavy bag of gold."
             }
         ]
+    },
+    {
+        "id":"misc_nondisplay ",
+        "name":"misc_nondisplay ",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Found silver bar at bwm"
+            },
+            {
+                "progress":20,
+                "logText":"Told by Umar to say he sent you at the inn."
+            }
+        ]
     }
 ]

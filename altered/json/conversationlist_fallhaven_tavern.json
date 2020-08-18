@@ -1,0 +1,72 @@
+[
+    {
+        "id":"bela_room_1",
+        "message":"A room will cost you only 10 gold.",
+        "replies":[
+            {
+                "text":"[Buy for 10 gold]",
+                "nextPhraseID":"bela_room_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I really need to rest but I don't have 10 gold. I will wash the dishes. [Wash the dishes]",
+                "nextPhraseID":"bela_room_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Umar sent me.",
+                "nextPhraseID":"bela_room_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"misc_nondisplay ",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"bela"
+            }
+        ]
+    },
+    {
+        "id":"bela_room_2",
+        "message":"OK. Take the last room down at the end of the hall.",
+        "replies":[
+            {
+                "text":"Thank you. There was something else I wanted to talk about.",
+                "nextPhraseID":"bela"
+            },
+            {
+                "text":"Thanks, bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"fallhaventavern",
+                "value":10
+            }
+        ]
+    }
+]

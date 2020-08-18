@@ -12,5 +12,26 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"umar_guild02_27d",
+        "message":"I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you tell them Umar sent you then you will not have to pay for a bed.",
+        "replies":[
+            {
+                "text":"OK. Thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll do that.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"misc_nondisplay ",
+                "value":20
+            }
+        ]
     }
 ]
