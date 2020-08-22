@@ -271,10 +271,10 @@
     <property name="spawngroup" value="forestbeetle"/>
    </properties>
   </object>
-  <object id="10" name="guynmart_dog10" type="spawn" x="192" y="256" width="32" height="32">
+  <object id="10" name="guynmart_dog10" type="spawn" x="160" y="256" width="96" height="64">
    <properties>
     <property name="ignoreAreas" value="true"/>
-    <property name="quantity" value="1"/>
+    <property name="quantity" value="6"/>
     <property name="spawngroup" value="guynmart_dog10"/>
    </properties>
   </object>
