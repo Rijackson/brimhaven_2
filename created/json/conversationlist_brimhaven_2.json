@@ -1699,6 +1699,7 @@
     },
     {
         "id":"brv_ring_bells_10",
+        "switchToNPC":"none",
         "message":"D  O  N  G !",
         "replies":[
             {
@@ -1780,6 +1781,7 @@
     {
         "id":"brv_ring_bells_30",
         "message":"Dear child, these bells are no toy. Don't ring them, otherwise people might think of danger, like fire or foe.",
+        "switchToNPC":"brv_churchman",
         "replies":[
             {
                 "text":"Oh, I didn't know. Sorry.",
@@ -1879,6 +1881,7 @@
     {
         "id":"brv_ring_bells_random_10",
         "message":"D  O  N  G !",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",

@@ -1,0 +1,51 @@
+[
+    {
+        "id":"minarra_look_1",
+        "message":"You return. Did you find those men that we talked about?",
+        "replies":[
+            {
+                "text":"I am still looking for them.",
+                "nextPhraseID":"minarra_look_2"
+            },
+            {
+                "text":"Yes, I killed them and recovered the three pieces of the painting.",
+                "nextPhraseID":"minarra_look_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"rogorn",
+                        "value":40
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rogorn_qitem",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I travelled west and found a travelling group of men, but they did not match the men you described.",
+                "nextPhraseID":"minarra_look_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"rogorn",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"I'd rather talk about the troubles in Loneford that you had mentioned.",
+                "nextPhraseID":"cr_loneford_st_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"loneford",
+                        "value":21,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

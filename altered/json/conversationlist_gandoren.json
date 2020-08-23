@@ -1,0 +1,54 @@
+[
+    {
+        "id":"gandoren_deliver_1",
+        "message":"You return. Good news about the shipment I hope?",
+        "replies":[
+            {
+                "text":"You guards seem to have a lot of equipment here, anything to trade?",
+                "nextPhraseID":"gandoren_tr_2"
+            },
+            {
+                "text":"I am still working on transporting that shipment.",
+                "nextPhraseID":"gandoren_22"
+            },
+            {
+                "text":"What was I supposed to do again?",
+                "nextPhraseID":"gandoren_21"
+            },
+            {
+                "text":"Yes. I have delivered them as you ordered.",
+                "nextPhraseID":"gandoren_deliver_y_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Yes. I have delivered them.",
+                "nextPhraseID":"gandoren_deliver_n_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"I'd rather talk about the troubles in Loneford that you had mentioned.",
+                "nextPhraseID":"cr_loneford_st_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"loneford",
+                        "value":21,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
