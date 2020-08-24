@@ -1608,6 +1608,17 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"[Sarcasm] It sounds like you have a really fun job. Can you tell me anything about what happened to Lawellyn?",
+                "nextPhraseID":"zorvan_2_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
                         "value":100
                     }
                 ]
