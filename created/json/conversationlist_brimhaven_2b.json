@@ -172,7 +172,7 @@
                 ]
             },
             {
-                "text":"Eh, yes. I better go now.",
+                "text":"Eh, I have to leave.",
                 "nextPhraseID":"X"
             }
         ]
@@ -216,7 +216,7 @@
                 ]
             },
             {
-                "text":"Eh, yes. I better go now.",
+                "text":"Eh, I have to leave.",
                 "nextPhraseID":"X"
             }
         ]

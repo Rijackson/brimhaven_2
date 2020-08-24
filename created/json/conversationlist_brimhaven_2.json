@@ -1674,7 +1674,24 @@
     },
     {
         "id":"brv_churchcat",
-        "message":"Purr."
+        "message":"Purr.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_churchcat_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"cat_and_mouse",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brv_churchcat_1",
+        "message":"Purrrrrrrrr."
     },
     {
         "id":"brv_churchmouse",
@@ -1872,7 +1889,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"2"
+                        "requireID":"5"
                     }
                 ]
             }
@@ -1910,6 +1927,9 @@
                         "value":60
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2088,6 +2108,12 @@
                         "requireType":"inventoryRemove",
                         "requireID":"rock",
                         "value":3
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cheese",
+                        "value":1,
+						"negate":true
                     }
                 ]
             },
@@ -2099,6 +2125,12 @@
                         "requireType":"inventoryRemove",
                         "requireID":"cheese",
                         "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"rock",
+                        "value":3,
+						"negate":true
                     }
                 ]
             },
@@ -2275,6 +2307,16 @@
                 ]
             },
             {
+                "nextPhraseID":"brv_churchman_banned",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay2",
+                        "value":60
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_churchman",
                 "requires":[
                     {
@@ -2306,7 +2348,7 @@
                 ]
             },
             {
-                "text":"No Not yet. I'm still looking for one.",
+                "text":"No, not yet. I'm still looking for one.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2329,6 +2371,12 @@
                         "requireID":"cat_and_mouse",
                         "value":30,
                         "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cheese",
+                        "value":1,
+						"negate":true
                     }
                 ]
             },
@@ -2362,6 +2410,12 @@
                         "requireID":"cat_and_mouse",
                         "value":20,
                         "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"rock",
+                        "value":3,
+						"negate":true
                     }
                 ]
             },
@@ -2396,6 +2450,10 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -2430,7 +2488,7 @@
     },
     {
         "id":"arlish_bottle_2",
-        "message":"Well, I do happen to have one. I don't display is as shop inventory because I've never been asked for such a thing before. Since it's for the church, you can have it for free. ",
+        "message":"Well, I do happen to have one. I don't display it as shop inventory because I've never been asked for such a thing before. Since it's for the church, you can have it for free.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2495,7 +2553,7 @@
     },
     {
         "id":"brv_churchman_trap3",
-        "message":"Sorry, the mouse is still running around. We will get him though. Be patient."
+        "message":"Sorry, the mouse is still running around. We will get it though. Be patient."
     },
     {
         "id":"brv_churchman_trap3a",
@@ -2542,6 +2600,10 @@
         "message":"Sorry, I haven't seen anyone like that."
     },
     {
+        "id":"brv_churchman_banned",
+        "message":"Go away, naughty kid!"
+    },
+    {
         "id":"release_mouse0",
         "replies":[
             {
@@ -2559,7 +2621,14 @@
     },
     {
         "id":"release_mouse1",
-        "message":"This looks like a good place to release the mouse. Hopefully it will find something to eat other than bell ropes!",
+		"switchToNPC":"none",
+        "message":"This looks like a good place to release the mouse.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"release_mouse2"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"dropList",
@@ -2571,6 +2640,10 @@
                 "value":90
             }
         ]
+    },
+    {
+        "id":"release_mouse2",
+        "message":"Hopefully it will find something to eat other than bell ropes!"
     },
     {
         "id":"brv_church_timer",
