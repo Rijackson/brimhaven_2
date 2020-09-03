@@ -190,12 +190,12 @@
  </layer>
  <layer name="Objects" width="23" height="19">
   <data encoding="base64" compression="zlib">
-   eJyVVEtqAkEQbSK4SFbOSAbHhRfwRp5BPUhygSTkAAouVHQnKIIHUDcBN35yA1fJJl2ki3lT/ZmZgqJtq+q9qtfFKFXNXuOKBcbWD8U5HyLnFCn1UqLOZxNd+9Ww/98YzIM5vws4ZPxq7m9ai3fQ41i3MZm/E+frKb6P/JwjnT+OM65b3e5j//x/St1CRngTyD9BD4dWPhdjyPHp4ONcxr4EZisyFz7zdwVur6bUIOBVtJGY00TPEfAyxppKzGuSvf+y5a7FWUNzIibZj8b7NZg7wEaenqPe5YSJdY+pUk9pvk+K72DOKfQiZ6P7Qs+1jOz+Uo3bFtgYZ1zmGMDp82HN1vUGuh6jrG/mIM4QZlke1hjnIHzWu2i/2GeBGbdJXhuf9UV/1C/vydnD2RdviW9Bu0v3u9Gvab5vvO+uPaHYHHqk3vEtEJ/f5Q5x/o17soLvO2P/AY0ajkU=
+   eJyNVEtOw0AMHRGpi7KiqRo1LLgAN8oZWtZwAz43QByhQgXRHRIIqQdou6mUTUl7g65gw1iMlRfPxBNLo0li+9nv2Yoxte0GJmoPaTwmZB8n4e8bqPkoYkrru2/J62Izm7s9879/Osy1uw+RGuQ/QJ+Vi7+2WtyAHpuej8n1L9JmPvlXit63Nv4urWvte36fq9H/LXXTjPBmEF9CD+txM7YUs3l2HJ4C9TiWsb8VbvvInoXwmeOlyC0SY6bKkdpUHXacMeeZ5aEczVgr1lRiVlk9/8U4jIFcNZ6ISfZj8X4d5hKwsU4RyA8dwsS8fm7Mad7sk/xL4DmHXiQ3en+zvBYDv7/c4p4LbPQzLteYwt12rhJfV9w//v8USV2DamqYXeuwxsiD8Fnv2H7xeVE4fmVNbdpsIvqjfnlPdi01J2KWOAvaXXo/Ov2GYt9De0K+V+iResdZID7P5Qh+fsY9eYf/O2P/AYtNlAQ=
   </data>
  </layer>
  <layer name="Above" width="23" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCzJQDVwWIx8+YviDAyXoPiyOKrcZTGI3o1Y9MPMBNF7cPjlIdC8R1D8WByhB2buJRzugqkDyZ+RxG0+Lj34/Itu5xkizEbWM5eJsHpi3EsuIMa9lILHVLKDGmmcmvlksIKh4scrQoiyYpskgo2Mt5HoF5j6aGbK3IbNXlLMJNbd2MpCdL2khgEyyMXiZmTzsMnDwGUC9QAlgFAdAwCecDN/
+   eJxjYGBguCzJQDVwWIx8+YviDAyXoPiyOKrcZTHcemHiIHoPml8yhRkYsoD4IdC8R1D8WByhB2buJQJmg+TPSGKaT0gPPv+i23mGCLOR9cxlIqyeGPeSC4hxL6XgMZXsoEYap2Y+GaxgqPjxihCirNgmiWAj420k+gWmPpqZMrdhs5cUM0l1Nz69lJiVi8XNyOZhk4eBywTqAUoAoToGAMcyMuo=
   </data>
  </layer>
  <layer name="Walkable" width="23" height="19" visible="0">
@@ -203,7 +203,7 @@
    eJytk8sNACAIQ53C/VdgQ714IaW0KokXlUf5xRwj9jkWsz+VIU5+ZywWz9WY/V7ZCkthZ39UP4WF/ivG/jo1RnqqO0VTpU+p2a85QEyWm5Ir09/tktsP1Zh/x6ri3cxijtfV3N0/pU7dzjl5/OyRE/dWn8t25lHt5Qu/0rgAv0WjPw==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object id="5" name="south1" type="mapchange" x="32" y="576" width="224" height="32">
    <properties>
     <property name="map" value="blackwater_mountain32"/>
@@ -223,20 +223,8 @@
    </properties>
   </object>
   <object id="14" name="hettar_bones" type="script" x="672" y="96" width="32" height="32"/>
-  <object id="19" name="test1" type="mapchange" x="672" y="32" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain55"/>
-    <property name="place" value="test2"/>
-   </properties>
-  </object>
-  <object id="20" name="test2" type="mapchange" x="704" y="480" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain55"/>
-    <property name="place" value="test1"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object id="7" name="wyrm_2" type="spawn" x="32" y="448" width="512" height="96">
    <properties>
     <property name="spawngroup" value="wyrm_2"/>

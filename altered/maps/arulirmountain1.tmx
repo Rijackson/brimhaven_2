@@ -180,9 +180,6 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7449" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJyVVktSwlAQhMcKFy7ZudAb6B3kam48QsobQLA4QAgrtwGOkIP4pmTKTtPzEqzqKpPMm+758ro0m20DHADq++fiD3XG7orvjCbwE/GgXZtxAjSkw/18LYYwHR3Yo58N8aA+tztn9ICOdJzIt8frvjrhB7W7jWmpwU7loU9ayxlsMFb2g9r9nfOO1UBp4Xfon3Pb05mmwDulJ5Sex9Utr9JoNhW9Ny0fQvcYnlY6XgW0qYL/EW3BV0XnmhF77zezORd8qe/IwfPWBfY8a5FNpCnqK5+3LfFXSc8s519pwpje58NnnjfeYWMza9gJTTXFZLy8VzBW5p4yszsRX0s6jNef7U/FijtljNPrwPFZ/D/LfxgvPiN8RrH2B/Cv5sp7qKaa7ZfTeQ2Y4z4N93tUV5+bkl/j9TmrhC3m2PuuS8Me8LNee++9iFPVpw64+XcBewB7J/JhiPZYKT9qTnnmSzku9aL3xL1aeU7Zx5T9an3HvbcR9hFa6t1jfl4/DH3wLlOcrFftmNKcXq683oO47/oCZ/T7H4HPm0/jxbtRxMW8rtXyuJ7fD+fxvVLiwxyb1uM1j5WAz7A6vwccRR3U7sC9dAnmiFHivdB3vqe6fp/Ne+5KamdE9VT3yOeMl6Tvz2oO8fuU+vE+co7XjLd0u5N45rmfeWdHdY9i53uG++CZ5x6L7ijIEdXCd76q6y+HGpWd
