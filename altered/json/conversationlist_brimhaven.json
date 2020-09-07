@@ -874,5 +874,15 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"brv_shop_owner_2",
+        "message":"Are you looking for something in particular?",
+        "replies":[
+            {
+                "text":"[You point to a very expensive looking necklace] How much is this?",
+                "nextPhraseID":"brv_shop_owner_3"
+            }
+        ]
     }
 ]
