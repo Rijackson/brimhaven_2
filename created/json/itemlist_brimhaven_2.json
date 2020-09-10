@@ -201,5 +201,21 @@
         "name":"Trapped mouse",
         "displaytype":"ordinary",
         "category":"other"
+    },
+    {
+        "id":"spear_rusty",
+        "iconID":"items_weapons_3:54",
+        "name":"Rusty iron spear",
+        "displaytype":"ordinary",
+        "category":"pole",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseAttackCost":6,
+            "increaseBlockChance":4,
+            "setNonWeaponDamageModifier":130
+        }
     }
 ]
