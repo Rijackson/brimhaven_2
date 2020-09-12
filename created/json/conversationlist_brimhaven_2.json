@@ -6,12 +6,6 @@
     {
         "id":"brv2_grave_9_1",
         "message":"Here lies Lawellyn the weak.\nSurvived by Arlish",
-        "replies":[
-            {
-                "text":"Hmm, interesting.",
-                "nextPhraseID":"X"
-            }
-        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -89,11 +83,10 @@
     },
     {
         "id":"arlish_asd_20",
-		"switchToNPC":"none",
-        "message":"Arlish takes the dagger and examines it while you continue to talk.",
+        "message":"[Arlish takes the dagger and examines it while you continue to talk]",
         "replies":[
             {
-                "text":"I was able to acquire the dagger and its gem. Then Edrin repaired it for me.",
+                "text":"I was able to acquire the dagger and it's gem. Then Edrin repaired it for me.",
                 "nextPhraseID":"arlish_asd_30"
             }
         ],
@@ -107,7 +100,6 @@
     },
     {
         "id":"arlish_asd_30",
-		"switchToNPC":"arlish",
         "message":"This can't be it. It looks like my father's dagger, but his dagger has been missing for a couple of years now. I believe this is stolen property!",
         "replies":[
             {
@@ -122,7 +114,7 @@
     },
     {
         "id":"arlish_asd_40",
-        "message":"You see, this was my father Lawellyn's most prized possession. He kept it with him always.",
+        "message":"You see, this was my father Lawellyn's most prized possesion. He kept it with him always.",
         "replies":[
             {
                 "text":"Please go on.",
@@ -793,7 +785,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"new_snake_master",
-                "value":25
+                "value":10
             },
             {
                 "rewardType":"spawnAll",
@@ -818,7 +810,7 @@
     },
     {
         "id":"ewmondold_snake_master_10",
-        "message":"My new powers have enhanced my appearance, don't you agree? ",
+        "message":"My new powers have enhanced my appearnce, don't you agree? ",
         "replies":[
             {
                 "text":"You are too dangerous to be kept alive.",
@@ -1196,7 +1188,19 @@
         "replies":[
             {
                 "text":"I'm sorry to hear that.",
-                "nextPhraseID":"oromir_basement_help_30"
+                "nextPhraseID":"oromir_basement_help_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":105,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm sorry to hear that.",
+                "nextPhraseID":"X"
             }
         ]
     },

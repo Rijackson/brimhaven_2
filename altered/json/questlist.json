@@ -57,15 +57,15 @@
                 "logText":"I have found Oromir in the basement of his house, hiding from his wife Leta, I should tell Leta of his whereabouts."
             },
             {
-                "progress":105,
-                "logText":"Even after all my help, Oromir was still brought back home to Leta.",
-                "rewardExperience":50,
-                "finishesQuest":1
-            },
-            {
                 "progress":100,
                 "logText":"I have told Leta that Oromir is hiding in their basement.",
                 "rewardExperience":80,
+                "finishesQuest":1
+            },
+            {
+                "progress":105,
+                "logText":"Even after all my help, Oromir was still brought back home to Leta.",
+                "rewardExperience":50,
                 "finishesQuest":1
             }
         ]
