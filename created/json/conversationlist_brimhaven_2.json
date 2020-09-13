@@ -985,6 +985,23 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"inspiring_snake_master_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":20
+                    },
+					{
+                        "requireType":"questProgress",
+                        "requireID":"new_snake_master",
+                        "value":25,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"inspiring_snake_master_25",
                 "requires":[
                     {
@@ -2524,7 +2541,7 @@
     },
     {
         "id":"arlish_bottle_1",
-        "message":"Well, that's an usual request. What would need such a thing for?",
+        "message":"Well, that's an unusual request. What would you need such a thing for?",
         "replies":[
             {
                 "text":"Seviron at the church needs it. I'm just helping out.",
