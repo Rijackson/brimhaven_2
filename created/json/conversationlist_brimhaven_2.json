@@ -89,8 +89,8 @@
     },
     {
         "id":"arlish_asd_20",
-		"switchToNPC":"none",
         "message":"Arlish takes the dagger and examines it while you continue to talk.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I was able to acquire the dagger and its gem. Then Edrin repaired it for me.",
@@ -107,8 +107,8 @@
     },
     {
         "id":"arlish_asd_30",
-		"switchToNPC":"arlish",
         "message":"This can't be it. It looks like my father's dagger, but his dagger has been missing for a couple of years now. I believe this is stolen property!",
+        "switchToNPC":"arlish",
         "replies":[
             {
                 "text":"Tell me more.",
@@ -156,7 +156,7 @@
                         "requireType":"questProgress",
                         "requireID":"brv_dagger",
                         "value":130,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -992,11 +992,11 @@
                         "requireID":"new_snake_master",
                         "value":20
                     },
-					{
+                    {
                         "requireType":"questProgress",
                         "requireID":"new_snake_master",
                         "value":25,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2740,6 +2740,277 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"brv_churchmouse",
                 "mapName":"brimhaven_church_upstairs"
+            }
+        ]
+    },
+    {
+        "id":"graveyardday2a",
+        "message":"The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to their graves.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_0",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_5",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_6",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_7",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_8",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_9",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_0",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_5",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2",
+                "mapName":"graveyard0"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_entrance",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_boss_patrol",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":240
+            }
+        ]
+    },
+    {
+        "id":"boss_killed",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"boss_killed1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"graveyardking",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"boss_killed1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":240
+            }
+        ]
+    },
+    {
+        "id":"despawn_fix0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"despawn_fix1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"graveyardking",
+                        "value":1,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":240,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"despawn_fix1",
+        "message":"The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to their graves."
+		"rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_0",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_5",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_6",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_7",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_8",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_9",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_0",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_5",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2",
+                "mapName":"graveyard0"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_entrance",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_boss_patrol",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":240
             }
         ]
     }
