@@ -153,5 +153,44 @@
                 "value":240
             }
         ]
+    },
+    {
+        "id":"cithurn_64",
+        "message":"What's a kid like you doing around here? It's a dangerous place to be.",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me.",
+                "nextPhraseID":"cithurn_65"
+            },
+            {
+                "text":"Dangerous? Perhaps I can help?",
+                "nextPhraseID":"cithurn_66",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Dangerous? Perhaps I can help?",
+                "nextPhraseID":"cithurn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

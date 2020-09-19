@@ -405,7 +405,7 @@
     },
     {
         "id":"brv_laundry_boss_40",
-        "message":"Oh, absolutly I'm sure.",
+        "message":"Oh, absolutely. I'm sure.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1203,7 +1203,7 @@
                 ]
             },
             {
-                "text":"Your welcome",
+                "text":"You're welcome.",
                 "nextPhraseID":"oromir_basement_help_15",
                 "requires":[
                     {
@@ -1255,7 +1255,7 @@
     },
     {
         "id":"falothen1_7_pa",
-        "message":"Polearms are a spike or a blade, or both, on the end of a long pole. Weilding one with one hand is not practical, but they make up for that with their defensive capabilities. ",
+        "message":"Polearms are a spike or a blade, or both, on the end of a long pole. Wielding one with one hand is not practical, but they make up for that with their defensive capabilities. ",
         "replies":[
             {
                 "text":"N",
@@ -1318,7 +1318,7 @@
     },
     {
         "id":"falothen1_2nd_pa0",
-        "message":"Polearms are a spike or a blade, or both, on the end of a long pole. Weilding one with one hand is not practical, but they make up for that with their defensive capabilities. ",
+        "message":"Polearms are a spike or a blade, or both, on the end of a long pole. Wielding one with one hand is not practical, but they make up for that with their defensive capabilities. ",
         "replies":[
             {
                 "text":"N",
@@ -2113,7 +2113,7 @@
     },
     {
         "id":"brv_churchman_04b",
-        "message":"Yes, that is one way to put it. \t\nHe is useful, so he lives here in the church. He has nowhere else to go anyway, so we accomodate him.",
+        "message":"Yes, that is one way to put it. \t\nHe is useful, so he lives here in the church. He has nowhere else to go anyway, so we accommodate him.",
         "replies":[
             {
                 "text":"N",
@@ -2140,7 +2140,7 @@
                 "nextPhraseID":"brv_churchman_07"
             },
             {
-                "text":"I need to find my Brother. Bye.",
+                "text":"I need to find my brother. Bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -2905,8 +2905,8 @@
     },
     {
         "id":"despawn_fix1",
-        "message":"The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to their graves."
-		"rewards":[
+        "message":"The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to their graves.",
+        "rewards":[
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"graveyard_corpse_0",
