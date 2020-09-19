@@ -10,7 +10,11 @@
             },
             {
                 "progress":5,
-                "logText":"Ewmondold has asked me to venture into the Snake Cave to retrieve his map."
+                "logText":"A traveler named Ewmondold had asked me to venture into the Snake Cave to retrieve his map."
+            },
+            {
+                "progress":10,
+                "logText":"Ewmondold had thanked me for killing the Snake master, and that his way to rule would be free. I should better find him."
             },
             {
                 "progress":30,
