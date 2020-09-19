@@ -249,17 +249,17 @@
             },
             {
                 "progress":60,
-                "logText":"Edrin wants 800gp to repair the dagger. I told him I will think about it."
+                "logText":"Edrin wants 800 gold to repair the dagger. I told him I will think about it."
             },
             {
                 "progress":70,
-                "logText":"Edrin wants 800gp to repair the dagger. I told him that was too expensive. I will keep the strange-looking dagger and the strange-looking gem.",
+                "logText":"Edrin wants 800 gold to repair the dagger. I told him that was too expensive. I will keep the strange-looking dagger and the strange-looking gem.",
                 "rewardExperience":500,
                 "finishesQuest":1
             },
             {
                 "progress":80,
-                "logText":"Edrin wants 800gp to repair the dagger. I agreed. Edrin took the dagger and the gem and told me to come back later."
+                "logText":"Edrin wants 800 gold to repair the dagger. I agreed. Edrin took the dagger and the gem and told me to come back later."
             },
             {
                 "progress":90,

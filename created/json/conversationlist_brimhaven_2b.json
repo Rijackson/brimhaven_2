@@ -95,14 +95,14 @@
             },
             {
                 "text":"I have seen a great wolfhound down there a short while ago. But you say you are missing a little doggie.",
+                "nextPhraseID":"hettar_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"hettar_dog_nd",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"hettar_10"
+                ]
             }
         ],
         "rewards":[
@@ -133,14 +133,14 @@
             },
             {
                 "text":"The wolfhound down there had brown fur with a white patch on the breast. He was enjoying himself gnawing some huge bones.",
+                "nextPhraseID":"hettar_10_4",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"hettar_dog_nd",
                         "value":1
                     }
-                ],
-                "nextPhraseID":"hettar_10_4"
+                ]
             }
         ]
     },
@@ -205,7 +205,7 @@
                 ]
             },
             {
-                "text":"This brute attacked me, so that I had to kill it.",
+                "text":"This brute attacked me, so I had to kill it.",
                 "nextPhraseID":"hettar_10_6",
                 "requires":[
                     {
@@ -223,10 +223,10 @@
     },
     {
         "id":"hettar_20_10",
-        "message":"Great! Go immediatly, as long as he might be alive still.",
+        "message":"Great! Go immediately, as long as he might be alive still.",
         "replies":[
             {
-                "text":"I hope he will he follow me.",
+                "text":"I hope he will follow me.",
                 "nextPhraseID":"hettar_20_30",
                 "requires":[
                     {
@@ -238,7 +238,7 @@
                 ]
             },
             {
-                "text":"I hope he will he follow me.",
+                "text":"I hope he will follow me.",
                 "nextPhraseID":"hettar_20_20",
                 "requires":[
                     {
@@ -273,11 +273,11 @@
     },
     {
         "id":"hettar_20_20",
-		"message":"I gave you my last piece of Wyrm meat for Norry. Did you lost it?"
+        "message":"I gave you my last piece of Wyrm meat for Norry. Did you lose it?"
     },
     {
         "id":"hettar_20_30",
-		"message":"Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.",
+        "message":"Good that you have mentioned it. I'll give you a nice raw piece of Wyrm meat that I have as food for Norry. He loves them.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -296,7 +296,7 @@
         "message":"I can read it in your face - there is no hope for Norry.",
         "replies":[
             {
-                "text":"This brute attacked me, so that I had to kill it.",
+                "text":"This brute attacked me, so I had to kill it.",
                 "nextPhraseID":"hettar_10_6",
                 "requires":[
                     {
@@ -307,7 +307,7 @@
                 ]
             },
             {
-                "text":"This brute growled at me, but I got away and let it alive.",
+                "text":"This brute growled at me, but I got away and let it live.",
                 "nextPhraseID":"hettar_20",
                 "requires":[
                     {
@@ -331,7 +331,7 @@
     },
     {
         "id":"hettar_50",
-		"message":"Haha! You know what? Norry has come back all alone! You have made all the way down unnecessarily.",
+        "message":"Haha! You know what? Norry has come back all alone! You have made all the way down unnecessarily.",
         "replies":[
             {
                 "text":"Now guess who had persuaded him to do so? He was absorbed by a pile of monster bones.",
@@ -352,7 +352,7 @@
     },
     {
         "id":"hettar_80",
-        "message":"Thank you again thousend times for rescuing my little Norry!"
+        "message":"Thank you again a thousand times for rescuing my little Norry!"
     },
     {
         "id":"hettar_90",
@@ -469,6 +469,7 @@
         "replies":[
             {
                 "text":"Hey Norry, look here! I have some much better food for you from Hettar.",
+                "nextPhraseID":"hettar_dog_10",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -480,11 +481,11 @@
                         "requireID":"hettar_dog_nd",
                         "value":2
                     }
-                ],
-                "nextPhraseID":"hettar_dog_10"
+                ]
             },
             {
                 "text":"Hey Norry, look here! I have a Wyrm steak for you from Hettar.",
+                "nextPhraseID":"hettar_dog_50",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -497,8 +498,7 @@
                         "value":2,
                         "negate":true
                     }
-                ],
-                "nextPhraseID":"hettar_dog_50"
+                ]
             },
             {
                 "text":"Now run to Hettar! He is waiting for you.",
@@ -526,8 +526,8 @@
     },
     {
         "id":"hettar_dog_10",
-		"switchToNPC":"none",
         "message":"The wolfhound fetched the meat from your hand and devoured it greedily in a few seconds.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"There, there. And now run to Hettar! He is waiting for you.",
