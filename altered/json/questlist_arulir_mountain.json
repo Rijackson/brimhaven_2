@@ -1,5 +1,55 @@
 [
     {
+        "id":"arulircave_trap",
+        "name":"Arulir Cave Traps",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"01=Hole"
+            },
+            {
+                "progress":2,
+                "logText":"02=Rocks"
+            },
+            {
+                "progress":3,
+                "logText":"03=Rocks"
+            },
+            {
+                "progress":4,
+                "logText":"04=Hole"
+            },
+            {
+                "progress":5,
+                "logText":"05=Rocks"
+            },
+            {
+                "progress":6,
+                "logText":"06=Rocks"
+            },
+            {
+                "progress":7,
+                "logText":"07=Hole"
+            },
+            {
+                "progress":8,
+                "logText":"08=Hole"
+            },
+            {
+                "progress":9,
+                "logText":"09=Rocks"
+            },
+            {
+                "progress":10,
+                "logText":"10=Slippery ground"
+            },
+            {
+                "progress":101,
+                "logText":"10=Slippery ground second time"
+            }
+        ]
+    },
+    {
         "id":"mermaid_scale",
         "name":"The silver scale",
         "showInLog":1,
