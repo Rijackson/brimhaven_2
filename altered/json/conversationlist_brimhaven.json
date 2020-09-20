@@ -385,6 +385,28 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"No need to pretend we've never met. I do believe you are innocent.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "text":"Don't pretend we've never met. Soon you will be in jail.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":210
+                    }
+                ]
             }
         ]
     },
@@ -471,6 +493,34 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"brv_prison_guard",
+        "replies":[
+            {
+                "nextPhraseID":"brv_prison_guard_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_prison_guard_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_dagger",
+                        "value":220
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_prison_guard_10"
             }
         ]
     },

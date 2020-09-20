@@ -780,6 +780,10 @@
         ]
     },
     {
+        "id":"brv_prison_guard_30",
+        "message":"After all this long time I finally have a resident here again."
+    },
+    {
         "id":"inspiring_snake_master_10",
         "message":"Hello, young adventurer. I am Ewmondold, a world famous traveler.",
         "replies":[
